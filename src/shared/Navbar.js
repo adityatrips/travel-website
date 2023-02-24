@@ -10,8 +10,9 @@ const Navbar = () => {
                       className="navbar-brand d-flex align-items-center">
                     <span
                         className="bs-icon-sm bs-icon-circle bs-icon-primary d-flex justify-content-center align-items-center me-2 bs-icon">
-                        <img alt={"logo"} src="/assets/img/brands/logo.png"
-                             className="nav-image"/>
+                        <img alt={"logo"}
+                             src="/assets/img/brands/logo.png"
+                             className="nav-image h-auto w-25"/>
                     </span>
                 </Link>
                 <button

@@ -69,8 +69,8 @@ const HomeScreen = () => {
                 <div className="py-5 p-lg-5">
                     <div className="row row-cols-1 row-cols-md-2 mx-auto"
                          style={{maxWidth: 900}}>
-                        <div className="col mb-5">
-                            <div className="card -sm">
+                        <div className="col-sm-auto">
+                            <div className="card">
                                 <div className="card-body px-4 py-5 px-md-5">
                                     <div
                                         className="bs-icon-lg d-flex justify-content-center align-items-center mb-3 bs-icon"
@@ -98,112 +98,6 @@ const HomeScreen = () => {
                                             type="button">
                                         Learn more
                                     </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section>
-            <div className="container py-5">
-                <div className="mx-auto" style={{maxWidth: 900}}>
-                    <div
-                        className="row row-cols-1 row-cols-md-2 d-flex justify-content-center">
-                        <div className="col mb-4">
-                            <div className="card bg-primary-light">
-                                <div
-                                    className="card-body text-center px-4 py-5 px-md-5">
-                                    <p className="fw-bold secondary-fg card-text mb-2">Fully
-                                        Managed</p>
-                                    <h5 className="fw-bold primary-fg card-title mb-3">Lorem
-                                        ipsum dolor
-                                        sit&nbsp;nullam et
-                                        quis ad cras porttitor</h5>
-                                    <button className="btn buttons"
-                                            type="button">
-                                        Learn more
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section className="py-5 mt-5">
-            <div className="container py-5">
-                <div className="row mb-5">
-                    <div className="col-md-8 col-xl-6 text-center mx-auto">
-                        <p className="fw-bold text-success mb-2 secondary-fg">Testimonials</p>
-                        <h2 className="fw-bold">
-                            <strong>What People Say About us</strong>
-                        </h2>
-                        <p className="text-muted">No matter the project, our
-                            team can handle it.&nbsp;</p>
-                    </div>
-                </div>
-                <div
-                    className="row row-cols-1 row-cols-sm-2 row-cols-lg-3 d-sm-flex justify-content-sm-center">
-                    <div className="col mb-4">
-                        <div
-                            className="d-flex flex-column align-items-center align-items-sm-start">
-                            <p className="bg-white border rounded border-light p-4">Nisi
-                                sit justo faucibus
-                                nec ornare
-                                amet, tortor torquent. Blandit class dapibus,
-                                aliquet morbi.</p>
-                            <div className="d-flex">
-                                <img alt={"avatar"}
-                                     className="rounded-circle flex-shrink-0 me-3 fit-cover"
-                                     src="/assets/img/team/avatar2.jpg"/>
-                                <div>
-                                    <p className="fw-bold primary-fg mb-0">John
-                                        Smith</p>
-                                    <p className="text-muted mb-0">Erat
-                                        netus</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col mb-4">
-                        <div
-                            className="d-flex flex-column align-items-center align-items-sm-start">
-                            <p className="bg-white border rounded border-light p-4">Nisi
-                                sit justo faucibus
-                                nec ornare
-                                amet, tortor torquent. Blandit class dapibus,
-                                aliquet morbi.</p>
-                            <div className="d-flex">
-                                <img alt={"avatar"}
-                                     className="rounded-circle flex-shrink-0 me-3 fit-cover"
-                                     src="/assets/img/team/avatar4.jpg"/>
-                                <div>
-                                    <p className="fw-bold primary-fg mb-0">John
-                                        Smith</p>
-                                    <p className="text-muted mb-0">Erat
-                                        netus</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col mb-4">
-                        <div
-                            className="d-flex flex-column align-items-center align-items-sm-start">
-                            <p className="bg-white border rounded border-light p-4">Nisi
-                                sit justo faucibus
-                                nec ornare
-                                amet, tortor torquent. Blandit class dapibus,
-                                aliquet morbi.</p>
-                            <div className="d-flex">
-                                <img alt={"avatar"}
-                                     className="rounded-circle flex-shrink-0 me-3 fit-cover"
-                                     src="/assets/img/team/avatar5.jpg"/>
-                                <div>
-                                    <p className="fw-bold primary-fg mb-0">John
-                                        Smith</p>
-                                    <p className="text-muted mb-0">Erat
-                                        netus</p>
                                 </div>
                             </div>
                         </div>
