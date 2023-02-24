@@ -1,0 +1,883 @@
+{
+  "europe": [
+    {
+      "code": "12 Nights & 13 Days",
+      "name": "Exclusive Europe",
+      "link": "/package/europe/exclusive-europe",
+      "countries": [
+        "France",
+        "Switzerland",
+        "Italy",
+        "Vatican City"
+      ],
+      "day_wise": [
+        {
+          "day": "One",
+          "desc": "Arrive into Paris - the City of Romance, Lights and Glamour."
+        },
+        {
+          "day": "Two",
+          "desc": "Guided city tour of Paris. Visit to Eiffel tower 3rd (Top) Level. Enjoy a romantic cruise on River Seine"
+        },
+        {
+          "day": "Three",
+          "desc": "Visit Palace of Versailles – Greatest Achievements in French 17th Century Art. Take a funicular ride at Montmartre to see the Sacre-Coeur Basillica, the second most visited monument in Paris. Visit Fragonard perfumery."
+        },
+        {
+          "day": "Four",
+          "desc": "Onto Switzerland."
+        },
+        {
+          "day": "Five",
+          "desc": "Orientation tour of Bern, Interlaken & Lucerne"
+        },
+        {
+          "day": "Six",
+          "desc": "Visit Mt. Titlis- enjoy Cable car rides including the world’s firstrotating cable car, the Rotair – to the top of Mt. Titlis at 3,020 metres."
+        },
+        {
+          "day": "Seven",
+          "desc": "Welcome to Venice - the floating city of Italy. Enjoy Gondola ride."
+        },
+        {
+          "day": "Eight",
+          "desc": "All roads lead to Rome – the eternal city. Enroute, halt at Piazzale Michelangelo to get a panoramic view of Florence."
+        },
+        {
+          "day": "Nine",
+          "desc": "Visit the world’s smallest country – the Vatican City. (which includes Vatican Museum, Sistine Chapel & St. Peter’s Basilica). View the remarkable and famous Leaning Tower of Pisa."
+        },
+        {
+          "day": "Ten",
+          "desc": "Depart for Savona."
+        },
+        {
+          "day": "Eleven",
+          "desc": "Arrive Barcelona. Guided city tour of Barcelona with photo stop at La Sagradia Familia."
+        },
+        {
+          "day": "Twelve",
+          "desc": "Arrive Marseille. Guided city tour of Marseille."
+        },
+        {
+          "day": "Thirteen",
+          "desc": "Fly back home."
+        }
+      ],
+      "accommodation": [
+        "3 nights accommodation in Novotel/Millennium/Hilton or similar hotel in Paris.",
+        "2 nights accommodation in Radisson/Movenpick/Swiss Bel-Hotel or similar hotel in Central Switzerland",
+        "1 night accommodation in a 4 star hotel in Lugano",
+        "1 night accommodation in Best Western/SHG/NH or similar hotel in Bologna",
+        "1 night accommodation in SHG/Hampton by Hilton/Marriott or similar hotel in Rome",
+        "1 night accommodation in Grand Hotel/Euro hotel or similar in Pisa",
+        "3 nights accommodation on board the Costa cruise"
+      ],
+      "inclusions": {
+        "France": [
+          "Daily Continental Buffet Breakfast",
+          "Daily Indian/ Jain/ Vegetarian/ Non Vegetarian Lunch & Dinner in Select Cities*",
+          "City tour with a local guide",
+          "Visit to the 3rd level of the Eiffel Tower",
+          "Full day excitement and thrill at Disneyland Paris",
+          "Funicular ride to see the Sacre Coeur Basilica- Montmartre",
+          "Enjoy romantic cruise on River Seine"
+        ],
+        "Switzerland": [
+          "Daily Continental Buffet Breakfast,",
+          "Daily Indian/ Jain/ Vegetarian/ Non Vegetarian Lunch &,",
+          "Dinner in Select Cities*,",
+          "Witness breath-taking mountain peaks and glaciers at Mt. Titlis",
+          "Ride in the world’s first revolving cable car",
+          "Walk on the Highest suspension bridge in Europe - Titlis Cliff Walk",
+          "Orientation tour of Lucerne Cruise on Lake Lucerne",
+          "Cog wheel train ride to Jungfraujoch - Top of Europe Visit scenic Interlaken",
+          "The magnificent Rhine Falls at Schaffhausen"
+        ],
+        "Italy": [
+          "Daily Continental Buffet Breakfast",
+          "Daily Indian/ Jain/ Vegetarian/ Non Vegetarian Lunch & Dinner in Select Cities*",
+          "St. Mark’s square by Private boat",
+          "Enjoy a classic Venetian Gondola ride",
+          "Visit the famous Murano Glass showroom",
+          "Guided walking city tour with a local English-speaking guide",
+          "Visit Square of Miracles",
+          "Photo-stop at the Leaning Tower",
+          "Guided City tour with a local English speaking guide",
+          "Visit to Trevi Fountain"
+        ],
+        "Vatican City": [
+          "Daily Continental Buffet Breakfast",
+          "Daily Indian/ Jain/ Vegetarian/ Non Vegetarian Lunch & Dinner in Select Cities*",
+          "Visit the Vatican Museum – see sculptures and masterpieces of Renaissance art",
+          "Visit to the awe-inspiring Sistine Chapel",
+          "Visit the magnificent St. Peter’s Basilica"
+        ],
+        "Spain": [
+          "Daily Continental Buffet Breakfast",
+          "Daily Indian/ Jain/ Vegetarian/ Non Vegetarian Lunch & Dinner in Select Cities*",
+          "Guided city tour of Barcelona",
+          "Photo stop at la Sagrada Familia"
+        ]
+      },
+      "exclusions": [
+        "The cost of the Airfare, Passport, POE charges, Visa charges, Overseas Travel Insurance, etc.",
+        "Any expenses of personal nature such as Porterage, Laundry, and Alcohol, Food or Drink not in the regular menus provided by us, mini bar and telephone calls",
+        "Any extra meals not included in the itinerary. Meals are pre - set and a choice of menu is not available",
+        "Cost of excursions, city sightseeing, entrance fees and local guides availed of by the passengers, other than that mentioned in ‘What your tour price includes",
+        "TCS and other taxes as applicable",
+        "Anything which is not specified in the Itinerary"
+      ]
+    },
+    {
+      "code": "7 Nights & 8 Days",
+      "name": "Fascinating Paris & Swiss",
+      "link": "/package/europe/fascinating-paris-and-swiss",
+      "countries": [
+        "France",
+        "Switzerland"
+      ],
+      "day_wise": [
+        {
+          "day": "One",
+          "desc": "Arrive into Paris - the City of Romance, Lights and Glamour."
+        },
+        {
+          "day": "Two",
+          "desc": "Guided city tour of Paris. Visit to Eiffel tower 3rd (Top) Level. Take a funicular ride at Montmartre to see the SacreCoeur Basillica, the second most visited monument in Paris. Enjoy a romantic cruise on River Seine."
+        },
+        {
+          "day": "Three",
+          "desc": "Enjoy your fun filled day at Disneyland Paris (choice of Disney Parks or Walt Disney Studios&reg; Park)"
+        },
+        {
+          "day": "Four",
+          "desc": "Drive to Geneva. Orientation tour of Geneva."
+        },
+        {
+          "day": "Five",
+          "desc": "Visit Olympic Museum. Excursion to Mount Titlis. Drive to Zurich."
+        },
+        {
+          "day": "Six",
+          "desc": "Highlight of the tour, A magical alpine excursion to the top of Europe - the amazing Jungfraujoch and scenic Interlaken."
+        },
+        {
+          "day": "Seven",
+          "desc": "Orientation tour of Lucerne. Cruise on Lake of Lucerne. Free time for shopping."
+        },
+        {
+          "day": "Eight",
+          "desc": "Fly back home."
+        }
+      ],
+      "accommodation": [
+        "3 nights accommodation in Novotel/Millennium/Hilton or similar hotel in Paris",
+        "1 night accommodation in Movenpick/Novotel or similar hotel in Lausanne",
+        "3 nights accommodation in Radisson/Movenpick/Swiss Bel-Hotel hotel in Central Switzerland"
+      ],
+      "inclusions": {
+        "France": [
+          "Daily Continental Buffet Breakfast",
+          "Daily Indian/ Jain/ Vegetarian/ Non Vegetarian Lunch & Dinner in Select Cities*",
+          "City tour with a local guide",
+          "Visit to the 3rd level of the Eiffel Tower",
+          "Full day excitement and thrill at Disneyland Paris",
+          "Funicular ride to see the Sacre Coeur Basilica-Montmartre",
+          "Enjoy romantic cruise on River Seine"
+        ],
+        "Switzerland": [
+          "Daily Continental Buffet Breakfast",
+          "Daily Indian/ Jain/ Vegetarian/ Non Vegetarian Lunch & Dinner in Select Cities*",
+          "Orientation tour of Geneva",
+          "Entrance to Olympic Museum",
+          "Excursion to Mount Titlis",
+          "Free time at Gstaad",
+          "Orientation tour of Lucerne",
+          "Cruise on Lake Lucerne",
+          "Free time for shopping",
+          "Cog wheel train ride to Jungfraujoch - Top of Europe",
+          "Visit scenic Interlaken"
+        ]
+      },
+      "exclusions": [
+        "The cost of the Airfare, Passport, POE charges, Visa charges, Overseas Travel Insurance, etc.",
+        "Any expenses of personal nature such as Porterage, Laundry, and Alcohol, Food or Drink not in the regular menus provided by us, mini bar and telephone calls",
+        "Any extra meals not included in the itinerary. Meals are pre - set and a choice of menu is not available",
+        "Cost of excursions, city sightseeing, entrance fees and local guides availed of by the passengers, other than that mentioned in ‘What your tour price includes",
+        "TCS and other taxes as applicable",
+        "Anything which is not specified in the Itinerary"
+      ]
+    },
+    {
+      "code": "12 Nights & 13 Days",
+      "name": "Best of Europe",
+      "link": "/package/europe/best-of-europe",
+      "day_wise": [
+        {
+          "day": "One",
+          "desc": "Arrive into Paris - the City of Romance, Lights and Glamour."
+        },
+        {
+          "day": "Two",
+          "desc": "Guided city tour of Paris. Visit to Eiffel tower 3rd (Top) Level. Take a funicular ride at Montmartre to see the SacreCoeur Basillica, the second most visited monument in Paris. Enjoy a romantic cruise on River Seine."
+        },
+        {
+          "day": "Three",
+          "desc": "Enjoy your fun filled day at Disneyland® Paris (choice of Disney Parks or Walt Disney Studios Park)."
+        },
+        {
+          "day": "Four",
+          "desc": "Onto Brussels. Visit Grand Place and Manneken Pis statue. Visit Keukenhof Gardens (till 14th May) Or Visit the miniature park – Madurodam. (from 15 th May)"
+        },
+        {
+          "day": "Five",
+          "desc": "Explore Amsterdam with Canal Cruise. Onto Germany."
+        },
+        {
+          "day": "Six",
+          "desc": "Visit Mercedes Benz Museum. Travel to the Heart of the Black Forest. See the largest Waterfall in Switzerland - The Rhine Falls."
+        },
+        {
+          "day": "Seven",
+          "desc": "Highlight of the tour, A magical alpine excursion to the top of Europe - the amazing Jungfraujoch and scenic Interlaken."
+        },
+        {
+          "day": "Eight",
+          "desc": "Visit Mt. Titlis- enjoy Cable car rides including the world’s firstrotating cable car, the Rotair – to the top of Mt. Titlis at 3,020 metres. Cruise on Lake of Lucerne."
+        },
+        {
+          "day": "Nine",
+          "desc": "Drive to Vaduz, the capital at the Principality of Liechtenstein. Visit Swarovski Crystal Museum – the dazzling world of crystals. Visit Innsbruck – The Tyrolean capital of picturesque Austria."
+        },
+        {
+          "day": "Ten",
+          "desc": "Welcome to Venice - the floating city of Italy. Enjoy Gondola ride."
+        },
+        {
+          "day": "Eleven",
+          "desc": "Guided walking city tour of Florence. View the remarkable and famous Leaning Tower of Pisa."
+        },
+        {
+          "day": "Twelve",
+          "desc": "All roads lead to Rome – the eternal city. Visit the world’s smallest country – the Vatican City (which includes Vatican Museum, Sisitne Chapel & St. Peter’s Basilica)."
+        },
+        {
+          "day": "Thirteen",
+          "desc": "Fly back home."
+        }
+      ],
+      "accommodation": [
+        "3 nights accommodation in Novotel/Millennium/Hilton or similar hotel in Paris",
+        "1-night accommodation in Novotel/NH/Intercity or similar hotel in Netherland",
+        "1-night accommodation in Rilano/NH/Holiday Inn or similar hotel Germany",
+        "3 nights accommodation in Radisson/Movenpick/Swiss Bel-Hotel or similar hotel in Central Switzerland",
+        "1-night accommodation in Alpenkoning/Alpenhof/Alphotel or similar hotel Innsbruck/ Seefeld",
+        "1-night accommodation in Four Points by Sheraton/Unaway/Russott or similar hotel in Padova",
+        "1-night accommodation in B&B/Park/A Point or similar hotel Tuscany",
+        "1-night accommodation in SHG/Hampton by Hilton/Marriott or similar hotel in Rome"
+      ],
+      "inclusions": {
+        "France": [
+          "Daily Continental Buffet Breakfast",
+          "Daily Indian/ Jain/ Vegetarian/ Non Vegetarian Lunch & Dinner in Select Cities*",
+          "City tour with a local guide",
+          "Visit to the 3rd level of the Eiffel Tower",
+          "Full day excitement and thrill at Disneyland Paris",
+          "Funicular ride to see the Sacre Coeur Basilica- Montmartre",
+          "Enjoy romantic cruise on River Seine"
+        ],
+        "Belgium": [
+          "Daily Continental Buffet Breakfast",
+          "Daily Indian/ Jain/ Vegetarian/ Non Vegetarian Lunch & Dinner in Select Cities*",
+          "The magnificent Grand Place and Manneken Pis Statue"
+        ],
+        "Netherlands": [
+          "Daily Continental Buffet Breakfast",
+          "Daily Indian/ Jain/ Vegetarian/ Non Vegetarian Lunch & Dinner in Select Cities*",
+          "Enjoy sights of Amsterdam on a Canal Cruise",
+          "Walk through the world’s largest and the most beautiful floral",
+          "Display at Keukenhof (till 14th May)",
+          "Visit Madurodam - Holland in miniature (from 15th May)"
+        ],
+        "Germany": [
+          "Daily Continental Buffet Breakfast",
+          "Daily Indian/ Jain/ Vegetarian/ Non Vegetarian Lunch & Dinner in Select Cities*",
+          "Entrance to Mercedes Benz Museum",
+          "Visit the heart of beautiful Black Forest",
+          "Demonstration of cuckoo clock making"
+        ],
+        "Switzerland": [
+          "Daily Continental Buffet Breakfast",
+          "Daily Indian/ Jain/ Vegetarian/ Non Vegetarian Lunch & Dinner in Select Cities*",
+          "Witness breath-taking mountain peaks and glaciers at Mt. Titlis",
+          "Ride in the world’s first revolving cable car",
+          "Walk on the Highest suspension bridge in Europe - Titlis Cliff Walk",
+          "Orientation tour of Lucerne",
+          "Cruise on Lake Lucerne",
+          "Cog wheel train ride to Jungfraujoch - Top of Europe",
+          "Visit scenic Interlaken",
+          "The magnificent Rhine Falls at Schaffhausen"
+        ],
+        "Liechtenstein": [
+          "Daily Continental Buffet Breakfast",
+          "Daily Indian/ Jain/ Vegetarian/ Non Vegetarian Lunch & Dinner in Select Cities*",
+          "Orientation of Vaduz, the Capital of the principality of Liechtenstein"
+        ],
+        "Austria": [
+          "Daily Continental Buffet Breakfast",
+          "Daily Indian/ Jain/ Vegetarian/ Non Vegetarian Lunch & Dinner in Select Cities*",
+          "See the Maria Theresien Strasse and the Golden Roof",
+          "Visit the Swarovski Crystal Museum and shop"
+        ],
+        "Italy": [
+          "Daily Continental Buffet Breakfast",
+          "Daily Indian/ Jain/ Vegetarian/ Non Vegetarian Lunch & Dinner in Select Cities*",
+          "St. Mark’s square by Private boat",
+          "Enjoy a classic Venetian Gondola ride",
+          "Visit the famous Murano Glass showroom",
+          "Guided walking city tour with a local English-speaking guide",
+          "Visit Square of Miracles",
+          "Photo-stop at the Leaning Tower",
+          "Guided City tour with a local English speaking guide",
+          "Visit to Trevi Fountain"
+        ],
+        "Vatican City": [
+          "Daily Continental Buffet Breakfast",
+          "Visit the Vatican Museum – see sculptures and masterpieces of Renaissance art",
+          "Visit to the awe-inspiring Sistine Chapel",
+          "Visit the magnificent St. Peter’s Basilica"
+        ]
+      },
+      "exclusions": [
+        "The cost of the Airfare, Passport, POE charges, Visa charges, Overseas Travel Insurance, etc.",
+        "Any expenses of personal nature such as Porterage, Laundry, and Alcohol, Food or Drink not in the regular menus provided by us, mini bar and telephone calls",
+        "Any extra meals not included in the itinerary. Meals are pre - set and a choice of menu is not available",
+        "Cost of excursions, city sightseeing, entrance fees and local guides availed of by the passengers, other than that mentioned in ‘What your tour price includes",
+        "TCS and other taxes as applicable",
+        "Anything which is not specified in the Itinerary"
+      ]
+    },
+    {
+      "code": "14 Nights & 15 Days",
+      "name": "Grand Wonders of Europe",
+      "link": "/package/europe/grand-wonders-of-europe",
+      "countries": [
+        "United Kingdom",
+        "France",
+        "Belgium",
+        "Netherlands",
+        "Germany",
+        "Switzerland",
+        "Liechtenstein",
+        "Italy",
+        "Vatican City"
+      ],
+      "day_wise": [
+        {
+          "day": "One",
+          "desc": "Arrive into London, the capital of England and the United Kingdom."
+        },
+        {
+          "day": "Two",
+          "desc": "Guided city tour of London with Changing of Guards. Ride the London Eye. Visit to the famous Madame Tussauds Wax museum."
+        },
+        {
+          "day": "Three",
+          "desc": "Arrive into Paris – the City of Romance, Lights and Glamour."
+        },
+        {
+          "day": "Four",
+          "desc": "Guided city tour of Paris. Visit to Eiffel tower 3rd (Top) Level. Take a funicular ride at Montmartre to see the Sacre-Coeur Basillica, the second most visited monument. Enjoy a romantic cruise on River Seine."
+        },
+        {
+          "day": "Five",
+          "desc": "Enjoy your fun filled day at Disneyland Paris (choice of Disney Parks or Walt Disney Studios Park)."
+        },
+        {
+          "day": "Six",
+          "desc": "Onto Brussels. Visit Grand Place and Manneken Pis statue. Visit Keukenhof Gardens (till 14th May) Or visit the miniature park – Madurodam. (from 15th May)."
+        },
+        {
+          "day": "Seven",
+          "desc": "Explore Amsterdam with Canal Cruise. Onto German."
+        },
+        {
+          "day": "Eight",
+          "desc": "Visit Mercedes Benz Museum. Travel to the Heart of the Black Forest. See the largest Waterfall in Switzerland - The Rhine Falls."
+        },
+        {
+          "day": "Night",
+          "desc": "Highlight of the tour, A magical alpine excursion to the top of Europe - the amazing Jungfraujoch and scenic Interlaken."
+        },
+        {
+          "day": "Ten",
+          "desc": "Visit Mt. Titlis- enjoy Cable car rides including the world’s firstrotating cable car, the Rotair – to the top of Mt. Titlis at 3,020 metres. Cruise on Lake of Lucerne."
+        },
+        {
+          "day": "Eleven",
+          "desc": "Drive to Vaduz, the capital at the Principality of Liechtenstein. Visit Swarovski Crystal Museum – the dazzling world of crystals. Visit Innsbruck – The Tyrolean capital of picturesque Austria."
+        },
+        {
+          "day": "Twelve",
+          "desc": "Welcome to Venice - the floating city of Italy. Enjoy Gondola ride."
+        },
+        {
+          "day": "Thirteen",
+          "desc": "Guided walking city tour of Florence. View the remarkable and famous Leaning Tower of Pisa."
+        },
+        {
+          "day": "Fourteen",
+          "desc": "All roads lead to Rome – the eternal city. Visit the world’s smallest country – the Vatican City. (which includes Vatican Museum, Sisitne Chapel & St. Peter’s Basilica)."
+        },
+        {
+          "day": "Fifteen",
+          "desc": "Fly back home."
+        }
+      ],
+      "accommodation": [
+        "2 nights accommodation in Mercure/Courtyard by Marriott or similar hotel in London",
+        "3 nights accommodation in Novotel/Millennium/Hilton or similar hotel in Paris",
+        "1-night accommodation in Novotel/NH/Intercity or similar hotel in Netherland",
+        "1-night accommodation in Rilano/NH/H       Inn or similar hotel Germany",
+        "3 nights accommodation in Radisson/Movenpick/Swiss Bel-Hotel or similar hotel in Central Switzerland",
+        "1-night accommodation in Alpenkoning/Alpenhof/Alphotel or similar hotel Innsbruck/Seefeld",
+        "1-night accommodation in Four Points by Sheraton/Unaway/Russott or similar hotel in Padova",
+        "1-night accommodation in B&B/Park/A Point or similar hotel in Tuscany",
+        "1-night accommodation in SHG/Hampton by Hilton/Marriott or similar hotel in Rome"
+      ],
+      "inclusions": {
+      },
+      "exclusions": [
+        "The cost of the Airfare, Passport, POE charges, Visa charges, Overseas Travel Insurance, etc.",
+        "Any expenses of personal nature such as Porterage, Laundry, and Alcohol, Food or Drink not in the regular menus provided by us, mini bar and telephone calls",
+        "Any extra meals not included in the itinerary. Meals are pre - set and a choice of menu is not available",
+        "Cost of excursions, city sightseeing, entrance fees and local guides availed of by the passengers, other than that mentioned in ‘What your tour price includes",
+        "TCS and other taxes as applicable",
+        "Anything which is not specified in the Itinerary"
+      ]
+    },
+    {
+      "code": "10 Nights & 11 Days",
+      "link": "/package/europe/exclusive-europe-1",
+      "name": "Exclusive Europe (1)",
+      "countries": [
+        "France",
+        "Switzerland",
+        "Italy",
+        "Vatican City"
+      ],
+      "day_wise": [
+        {
+          "day": "One",
+          "desc": "Arrive into Paris – the City of Romance, Lights and Glamour."
+        },
+        {
+          "day": "Two",
+          "desc": "Guided city tour of Paris. Visit to Eiffel tower 3rd (Top) Level. Take a funicular ride at Montmartre to see the SacreCoeur Basillica, the second most visited monument in Paris. Enjoy a romantic cruise on River Seine."
+        },
+        {
+          "day": "Three",
+          "desc": "Enjoy your fun filled day at Disneyland Paris (choice of Disney Parks or Walt Disney Studios Park)."
+        },
+        {
+          "day": "Four",
+          "desc": "Drive to Geneva. Orientation tour of Geneva."
+        },
+        {
+          "day": "Five",
+          "desc": "Visit Olympic Museum. Excursion to Mount Titlis. Drive to Zurich."
+        },
+        {
+          "day": "Six",
+          "desc": "Highlight of the tour, A magical alpine excursion to the top of Europe - the amazing Jungfraujoch and scenic Interlaken."
+        },
+        {
+          "day": "Seven",
+          "desc": "Orientation tour of Lucerne. Cruise on Lake of Lucerne. Free time for shopping."
+        },
+        {
+          "day": "Eight",
+          "desc": "Welcome to Venice - the floating city of Italy. Enjoy Gondola ride."
+        },
+        {
+          "day": "Nine",
+          "desc": "Guided walking city tour of Florence. View the remarkable and famous Leaning Tower of Pisa."
+        },
+        {
+          "day": "Ten",
+          "desc": "All roads lead to Rome – the eternal city. Visit the world’s smallest country – the Vatican City. (which includes Vatican Museum, Sisitne Chapel & St. Peter’s Basilica) "
+        },
+        {
+          "day": "Eleven",
+          "desc": "Fly back home."
+        }
+      ],
+      "accommodation": [
+        "3 nights accommodation in Novotel/Millennium/Hilton or similar hotel in Paris",
+        "1-night accommodation in Movenpick/Novotel or similar in Lausanne",
+        "2 nights accommodation in Radisson/Movenpick/Swiss Bel-Hotel or similar hotel in Central Switzerland",
+        "1-night accommodation in Hotel Park/Novotel or similar hotel Lugano",
+        "1-night accommodation in Four Points by Sheraton/Unaway/Russott or similar hotel in Padova",
+        "1-night accommodation in Grand Hotel/Euro hotel or similar in Tuscany",
+        "1-night accommodation in SHG/Hampton by Hilton/Marriott or similar hotel in Rome"
+      ],
+      "inclusions": {
+        "France": [
+          "Daily Continental Buffet Breakfast",
+          "Daily Indian/ Jain/ Vegetarian/ Non Vegetarian Lunch & Dinner in Select Cities*",
+          "City tour with a local guide",
+          "Visit to the 3rd level of the Eiffel Tower",
+          "Full day excitement and thrill at Disneyland Paris",
+          "Funicular ride to see the Sacre Coeur BasilicaMontmartre",
+          "Enjoy romantic cruise on River Seine"
+        ],
+        "Switzerland": [
+          "Daily Continental Buffet Breakfast",
+          "Daily Indian/ Jain/ Vegetarian/ Non Vegetarian Lunch & Dinner in Select Cities*",
+          "Orientation tour of Geneva",
+          "Entrance to Olympic Museum",
+          "Excursion to Glacier 3000",
+          "Free time at Gstaad",
+          "Orientation tour of Lucerne",
+          "Cruise on Lake Lucerne",
+          "Free time for shopping",
+          "Cog wheel train ride to Jungfraujoch - Top of Europe",
+          "Visit scenic Interlaken"
+        ],
+        "Italy": [
+          "Daily Continental Buffet Breakfast",
+          "Daily Indian/ Jain/ Vegetarian/ Non Vegetarian Lunch & Dinner in Select Cities*",
+          "St. Mark’s square by Private boat",
+          "Enjoy a classic Venetian Gondola ride",
+          "Visit the famous Murano Glass showroom",
+          "Guided walking city tour with a local English-speaking guide",
+          "Visit Square of Miracles",
+          "Photo-stop at the Leaning Tower",
+          "Guided City tour with a local English speaking guide",
+          "Visit to Trevi Fountain"
+        ],
+        "Vatican City": [
+          "Daily Continental Buffet Breakfast",
+          "Daily Indian/ Jain/ Vegetarian/ Non Vegetarian Lunch & Dinner in Select Cities*",
+          "Visit the Vatican Museum – see sculptures and masterpieces of Renaissance art",
+          "Visit to the awe-inspiring Sistine Chapel",
+          "Visit the magnificent St. Peter’s Basilica"
+        ]
+      },
+      "exclusions": [
+        "The cost of the Airfare, Passport, POE charges, Visa charges, Overseas Travel Insurance, etc.",
+        "Any expenses of personal nature such as Porterage, Laundry, and Alcohol, Food or Drink not in the regular menus provided by us, mini bar and telephone calls",
+        "Any extra meals not included in the itinerary. Meals are pre - set and a choice of menu is not available",
+        "Cost of excursions, city sightseeing, entrance fees and local guides availed of by the passengers, other than that mentioned in ‘What your tour price includes",
+        "TCS and other taxes as applicable",
+        "Anything which is not specified in the Itinerary"
+      ]
+    },
+    {
+      "code": "7 Nights & 8 Days",
+      "name": "Grand Train Tour",
+      "link": "/package/europe/grand-train-tour",
+      "countries": [
+        "Switzerland"
+      ],
+      "day_wise": [
+        {
+          "day": "One",
+          "desc": "Arrival at Zurich Airport, Board the Train from Zurich Airport to Montreux, check in to the Hotel. Overnight stay in Montreux."
+        },
+        {
+          "day": "Two",
+          "desc": "Breakfast, Board the Train from Montreux to Zermatt, check in to the Hotel. Overnight stay in Zermatt."
+        },
+        {
+          "day": "Three",
+          "desc": "Breakfast, Board the Glacier express Train from Zermatt to St. Moritz, check in to the Hotel. Overnight stay in St. Moritz."
+        },
+        {
+          "day": "Four",
+          "desc": "Breakfast, Board the Bernina Express from St. Moritz to Lugano, check in to the Hotel. Overnight stay in Lugano."
+        },
+        {
+          "day": "Five",
+          "desc": "Breakfast, Board the Train from Lugano to Lucerne, check in to the Hotel. Overnight stay in Lucerne."
+        },
+        {
+          "day": "Six",
+          "desc": "Breakfast, Board the Golden Passline from Lucerne to Interlaken, check in to the Hotel. Overnight stay in Interlaken."
+        },
+        {
+          "day": "Six",
+          "desc": "Breakfast, Visit Excursion to Jungfraujoch-Top of Europe. Overnight stay in Interlaken."
+        },
+        {
+          "day": "Six",
+          "desc": "Breakfast, Board the Train from Interlaken to Zurich Airport to Board the flight Back to India."
+        }
+      ],
+      "accommodation": [
+        "1 night in Montreux - Hotel Villa Toscane or Similar",
+        "1 night in Zermatt - Hotel Butterfly or Similar",
+        "1 night in St. Moritz - Hotel Hauser or Similar",
+        "1 night in Lugano - Continental Parkhotel or Similar",
+        "1 night in Lucerne - IBIS style Lucerne or Similar",
+        "2 nights in Interlaken - Hotel Chalet Swiss or Similar"
+      ],
+      "inclusions": {
+        "Switzerland": [
+          "Daily Continental Buffet Breakfast",
+          "Swiss Transfer Ticket Combi: Grand Train Tour of",
+          "Switzerland (8 transfers) in 2nd class from/to",
+          "Swiss border or airport",
+          "Seat reservation GoldenPass Line, Bernina",
+          "Express(train + coach) and Glacier Express",
+          "Daily Breakfast Included",
+          "Excursion to Mt. Jungfraujoch"
+        ]
+      },
+      "exclusions": [
+        "The cost of the Airfare, Passport, POE charges, Visa charges, Overseas Travel Insurance, etc.",
+        "Any expenses of personal nature such as Porterage, Laundry, and Alcohol, Food or Drink not in the regular menus provided by us, mini bar and telephone calls",
+        "Any extra meals not included in the itinerary. Meals are pre - set and a choice of menu is not available",
+        "Cost of excursions, city sightseeing, entrance fees and local guides availed of by the passengers, other than that mentioned in ‘What your tour price includes",
+        "TCS and other taxes as applicable",
+        "Anything which is not specified in the Itinerary"
+      ]
+    },
+    {
+      "code": "7 Nights & 8 Days",
+      "name": "Greece Holiday Package",
+      "link": "/package/europe/greece-holiday-package",
+      "countries": [
+        "Greece"
+      ],
+      "day_wise": [
+        {
+          "day": "One",
+          "desc": "Arrival in Athens. Private transfer from airport to hotel. Check in at the hotel. Rest of the day at Leisure. Overnight in Athens."
+        },
+        {
+          "day": "Two",
+          "desc": "After Breakfast, Enjoy Athens half-day sightseeing tour with Museum. Overnight in Athens."
+        },
+        {
+          "day": "Three",
+          "desc": "After Breakfast, Private transfer from hotel - port. Board Ferry from Athens to Mykonos. Private transfer from port - hotel. Check in at the hotel. Rest of the day at Leisure. Overnight in Mykonos."
+        },
+        {
+          "day": "Four",
+          "desc": "After Breakfast, Enjoy Mykonos Half Day City Tour. Overnight in Mykonos."
+        },
+        {
+          "day": "Five",
+          "desc": "After Breakfast, Today Private transfer from hotel - port. Board Ferry from Mykonos to Santorini. Private transfer from port - hotel. Check in at the hotel. Rest of the day at Leisure. Overnight in Santorini."
+        },
+        {
+          "day": "Six",
+          "desc": "After Breakfast, Enjoy Santorini City Tour with Sunset Oia. Overnight in Santorini."
+        },
+        {
+          "day": "Seven",
+          "desc": "After Breakfast, Today Private transfer from hotel - port. Board Ferry from Santorini to Athens. Private transfer from port - hotel. Check in at the hotel. Rest of the day at Leisure. Overnight in Athens."
+        },
+        {
+          "day": "Eight",
+          "desc": "After Breakfast, Private transfer from hotel to airport. Departure from Athens Airport for your flight."
+        }
+      ],
+      "accommodation": [
+        "2 Night accommodation in Athens- Acropolis Select Hotel or Similar",
+        "2 Night accommodation in Mykonos-Sunrise Beach or Similar",
+        "2 Night accommodation in Santorini- Rimida Villas or Similar",
+        "1 Night accommodation in Athens- Acropolis Select Hotel or Similar"
+      ],
+      "inclusions": {
+        "Greece": [
+          "Daily Continental Buffet Breakfast",
+          "Athens half-day sightseeing tour with Museum",
+          "Mykonos Half Day City Tour",
+          "Santorini City Tour with Sunset Oia"
+        ]
+      },
+      "exclusions": [
+        "The cost of the Airfare, Passport, POE charges, Visa charges, Overseas Travel Insurance, etc.",
+        "Any expenses of personal nature such as Porterage, Laundry, and Alcohol, Food or Drink not in the regular menus provided by us, mini bar and telephone calls",
+        "Any extra meals not included in the itinerary. Meals are pre - set and a choice of menu is not available",
+        "Cost of excursions, city sightseeing, entrance fees and local guides availed of by the passengers, other than that mentioned in ‘What your tour price includes",
+        "TCS and other taxes as applicable",
+        "Anything which is not specified in the Itinerary"
+      ]
+    },
+    {
+      "code": "7 Nights & 8 Days",
+      "name": "Swiss Premium Tour",
+      "link": "/package/europe/swiss-premium-tour",
+      "countries": [
+        "Switzerland"
+      ],
+      "day_wise": [
+        {
+          "day": "One",
+          "desc": "Arrival at Zurich Airport, Transfer to the Hotel by using Swiss Transfer Ticket combi, check in to the Hotel, Day at Leisure. Overnight stay in Lucerne."
+        },
+        {
+          "day": "Two",
+          "desc": "Morning Breakfast, Visit Lake Lucerne, chapel Bridge, lion monument. Overnight stay in Lucerne."
+        },
+        {
+          "day": "Three",
+          "desc": "Morning Breakfast, Board the Train from Lucerne to Interlaken, check in to the Hotel. Overnight stay in Interlaken."
+        },
+        {
+          "day": "Four",
+          "desc": "Morning Breakfast, Proceed for Excursion to Jungfraujoch Top of Europe. Overnight stay in Interlaken."
+        },
+        {
+          "day": "Five",
+          "desc": "Morning Breakfast, Board the Train from Interlaken to Zermatt, check In to the Hotel. Overnight stay in Zermatt."
+        },
+        {
+          "day": "Six",
+          "desc": "Morning Breakfast, proceed for Excursion to Gornergrat. Overnight stay in Zermatt."
+        },
+        {
+          "day": "Seven",
+          "desc": "Morning Breakfast, Proceed for Glacier express from Zermatt to St Moritz. Overnight stay in St. Moritz."
+        },
+        {
+          "day": "Eight",
+          "desc": "Morning Bteakfast, Proceed to Airport to Board the flight Back to India."
+        }
+      ],
+      "accommodation": [
+        "2 nights in Lucerne - IBIS style Lucerne or Similar",
+        "2 nights in Interlaken - Hotel Chalet Swiss or Similar",
+        "2 nights in Zermatt - Hotel Butterfly or Similar",
+        "1 night in St. Moritz - Hotel Hauser or Similar"
+      ],
+      "inclusions": {
+        "Lucerene": [
+          "Daily Continental Buffet Breakfast",
+          "Lake Lucerne",
+          "Lion Monument",
+          "Chapel Bridge"
+        ],
+        "Interlaken": [
+          "Daily Continental Buffet Breakfast",
+          "Excursion to Jungfraujoch Top of Europe"
+        ],
+        "Zermatt": [
+          "Daily Continental Buffet Breakfast",
+          "Excursion to Gornergrat"
+        ],
+        "St. Moritz": [
+          "Daily Continental Buffet Breakfast",
+          "Glacier express from Zermatt to St Moritz"
+        ]
+      },
+      "exclusions": [
+        "The cost of the Airfare, Passport, POE charges, Visa charges, Overseas Travel Insurance, etc.",
+        "Any expenses of personal nature such as Porterage, Laundry, and Alcohol, Food or Drink not in the regular menus provided by us, mini bar and telephone calls",
+        "Any extra meals not included in the itinerary. Meals are pre - set and a choice of menu is not available",
+        "Cost of excursions, city sightseeing, entrance fees and local guides availed of by the passengers, other than that mentioned in ‘What your tour price includes",
+        "TCS and other taxes as applicable",
+        "Anything which is not specified in the Itinerary"
+      ]
+    },
+    {
+      "code": "9 Nights & 10 Days",
+      "name": "Magical Tour of Europe",
+      "link": "/package/europe/magical-tour-of-europe",
+      "countries": [
+        "Amsterdam",
+        "Paris",
+        "Lucerene",
+        "Zurich"
+      ],
+      "day_wise": [
+        {
+          "day": "One",
+          "desc": "Arrival at Amsterdam Airport,Private departure Transfer to Amsterdam Hotel, check in to the Hotel. Later visit Amsterdam City Canal Cruise. Overnight stay in Amsterdam"
+        },
+        {
+          "day": "Two",
+          "desc": "Breakfast, Day trip to Volendam, Marken & Windmills from Amsterdam. Overnight stay in Amsterdam."
+        },
+        {
+          "day": "Three",
+          "desc": "Breakfast, Private departure Transfer from Hotel to Train station, Check in to the Hotel. Overnight stay in Paris."
+        },
+        {
+          "day": "Four",
+          "desc": "Breakfast, proceed for Paris Hop on & Hop off City Tour,Seine River Cruise Tickets,Skip the Line: Eiffel Tower at 2nd Level Tickets. Overnight stay in Paris."
+        },
+        {
+          "day": "Five",
+          "desc": "Breakfast, Day trip to Disneyland 1 Day 1 Park with Transportation. Overnight stay in Paris."
+        },
+        {
+          "day": "Six",
+          "desc": "Breakfast, Private departure Transfer from Paris Hotel to Train station, Board the Train from Paris to Basel in 2nd class. Thereafter Board the Train from Basel to Lucerne by using Swiss pass. Overnight stay in Lucerne."
+        },
+        {
+          "day": "Seven",
+          "desc": "Breakfast, Excursion to Mt. Titlis with Ice Flyer . Overnight stay in Lucerne."
+        },
+        {
+          "day": "Eight",
+          "desc": "Breakfast, Board the Train from Lucerne to Zurich in 2nd class. Check in to the Hotel. Visit Lake Zurich, Old Town, Landquart Shopping Village with Swiss Pass. Overnight stay in Zurich."
+        },
+        {
+          "day": "Night",
+          "desc": "Breakfast, Visit Rhine Falls with Swiss Pass with Swiss Oass. Overnight stay in Zurich."
+        },
+        {
+          "day": "Ten",
+          "desc": "Breakfast, Private Departure Transfer to Zurich Airport for your onward flight back to India."
+        }
+      ],
+      "accommodation": [
+        "2 Night accommodation in Amsterdam - Avenue Hotel or Similar",
+        "3 Night accommodation in Paris - Campanille Hotel Bercy Village or Similar",
+        "2 Night accommodation in Lucerne - Ibis Styles Luzern or Similar",
+        "2 Night accommdation in Zurich - Novotel Zurich Airport Messe or Similar"
+      ],
+      "inclusions": {
+        "Amsterdam": [
+          "Daily Continental Buffet Breakfast",
+          "Amsterdam City Canal Cruise Tickets",
+          "Day trip to Volendam, Marken & Windmills from Amsterdam"
+        ],
+        "Paris": [
+          "Daily Continental Buffet Breakfast",
+          "Paris Hop on & Hop off City Tour",
+          "Seine River Cruise",
+          "Skip the Line: Eiffel Tower at 2nd Level Tickets.",
+          "Day trip to Disneyland 1 Day 1 Park with Transportation"
+        ],
+        "Lucerene": [
+          "Daily Continental Buffet Breakfast",
+          "Lake Lucerne",
+          "Chaple Bridge",
+          "Lion Monument with Swiss Pass",
+          "Excursion to Mt. Titlis with Ice flyer"
+        ],
+        "Zurich": [
+          "Daily Continental Buffet Breakfast",
+          "Lake Zurich",
+          "Old Town, Landquart Shopping Village with Swiss Pass",
+          "Visit Rhine Falls with a Swiss Pass",
+          "Lindt Chocolate Factory"
+        ]
+      },
+      "exclusions": [
+        "The cost of the Airfare, Passport, POE charges, Visa charges, Overseas Travel Insurance, etc.",
+        "Any expenses of personal nature such as Porterage, Laundry, and Alcohol, Food or Drink not in the regular menus provided by us, mini bar and telephone calls",
+        "Any extra meals not included in the itinerary. Meals are pre - set and a choice of menu is not available",
+        "Cost of excursions, city sightseeing, entrance fees and local guides availed of by the passengers, other than that mentioned in ‘What your tour price includes",
+        "TCS and other taxes as applicable",
+        "Anything which is not specified in the Itinerary"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,392 @@
+{
+  "singapore": [
+    {
+      "name": "Fascinating Singapore",
+      "code": "4 Nights & 5 Days",
+      "link": "/package/singapore/fascinating-singapore",
+      "day_wise": [
+        {
+          "day": "One",
+          "desc": "Welcome to Singapore! On arrival at Singapore Airport, complete all necessary formalities & transfer to hotel. Later in the evening, we proceed to Singapore Night Safari. Night Safari is the world's first nocturnal zoo and is one of the most popular tourist attractions in Singapore. Night Safari, the world’s first nocturnal wildlife park, is a 13-time winner of the Best Attraction category awarded by Singapore Tourism Board. Close to 900 animals from approximately 100 species (of which almost 41 per cent are threatened) inhabit the 35-hectare park. At nightfall, after the animals have drifted off to sleep, the 8 Creature Crew members set off on a mission to take you on this enchanted night walk through Singapore Zoo. From creativity to courage, each Creature Crew has a special virtue to strengthen the unity among humans, animals and nature. Discover yours by identifying the virtue which resonates best with you"
+        },
+        {
+          "day": "Two",
+          "desc": "After breakfast at the hotel, you begin your tour of the city. Your half day tour of Singapore will include all major attractions such as Merlion Park, Fountain of Wealth, Chinatown, Little India, City Hall and Parliament House. Shop for souvenirs at the Chinatown street market and try the uniquely Singaporean Roti Prata at Little India. Your city tour ends in the afternoon and you have the rest of the evening free to indulge in some retail therapy."
+        },
+        {
+          "day": "Three",
+          "desc": "Breakfast at Hotel. Start your Sentosa experience on a high by riding the Singapore Cable Car Sky Network from Faber Peak Singapore into the island. It's the ultimate fun day out for the whole family. Next we visit Madamme Tussauds (5 in 1). The ticket includes visit to attraction such as Images of Singapore, Spirit of Singapore Boat Ride, Madame Tussauds, Ultimate Film Star Experience & Marvel 4D Cinema. Our last attraction will be visit to Wings of Time. A fitting end to your day out at Sentosa, this spectacular light water show about friendship and courage is staged nightly. Be wowed by spellbinding laser, fire and water effects set to a majestic soundtrack, complete with a jaw dropping fireworks display, possibly the only place to see this in Singapore"
+        },
+        {
+          "day": "Four",
+          "desc": "Breakfast at Hotel. Today you have day free at leisure to do some shopping or opt for optional excursions (listed below). We suggest you to take excursion to Universal Studios: Southeast Asia’s first and only Universal Studios theme park, featuring 24 rides, shows and attractions in seven themed zones OR Gardens by the Bay: It is a nature park spanning 101 hectares. The conservatory complex at Gardens by the Bay, Singapore, comprises two cooled conservatories – the Flower Dome & the Cloud Florest.Super trees are tree-like structures that dominate the Gardens' landscape with heights that range between 25 metres (82 ft) and 50 metres (160 ft). They are vertical gardens that perform a multitude of functions, which include planting, shading and working as environmental engines for the gardens OR Enjoy Singapore Night Safari which is the world's first nocturnal zoo and is one of the most popular tourist attractions in Singapore. Close to 900 animals from approximately 100 species (of which almost 41 per cent are threatened) inhabit the 35-hectare park."
+        },
+        {
+          "day": "Five",
+          "desc": "Enjoy your last morning in Singapore before checking out and being transferred to the airport, where you will depart for your destination with bags full of souvenirs and happy memories."
+        }
+      ],
+      "accommodation": {
+        "standard": 3,
+        "name": "Aqueen Heritage Little India | Ibis Novena or similar"
+      },
+      "inclusions": [
+        "4 Nights’ accommodation with breakfast in selected hotel category",
+        "Return Airport Transfers on Seat In Coach Basis",
+        "Excursion to Singapore Night Safari on Seat In Coach Basis",
+        "Half Day Singapore City Tour on Seat In Coach Basis",
+        "Half Day Sentosa Island Tour with One Way Cable Car, Madame Tussauds, Images of Singapore, Spirit of Singapore – Boat Ride, Ultimate Film Star Experience, Marvel 4D Cinema & Wings of Time (07:30 pm) on SIC Basis",
+        "Cost of Singapore Tourist Visa – subject to immigration approval",
+        "All Local Taxes & Charges",
+        "All Tours & Transfers on Seat In Coach Basis"
+      ],
+      "exclusions": [
+        "International Airfares",
+        "Travel Insurance",
+        "Cost of RT-PCR Test",
+        "Expenses of personal nature such as tips, telephone calls, laundry, liquor, etc.",
+        "Anything which is not specified in Inclusions",
+        "Rates are not valid during Black-Out Dates",
+        "Peak / Festival Period Surcharge (Diwali/ New Year) to be paid extra & will be notified at time of booking confirmation.",
+        "Early Check-In & Late Check-Out",
+        "Rates are subject to availablity at time of confirmation",
+        "1 SGD = INR 62 ROE as per date of confirmation will be taken for calculation purpose.",
+        "Triple & Child with Bed Rates for Premium Category are estimated. Rooms Rates will be calculated as per final count on Pax",
+        "Package Validity: 3* - 31st March 2023 | 4* - 31st March 2023 | 5* - 20th Dec 2022"
+      ]
+    },
+    {
+      "name": "Charming Singapore with Malaysia",
+      "code": "6 Nights & 7 Days",
+      "link": "/package/singapore/charming-singapore-with-malaysia",
+      "day_wise": [
+        {
+          "day": "One",
+          "desc": "Welcome to Singapore! You will be welcomed on arrival at Singapore Changi Airport and transferred to your hotel. Enjoy the rest of the day getting your bearings and exploring the neighbourhood. Later in the evening we proceed to Singapore Night Safari. Night Safari is the world's first nocturnal zoo and is one of the most popular tourist attractions in Singapore. Night Safari, the world’s first nocturnal wildlife park, is a 13-time winner of the Best Attraction category awarded by Singapore Tourism Board. Close to 900 animals from approximately 100 species (of which almost 41 per cent are threatened) inhabit the 35-hectare park."
+        },
+        {
+          "day": "Two",
+          "desc": "After breakfast at the hotel, you begin your tour of the city. Your half day tour of          Singapore will include all major attractions such as Merlion Park, Fountain of Wealth, Chinatown, Little India, City Hall and Parliament House. The tour will have photo-stop at Singapore Flyer."
+        },
+        {
+          "day": "Three",
+          "desc": "Breakfast at Hotel. Start your Sentosa experience on a high by riding the Singapore Cable Car Sky Network from Faber Peak Singapore into the island. It's the ultimate fun day out for the whole family. Next we visit Madamme Tussauds (5 in 1). The ticket includes visit to attraction such as Images of Singapore, Spirit of Singapore Boat Ride, Madame Tussauds, Ultimate Film Star Experience & Marvel 4D Cinema. Our last attraction will be visit to Wings of Time. A fitting end to your day out at Sentosa, this spectacular light water show about friendship and courage is staged nightly. Be wowed by spellbinding laser, fire and water effects set to a majestic soundtrack, complete with a jaw dropping fireworks display, possibly the only place to see this in Singapore."
+        },
+        {
+          "day": "Four",
+          "desc": "Breakfast at Hotel. Depending on the departure time of your coach from Singapore to Malaysia we will transfer you to Singapore Coach Terminal. Later on arrival in Kuala Lumpur, you will be picked up from Coach Station & transferred to your Hotel for CheckIn. Later we have free time to explore the beautiful metropolitan city Kuala Lumpur on your own."
+        },
+        {
+          "day": "Five",
+          "desc": "After breakfast at the hotel, you begin your tour of the Malaysian capital. Your tour of Kuala Lumpur will take you to all of the city’s attractions including the gold-domed King’s Palace, National Monument and National Museum built to commemorate the Malaysian Struggle for Independence."
+        },
+        {
+          "day": "Six",
+          "desc": "Enjoy a sumptuous breakfast at the hotel and leave for the Genting Highlands hill top resort. Admire the stunning views as you ascend to the resort by cable car. One of Malaysia’s biggest tourist draws, Genting has something for everyone. Visit the indoor theme park (on your own), perfect for adrenaline junkies of every age. You could even try your luck at Casino de Genting, the biggest of its kind in the country. En route visit Batu Caves, home to one of the largest Hindu temples outside of India dedicated to Lord Murugan."
+        },
+        {
+          "day": "Seven",
+          "desc": "Enjoy your last morning in Malaysia before checking out of your hotel and being transferred to the airport, where you will depart for your destination with bags full of souvenirs and happy memories."
+        }
+      ],
+      "accommodation": {
+        "standard": 3,
+        "name": "(Singapore) Aqueen Heritage Little India | (Kuala Lumpur) Areena Star or Genting Highland-First World"
+      },
+      "inclusions": [
+        "3 Nights’ accommodation in Singapore in choice of selected hotel category",
+        "2 Nights’ accommodation in Kuala Lumpur in choice of selected hotel category",
+        "1 Night accommodation in Genting Highland in choice of selected hotel category",
+        "Daily Buffet Breakfast at Hotel",
+        "Excursion to Night Safari on Seat In Coach Basis",
+        "Half Day Panoramic Singapore City Tour on Seat In Coach Basis",
+        "Half Day Sentosa Island Tour with One Way Cable Car, Madame Tussauds, Images of Singapore Spirit of Singapore – Boat Ride Ultimate Film Star Experience, Marvel 4D Cinema & Wings of Time (07:30 pm) on SIC Basis",
+        "One Way Coach Ticket from Singapore – Kuala Lumpur on Starmart Coach",
+        "Half Day Kuala Lumpur City Tour on Seat In Coach Basis",
+        "One Way Genting Cable Car Ride",
+        "Entrance to Batu Caves en-route to Genting Highlands",
+        "All Transfers & Tours on Seat In Coach Basis in Singapore",
+        "All Tours on Seat In Coach Basis in Malaysia",
+        "Transfers from Kuala Lumpur Coach Terminal – Kuala Lumpur Hotel on SIC Basis",
+        "All Airport Transfers on Private Basis in Malaysia",
+        "Cost of Singapore & Malaysia Tourist Visa (e-Visa) – subject to immigration approval"
+      ],
+      "exclusions": [
+        "International Airfares",
+        "Travel Insurance",
+        "Cost of RT-PCR Test",
+        "Expenses of personal nature such as tips, telephone calls, laundry, liquor, etc.",
+        "Anything which is not specified in Inclusions",
+        "Rates are not valid during Black-Out Dates",
+        "Peak / Festival Period Surcharge (Diwali/ New Year) to be paid extra & will be notified at time of booking confirmation.",
+        "Early Check-In & Late Check-Out",
+        "Rates are subject to availablity at time of confirmation",
+        "1 SGD = INR 62 ROE as per date of confirmation will be taken for calculation purpose.",
+        "Triple & Child with Bed Rates for Premium Category are estimated. Rooms Rates will be calculated as per final count on Pax",
+        "Package Validity: 3* - 31st March 2023 | 4* - 31st March 2023 | 5* - 20th Dec 2022"
+      ]
+    },
+    {
+      "name": "Simply Singapore",
+      "code": "4 Nights & 5 Days",
+      "link": "/package/singapore/simply-singapore",
+      "day_wise": [
+        {
+          "day": "One",
+          "desc": "Welcome to Singapore! On arrival at Singapore Airport, complete all necessary formalities & transfer to hotel. Later in the evening, we proceed to Singapore Night Safari (at additional cost). Night Safari is the world's first nocturnal zoo and is one of the most popular tourist attractions in Singapore. Night Safari, the world’s first nocturnal wildlife park, is a 13-time winner of the Best Attraction category awarded by Singapore Tourism Board. Close to 900 animals from approximately 100 species (of which almost 41 per cent are threatened) inhabit the 35-hectare park. At nightfall, after the animals have drifted off to sleep, the 8 Creature Crew members set off on a mission to take you on this enchanted night walk through Singapore Zoo. From creativity to courage, each Creature Crew has a special virtue to strengthen the unity among humans, animals and nature. Discover yours by identifying the virtue which resonates best with you."
+        },
+        {
+          "day": "Two",
+          "desc": "After breakfast at the hotel, you begin your tour of the city. Your half day tour of Singapore will include all major attractions such as Merlion Park, Fountain of Wealth, Chinatown, Little India, City Hall and Parliament House."
+        },
+        {
+          "day": "Three",
+          "desc": "Breakfast at the hotel. Today you have free time to relax in your hotel or you can opt for a full day (optional) excursion to Sentosa Island."
+        },
+        {
+          "day": "Four",
+          "desc": "Breakfast at the hotel. Today you have free time to relax in your hotel or you can opt for a full day (optional) excursion to Universal Studios."
+        },
+        {
+          "day": "Five",
+          "desc": "Enjoy your last minute shopping in Singapore. Depending on your flight times guest will be transferred to the airport, where you will depart for your onward destination with bags full of souvenirs and happy memories."
+        }
+      ],
+      "accommodation": {
+        "standard": 3,
+        "name": "Aqueen Heritage Little India or similar"
+      },
+      "inclusions": [
+        "4 Nights’ accommodation with breakfast in selected hotel category",
+        "Return Airport Transfers on Seat In Coach Basis",
+        "Half Day Singapore City Tour on Seat In Coach Basis",
+        "Cost of Singapore Tourist Visa – subject to immigration approval",
+        "All Local Taxes & Charges",
+        "All Tours & Transfers on Seat In Coach Basis"
+      ],
+      "exclusions": [
+        "International Airfares",
+        "Travel Insurance",
+        "Cost of RT-PCR Test",
+        "Expenses of personal nature such as tips, telephone calls, laundry, liquor, etc.",
+        "Anything which is not specified in Inclusions",
+        "Rates are not valid during Black-Out Dates",
+        "Peak / Festival Period Surcharge (Diwali/ New Year) to be paid extra & will be notified at time of booking confirmation.",
+        "Early Check-In & Late Check-Out",
+        "Rates are subject to availablity at time of confirmation",
+        "1 SGD = INR 62 ROE as per date of confirmation will be taken for calculation purpose.",
+        "Triple & Child with Bed Rates for Premium Category are estimated. Rooms Rates will be calculated as per final count on Pax",
+        "Package Validity: 3* - 31st March 2023 | 4* - 31st March 2023 | 5* - 20th Dec 2022"
+      ]
+    },
+    {
+      "name": "Singapore Fully Loaded",
+      "code": "4 Nights & 5 Days",
+      "link": "/package/singapore/singapore-fully-loaded",
+      "day_wise": [
+        {
+          "day": "One",
+          "desc": "Welcome to Singapore! On arrival at Singapore Airport, complete all necessary formalities & transfer to hotel. Later in the evening, we proceed to Singapore Night Safari. Night Safari is the world's first nocturnal zoo and is one of the most popular tourist attractions in Singapore. Night Safari, the world’s first nocturnal wildlife park, is a 13-time winner of the Best Attraction category awarded by Singapore Tourism Board. Close to 900 animals from approximately 100 species (of which almost 41 per cent are threatened) inhabit the 35-hectare park. At nightfall, after the animals have drifted off to sleep, the 8 Creature Crew members set off on a mission to take you on this enchanted night walk through Singapore Zoo. From creativity to courage, each Creature Crew has a special virtue to strengthen the unity among humans, animals and nature. Discover yours by identifying the virtue which resonates best with you."
+        },
+        {
+          "day": "Two",
+          "desc": "Breakfast at your Hotel. Universal Studios is Southeast Asia’s first and only Universal Studios theme park, featuring 24 rides, shows and attractions in seven themed zones. It’s a perfect destination for families and adrenaline junkies with breath taking rides and themed movie sets. Go beyond the screen and Ride The Movies™ at Universal Studios Singapore. Experience cutting-edge rides, shows, and attractions based on your favourite blockbuster films and television series, including Puss In Boots’ Giant Journey, Battlestar Galactica: HUMAN vs. CYLON™, TRANSFORMERS The Ride: The Ultimate 3D Battle, Jurassic Park Rapids Adventure™, Sesame Street Spaghetti Space Chase and more!"
+        },
+        {
+          "day": "Three",
+          "desc": "Breakfast at Hotel. Start your Sentosa experience on a high by riding the Singapore Cable Car Sky Network from Faber Peak Singapore into the island. It's the ultimate fun day out for the whole family. Next we visit Madamme Tussauds (5 in 1). The ticket includes visit to attraction such as Images of Singapore, Spirit of Singapore Boat Ride, Madame Tussauds, Ultimate Film Star Experience & Marvel 4D Cinema. Our last attraction will be visit to Wings of Time. A fitting end to your day out at Sentosa, this spectacular light water show about friendship and courage is staged nightly. Be wowed by spellbinding laser, fire and water effects set to a majestic soundtrack, complete with a jaw dropping fireworks display, possibly the only place to see this in Singapore."
+        },
+        {
+          "day": "Four",
+          "desc": "Breakfast at the Hotel. Today we set out for a Half Day Excursion to Gardens by the Bay (2 Domes) & Marina Bay Sands Sky Park with Observation Deck. Gardens by the Bay is a nature park spanning 101 hectares. The conservatory complex at Gardens by the Bay, Singapore, comprises two cooled conservatories – the Flower Dome & the CloudFlorest. Supertrees are tree-like structures that dominate the Gardens' landscape withheights that range between 25 metres (82 ft) and 50 metres (160 ft). They are verticalgardens that perform a multitude of functions, which include planting, shading andworking as environmental engines for the gardens. Our next stop is Marina Bay Sands Sky Park with Observation Deck. Located 57 storeys up from the heart of the Marina Bay area, the SkyPark Observation Deck boasts scenic views of the panoramic vistas of Marina Bay and Singapore’s world-class cityscape. Take in a bird’s-eye view of Gardens by the Bay and the impressive Supertree Grove, or admire the sea view that stretches from Marina South Pier to the Singapore Strait."
+        },
+        {
+          "day": "Five",
+          "desc": "Enjoy your last minute shopping in Singapore. Depending on your flight times guest will be transferred to the airport, where you will depart for your onward destination with bags full of souvenirs and happy memories."
+        }
+      ],
+      "accommodation": {
+        "standard": 3,
+        "name": "(Singapore) Aqueen Heritage Little India | (Kuala Lumpur) Areena Star or Genting Highland-First World"
+      },
+      "inclusions": [
+        "4 Nights’ accommodation with breakfast in selected hotel category",
+        "Return Airport Transfers on Seat In Coach Basis",
+        "Excursion to Singapore Night Safari on Seat In Coach Basis",
+        "Full Day Excursion to Universal Studios on Seat In Coach Basis",
+        "Half Day Singapore City Tour on Seat In Coach Basis",
+        "Half Day Sentosa Island Tour with One Way Cable Car, Madame Tussauds, Images of Singapore,",
+        "Spirit of Singapore – Boat Ride, Ultimate Film Star Experience, Marvel 4D Cinema & Wings of Time (07:30 pm) on SIC Basis",
+        "Excursion to Gardens by the Bay + Sky Park at Marina Bay Sands on Seat In Coach Basis",
+        "Cost of Singapore Tourist Visa – subject to immigration approval",
+        "All Local Taxes & Charges",
+        "All Tours & Transfers on Seat In Coach Basis"
+      ],
+      "exclusions": [
+        "International Airfares",
+        "Travel Insurance",
+        "Cost of RT-PCR Test",
+        "Expenses of personal nature such as tips, telephone calls, laundry, liquor, etc.",
+        "Anything which is not specified in Inclusions",
+        "Rates are not valid during Black-Out Dates",
+        "Peak / Festival Period Surcharge (Diwali/ New Year) to be paid extra & will be notified at time of booking confirmation.",
+        "Early Check-In & Late Check-Out",
+        "Rates are subject to availablity at time of confirmation",
+        "1 SGD = INR 62 ROE as per date of confirmation will be taken for calculation purpose.",
+        "Triple & Child with Bed Rates for Premium Category are estimated. Rooms Rates will be calculated as per final count on Pax",
+        "Package Validity: 3* - 31st March 2023 | 4* - 31st March 2023 | 5* - 20th Dec 2022"
+      ]
+    },
+    {
+      "name": "Singapore Special",
+      "code": "6 Nights & 7 Days",
+      "link": "/package/singapore/singapore-special",
+      "day_wise": [
+        {
+          "day": "One",
+          "desc": "Welcome to Singapore! You will be welcomed on arrival at Singapore Changi Airport and transferred to your hotel. Enjoy the rest of the day getting your bearings and exploring the neighbourhood. Later in the evening we proceed to Singapore Night Safari. Night Safari is the world's first nocturnal zoo and is one of the most popular tourist attractions in Singapore. Night Safari, the world’s first nocturnal wildlife park, is a 13-time winner of the Best Attraction category awarded by Singapore Tourism Board. Close to 900 animals from approximately 100 species (of which almost 41 per cent are threatened) inhabit the 35-hectare park."
+        },
+        {
+          "day": "Two",
+          "desc": "After breakfast at the hotel, you begin your tour of the city. Your half day tour of Singapore will include all major attractions such as Merlion Park, Fountain of Wealth, Chinatown, Little India, City Hall and Parliament House. The tour will have photo-stop at Singapore Flyer. Start your Sentosa experience on a high by riding the Singapore Cable Car Sky Network from Faber Peak Singapore into the island. It's the ultimate fun day out for the whole family. Next we visit Madamme Tussauds (5 in 1). The ticket includes visit to attraction such as Images of Singapore, Spirit of Singapore Boat Ride, Madame Tussauds, Ultimate Film Star Experience & Marvel 4D Cinema."
+        },
+        {
+          "day": "Three",
+          "desc": "Universal Studios is Southeast Asia’s first and only Universal Studios theme park, featuring 24 rides, shows and attractions in seven themed zones. It’s the perfect destination for families and adrenaline junkies with breath taking rides and themed movie sets. Go beyond the screen and Ride The Movies™ at Universal Studios Singapore. Experience cutting-edge rides, shows, and attractions based on your favourite blockbuster films and television series, including Puss In Boots’ Giant Journey, Battlestar Galactica: HUMAN vs. CYLON™, TRANSFORMERS The Ride: The Ultimate 3D Battle, Jurassic Park Rapids Adventure™, Sesame Street Spaghetti Space Chase and more!"
+        },
+        {
+          "day": "Four",
+          "desc": "Breakfast at your Hotel & Depending on Boarding Time of your Cruise our local representative will transfer you to Singapore Port. We recommend arriving Cruise Terminal at-least 4 Hours prior to your sailing in order to smoothly complete all Cruise formalities. Cruise departs from Singapore at 20:00 Hrs (Singapore Local Time) subject to change for Port Klang (Kuala Lumpur). Your cruise will include all meals (breakfast, lunch & dinner) and an array of cruise activities (as per daily program list)."
+        },
+        {
+          "day": "Five",
+          "desc": "Morning breakfast & enjoy activities on cruise. Arrive in the morning around (10:00 AM) subject to change at Port Klang. You are free to relax on your own or you can take an optional Shore Excursion. Your cruise will include all meals (breakfast, lunch & dinner) and an array of cruise activities (as per daily program list). Cruise will depart in the evening (around 16:00 Hrs) from Port Klang to onward destination (Penang)."
+        },
+        {
+          "day": "Six",
+          "desc": "Morning breakfast & enjoy activities on cruise. Arrive in the morning around (07:00 AM) subject to change at Penang. You are free to relax on your own or you can take an optional Shore Excursion. Your cruise will include all meals (breakfast, lunch & dinner) and an array of cruise activities (as per daily program list). Cruise will depart in the evening (around 16:00 Hrs) from Penang on the return voyage to Singapore."
+        },
+        {
+          "day": "Seven",
+          "desc": "Enjoy your last morning in Singapore before checking out and being transferred to the airport, where you will depart for your destination with bags full of souvenirs and happy memories. Please note Cruise arrives in Singapore at around (10:00 AM)."
+        }
+      ],
+      "accommodation": {
+        "standard": 3,
+        "name": "4 Nights (Singapore): Hotel Ibis Novena or Aqueen Heritage Little India or similar  | 3 Nights (Cruise: Inside State Room"
+      },
+      "inclusions": [
+        "3 Nights’ accommodation with breakfast in selected hotel category",
+        "3 Nights’ accommodation in Genting Dream Cruise (Sunday Sailing) in choice of selected cabin Cruise Port Charges",
+        "One Way Airport Transfers from Singapore Airport to Singapore Hotel on Seat In Coach Basis",
+        "Two Way Cruise Terminal Transfers (Singapore Hotel – Cruise Terminal – Airport) on Private Basis",
+        "Night Safari Tour with transfers on Seat In Coach Basis",
+        "Half Day Panoramic Singapore City Tour on Seat In Coach Basis",
+        "Half Day Sentosa Island Tour with One Way Cable Car, Madame Tussauds (5 in 1) & Wings of Time (07:30 pm) on Seat In Coach Basis",
+        "Full Day Excursion to Universal Studios on Seat In Coach Basis",
+        "4 Complimentary Meals a day (in cruise) – at following restaurants",
+        "Dream Dining Lower/ Deck 7 FWD ( International Cusine)",
+        "Dream Dining Upper/ Deck 8 FWD ( Chinese Cusine)",
+        "The Lido/ Deck 16 AFT -24 Hours Snacks (Finger Food) Counter ( Indian Cusine, Jain meals available)",
+        "Usage of Specified Cruise Facilities (as per daily program list)",
+        "Participation in Specified Cruise Activities (as per daily program list)",
+        "Usage of Rope Course, Zip Lining, Rock Climbing, Swimming Pool, Jacuzzi, Gymnasium, Water Slides, Mini Golf, Basketball inside Cruise",
+        "All Tours & Transfers on Seat In Coach Basis unless specified",
+        "All Local Taxes & Charges",
+        "Child Free offer from Cruise is valid for 2 Nights – Wednesday Sailing & 3 Nights – Sunday Sailing (operated till 14th Dec 2022). Kids Sail Free promo is valid for children below (12 Yrs) and sharing same cabin as 3rd & 4th guests in Inside & Balcony Cabins only"
+      ],
+      "exclusions": [
+        "International Airfares",
+        "Travel Insurance",
+        "Cost of RT-PCR Test",
+        "Expenses of personal nature such as tips, telephone calls, laundry, liquor, etc.",
+        "Anything which is not specified in Inclusions",
+        "Rates are not valid during Black-Out Dates",
+        "Peak / Festival Period Surcharge (Diwali/ New Year) to be paid extra & will be notified at time of booking confirmation.",
+        "Early Check-In & Late Check-Out",
+        "Rates are subject to availablity at time of confirmation",
+        "1 SGD = INR 62 ROE as per date of confirmation will be taken for calculation purpose.",
+        "Triple & Child with Bed Rates for Premium Category are estimated. Rooms Rates will be calculated as per final count on Pax",
+        "Package Validity: 3* - 31st March 2023 | 4* - 31st March 2023 | 5* - 20th Dec 2022"
+      ]
+    },
+    {
+      "name": "Singapore with Bali",
+      "code": "8 Nights & 9 Days",
+      "link": "/package/singapore/singapore-with-bali",
+      "day_wise": [
+        {
+          "day": "One",
+          "desc": "Welcome to Singapore! On arrival at Singapore Airport, complete all necessary formalities & transfer to hotel. Later in the evening, we proceed to Singapore Night Safari. Night Safari is the world's first nocturnal zoo and is one of the most popular tourist attractions in Singapore. Night Safari, the world’s first nocturnal wildlife park, is a 13-time winner of the Best Attraction category awarded by Singapore Tourism Board. Close to 900 animals from approximately 100 species (of which almost 41 per cent are threatened) inhabit the 35-hectare park. At nightfall, after the animals have drifted off to sleep, the 8 Creature Crew members set off on a mission to take you on this enchanted night walk through Singapore Zoo. From creativity to courage, each Creature Crew has a special virtue to strengthen the unity among humans, animals and nature. Discover yours by identifying the virtue which resonates best with you."
+        },
+        {
+          "day": "Two",
+          "desc": "Breakfast at your Hotel. Universal Studios is Southeast Asia’s first and only Universal Studios theme park, featuring 24 rides, shows and attractions in seven themed zones. It’s a perfect destination for families and adrenaline junkies with breath taking rides and themed movie sets. Go beyond the screen and Ride The Movies™ at Universal Studios Singapore. Experience cutting-edge rides, shows, and attractions based on your favourite blockbuster films and television series, including Puss In Boots’ Giant Journey, Battlestar Galactica: HUMAN vs. CYLON™, TRANSFORMERS The Ride: The Ultimate 3D Battle, Jurassic Park Rapids Adventure™, Sesame Street Spaghetti Space Chase and more!"
+        },
+        {
+          "day": "Three",
+          "desc": "Breakfast at Hotel. Start your Sentosa experience on a high by riding the SingaporeCable Car Sky Network from Faber Peak Singapore into the island. It's the ultimate funday out for the whole family. Madamme Tussauds: Be immersed at Madame Tussauds, the world’s most famous wax attraction. Experience stardom with Nicole Kidman at our exclusive A-List party, play soccer with Cristiano Ronaldo and show your dance moves at the interactive IIFAAwards Experience Marvel 4D Experience: Feel the power of your favourite Marvel Super Heroes in Madame Tussauds Singapore’s new thrilling 4D Marvel movie experience! Experience windchilling, water-soaking and face-flinching special effects as you get closer than ever before to Captain Marvel, Thor, Black Panther, Rocket, Spider-Man, Ant-Man and the Wasp as they battle Loki in a bid to save the city from his invasion! Spirit of Singapore Boat Ride: Grasp Singapore’s greatness in the multi-sensory “Spiritof Singapore” boat ride. The boat ride takes you through a unique and stunningly themed tribute to the Nation’s rich identity and people. Sights & sounds include the Singapore F1 Night Race, the Merlion, temples and much more! Ultimate Film Star Experience: Do you have what it takes to be the next mega movie star? Audition for leading role as you act, dance and star alongside superstars of Indian Cinema. Here’s your chance to rise to fame at Madame Tussauds Singapore! Images of Singapore: Images of Singapore is a walk-through journey that uncovers the nation’s extraordinary history from humble fishing village to 21st century powerhouse. Travel through time and explore how people lived in Singapore in different areas across a period of nearly 200 years. Next we visit Wings of Time: A fitting end to your day out at Sentosa, this spectacular light water show about friendship and courage is staged nightly. Be wowed by spellbinding laser, fire and water effects set to a majestic soundtrack, complete with a jaw dropping fireworks display, possibly the only place to see this in Singapore."
+        },
+        {
+          "day": "Four",
+          "desc": "Breakfast at the Hotel. After breakfast at the hotel, you begin your tour of the city. Your half day tour of Singapore will include all major attractions such as Merlion Park, Fountain of Wealth, Chinatown, Little India, City Hall and Parliament House.Later we set out for Excursion to Gardens by the Bay (2 Domes) & Marina Bay Sands Sky Park with Observation Deck. Gardens by the Bay is a nature park spanning 101 hectares. The conservatory complex at Gardens by the Bay, Singapore, comprises two cooled conservatories – the Flower Dome & the Cloud Florest. Supertrees are tree-like structures that dominate the Gardens' landscape with heights that range between 25 metres (82 ft) and 50 metres (160 ft). They are vertical gardens that perform a multitude of functions, which include planting, shading and working as environmental engines for the gardens. Our next stop is Marina Bay Sands Sky Park with Observation Deck. Located 57 storeys up from the heart of the Marina Bay area, the SkyPark Observation Deck boasts scenic views of the panoramic vistas of Marina Bay and Singapore’s worldclass cityscape. Take in a bird’s-eye view of Gardens by the Bay and the impressive Supertree Grove, or admire the sea view that stretches from Marina South Pier to the Singapore Strait."
+        },
+        {
+          "day": "Five",
+          "desc": "Enjoy your last minute shopping in Singapore. Depending on your flight times guest will be transferred to the airport, where you will depart for your onward destination (on own) to Bali with bags full of souvenirs and happy memories. On arrival in Bali, our representative will transfer you to your hotel in Bali. Rest of day is free at leisure."
+        },
+        {
+          "day": "Six",
+          "desc": "Breakfast at Hotel. Today we proceed for Full Day Ubud & Kintamani Tour. \"The highlight of this tour is the magnificent view of Mount and Lake Batur with the smoky Agung Volcano in the background. Enroute stops at Celuk the center of gold and silver works, Mas the center of woodcarvings, Ubud the center of Balinese paintings, Goa Gajah (elephant cave) and the holy springs of Tirta Empul at Tampaksiring."
+        },
+        {
+          "day": "Seven",
+          "desc": "Breakfast at Hotel. Tanah Lot Temple is one of Bali’s most important landmarks, which is famed for its unique offshore setting and sunset backdrops. An ancient Hindu shrine perched on top of an outcrop amidst constantly crashing waves; Tanah Lot Temple is simply among Bali’s not-to-be-missed icons. The onshore site of the Tanah Lot temple complex is dotted with smaller shrines together with visitors’ leisure facilities that comprise restaurants, shops and a cultural park where regular dance performances are shown regularly. The temple is located in the Beraban village of the Tabanan regency, an approximate 20km north-west of Kuta "
+        },
+        {
+          "day": "Eight",
+          "desc": "Tanjung Benoa is famous for water sports activities & offers a huge variety of watersports, from jet ski, para sailing, snorkeling, scuba diving, seawalker, fly board and your choice of water based activities is limitless. Come and take part in outdoor activities in Tanjung Benoa Water Sport, Nusa Dua Bali. Visit the beautiful white sand beach in Bali, Tanjung Benoa Beach, and enjoy your vacation partaking in adventurous water sports. Have fun with your companions as you slide and dive in the pristine waters of Bali during activities including jet skiing, banana boat & flying fish etc. Be assured of the safety as a professional instructor will be available throughout the trip with top-notch equipment and safety gear."
+        },
+        {
+          "day": "Nine",
+          "desc": "Enjoy your last day in Bali before checking out and being transferred to the airport, where you will depart for your destination with bags full of souvenirs and happy memories."
+        }
+      ],
+      "accommodation": {
+        "standard": 3,
+        "name": "(Singapore) : Value Hotel Thomson or similar | (Bali) Fave Hotel Kuta or similar "
+      },
+      "inclusions": [
+        "4 Nights’ accommodation in Singapore with breakfast in selected hotel category",
+        "4 Nights’ accommodation in Bali with breakfast in selected hotel category",
+        "Return Airport Transfers on Seat In Coach Basis in Singapore",
+        "Return Airport Transfers on Private Basis in Bali",
+        "Excursion to Singapore Night Safari on Seat In Coach Basis",
+        "Full Day Excursion to Universal Studios on Seat In Coach Basis",
+        "Half Day Singapore City Tour on Seat In Coach Basis",
+        "Half Day Sentosa Island Tour with One Way Cable Car, Madamme Tussauds, Marvel 4D Experience, Ultimate Film Star Experience, Spirit of Singapore Boat Ride, Images of Singapore & Wings of Time (07:30 pm) on SIC Basis:",
+        "Excursion to Gardens by the Bay + Sky Park at Marina Bay Sands on Seat In Coach Basis",
+        "Full Day Ubud & Kintamani Tour on PVT Basis",
+        "Half Day Tanah Lot Temple Tour on PVT Basis",
+        "Half Day Water Sports @ Tanjong Benoa Beach (1 Ride of Banana Boat, Flying Fish & Jet Ski) on SIC Basis",
+        "Cost of Singapore Tourist Visa – subject to immigration approval",
+        "All Local Taxes & Charges",
+        "All Tours & Transfers on Seat In Coach Basis in Singapore"
+      ],
+      "exclusions": [
+        "International Airfares",
+        "Travel Insurance",
+        "Cost of RT-PCR Test",
+        "Expenses of personal nature such as tips, telephone calls, laundry, liquor, etc.",
+        "Anything which is not specified in Inclusions",
+        "Rates are not valid during Black-Out Dates",
+        "Peak / Festival Period Surcharge (Diwali/ New Year) to be paid extra & will be notified at time of booking confirmation.",
+        "Early Check-In & Late Check-Out",
+        "Rates are subject to availablity at time of confirmation",
+        "1 SGD = INR 62 ROE as per date of confirmation will be taken for calculation purpose.",
+        "Triple & Child with Bed Rates for Premium Category are estimated. Rooms Rates will be calculated as per final count on Pax",
+        "Package Validity: 3* - 31st March 2023 | 4* - 31st March 2023 | 5* - 20th Dec 2022"
+      ]
+    }
+  ]
+}

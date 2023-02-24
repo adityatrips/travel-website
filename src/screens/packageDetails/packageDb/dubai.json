@@ -1,0 +1,187 @@
+{
+  "dubai": [
+    {
+      "code": "5 Nights & 6 Days",
+      "name": "Incredible Dubai",
+      "link": "/package/dubai/incredible-dubai",
+      "day_wise": [
+        {
+          "day": "One",
+          "desc": "Marhabaan and welcome to Dubai! On your arrival at Dubai International Airport, you will be received by our representative and transferred to your hotel. Settle into your luxurious room and spend the day at leisure exploring one of the most glamorous cities in the world. In the evening, cruise on the Dubai Marina on a traditional illuminated wooden boat called a dhow. Absorb Dubai Marina’s unrivaled architecture, opulent yachts, and breathtaking waterfront sights at its best! Go on an atmospheric dhow cruise Marina which is a sum up of magical sightseeing, delectable dining, and striking entertainment. Take in the glorious views of the lavish architecture of residences, resorts, and shopping facilities, as you feast on a scrumptious fare of international cuisines served in a sophisticated setting, which though exudes traditional charm. Adding to the dining experience is mind-blowing entertainment performances on-board our dhow bounded by dazzling illumination and their multi-hued manifestation on Dubai Marina’s water."
+        },
+        {
+          "day": "Two",
+          "desc": "Discover Dubai on an exciting city tour and ascend the magnificent Burj Khalifa, an iconic Dubai landmark. The city tour includes Palm Jumeirah beach photo stop, the Dubai Mosque and scores of other famous Dubai attractions. Later we proceed to Dubai Mall for entrance to (124th Floor) Burj Khalifa with Dubai Fountain Show. The Burj Khalifa is the tallest building in the world and a global icon. Truly a feat of engineering, the building represents the conceptual heart and soul of the city of Dubai. At 828m tall, this magnificent structure is located next to The Dubai Mall and has drawn visitors from all over the world since opening in 2010. The unmatched Burj Khalifa view can be taken in from not one but two observations decks – the two-storey At the Top on the 124th and 125th floors, as well as one of the world’s highest observation decks (555m) on the 148th floor (at extra cost). Later we will see the Dubai Fountain. A captivating water, music and light spectacle in Downtown Dubai, The Dubai Fountain is the world’s tallest performing fountain. At over 900 ft in length – equivalent to over two football pitches – The Dubai Fountain is situated on the 30-acre Burj Lake and performs to a selection of different melodies. The fountain has a unique design comprising five circles of varying sizes and two arcs and features powerful water nozzles that shoot water up to impressive heights. Over 6,600 WET Superlights and 25 colour projectors create a visual spectrum of over 1,000 different water expressions, while 50 colour projectors provide a full spectrum of colour with a total output of 1.5 million lumens. The fountain performs to a range of different songs from classical to contemporary Arabic and world music. When operational, the fountain has over 22,000 gallons of water in the air at any given moment."
+        },
+        {
+          "day": "Three",
+          "desc": "Enjoy a sumptuous breakfast. Ski Dubai is an indoor ski resort with 22,500 squaremeters of indoor ski area. The park maintains a temperature of -1 degree to 2 degreesCelsius throughout the year. It is a part of the Mall of the Emirates, one of the largestshopping malls in the world. Ski Dubai offers a variety of activities & gives you a chanceto ski, snowboard, meet the penguins, zip line or take a chairlift ride."
+        },
+        {
+          "day": "Four",
+          "desc": "Breakfast at the hotel. Morning free at leisure to explore Dubai on your own or you can enjoy shopping in one of the malls or Gold Souk. Later in afternoon we depart for a desert adventure on a 5-hour safari from Dubai. Travel by a comfortable 4x4 to a welcoming camp in the middle of the desert. You will sample some traditional Arabic coffee and dates before taking off on a thrilling dune ride across the sands. End the day with a starlit barbecue dinner back at the camp. As you feast on delicious Arabic dishes, watch a sequined belly dancing show and hypnotic ‘tanoura’ performance, with dancers spinning in time to traditional Emirati music."
+        },
+        {
+          "day": "Five",
+          "desc": "Breakfast at the hotel. Today morning we visit “Museum of the Future”. The Museum of the Future is an exhibition space for innovative and futuristic ideologies, services, and products. Located in the Financial District of Dubai, UAE, the Museum of the Future has three main elements: green hill, building, and void. The Museum of the Future welcomes people of all ages to see, touch, and shape our shared future. Go on a journey through possible futures and bring hope and knowledge back to the present. The Museum of the Future is the first museum of its kind. Built to transform the very perception of the future as we know it, the unique structure has become home to several immersive future environments that aim to position visitors in an empowering version of the future. Visitors become active participants in an expansive experience that taps into all five senses. By meaningfully merging aspects of science, technology, and spirituality, the Museum inspires humanity to re-imagine the future and all its possibilities."
+        },
+        {
+          "day": "Six",
+          "desc": "After breakfast we check-out from our hotel & transfer to airport to catch flight back home. We return home with bags full of souvenirs and happy memories."
+        }
+      ],
+      "accommodation": {
+        "standard": 3,
+        "name": "Orchid Vue Hotel | Golden Tulip Al Barsha (or similar)"
+      },
+      "inclusions": [
+        "5 nights hotel accommodation in selected Hotel Category.",
+        "Daily buffet breakfast at hotel restaurant.",
+        "Meet & Assist at the Airport by Akbar Holidays Representative.",
+        "Arrival transfers from Dubai International Airport to the Hotel on Private Basis.",
+        "Dubai Half Day City Tour with an English speaking DTCM licensed guide on Sharing Basis.",
+        "Dubai Marina Dhow Cruise with Buffet Dinner & Return Transfers – On sharing basis.",
+        "Desert Safari with Dune Bashing, Tanura show, Belly Dance Show & BBQ Dinner on sharing basis by 4x4 vehicles.",
+        "Entrance to (124th) Floor Burj Khalifa (Non-Peak) Hours + Dubai Fountain Show with Music and return Transfers.",
+        "Entrance to Ski Dubai (Classic) with Private Transfers.",
+        "Entrance Ticket to Museum of the Future with Private Transfers- Tickets are subject to availability.",
+        "Departure transfers from the Hotel to Dubai International Airport on private basis."
+      ],
+      "exclusions": [
+        "Return international airfares",
+        "Cost of Dubai visa",
+        "Travel insurance",
+        "Tourism (Dirham)",
+        "Expenses of personal nature (tips, telephone calls, laundry, liquor, etc.)",
+        "Anything that is not mentioned in inclusions.",
+        "Peak/festival period surcharge to be paid extra. Will be notified at time of booking comfirmation",
+        "Early check-in & late check-out.",
+        "Rates are subject to availability of confirmation.",
+        "ROE calculated at 1USD = 83INR. ROE as per date of confirmation will be considered towards final costing of package."
+      ]
+    },
+    {
+      "code": "4 Nights & 5 Days",
+      "name": "Dubai Adventure",
+      "link": "/package/dubai/dubai-adventure",
+      "day_wise": [
+        {
+          "day": "One",
+          "desc": "Marhabaan and welcome to Dubai! On your arrival at Dubai International Airport, you will be received by our representative and transferred to your hotel. Settle into your luxurious room and spend the day at leisure exploring one of the most glamorous cities in the world. Our Local representative, will transfer you to your hotel in Dubai & rest of the day is free at leisure."
+        },
+        {
+          "day": "Two",
+          "desc": "Enjoy breakfast at your Hotel in Dubai & proceed for Morning Yellow Boat Tour. This tour shows you everything! Start your trip around the stunning vista of Dubai Marina and then into the open water where you will see Ain Dubai, cruise around the amazing Palm Jumeirah and pause for a perfect photo opportunity at Atlantis and Burj Al Arab. Our tour then heads back along the coast with the spectacles of the Royal Palaces, Palm Lagoon and on to the Marina. There is plenty to see on this trip, so get your cameras ready!"
+        },
+        {
+          "day": "Three",
+          "desc": "The sky’s the limit for thrill seekers with an exhilarating experience awaiting them at EKart Zabeel, located on the rooftop of The Dubai Mall Zabeel. Zoom past the Burj Khalifa on the open-air track, where drivers can race against the clock and each other in the environmentally friendly electric karts. Whether you're competing with your friends or family, or using it for a team-building event, you're guaranteed an adrenaline rush. Afternoon we proceed to “View at Palm” located at Nakheel Mall. It offers stunning 360 degree views 240 meters above the world famous palm Jumeirah at 240 metres high, The View on level 52 of the iconic Palm Tower offers panoramic, 360-degree views of Palm Jumeirah, the Arabian Gulf and beyond from an outdoor terrace and a premium lounge. Spot iconic landmarks and hidden gems of this beautiful city."
+        },
+        {
+          "day": "Four",
+          "desc": "For those dreamers and adventurers seeking out a truly once-in-a-lifetime experience, a hot air balloon tour is an essential part of any visit to Dubai. From the moment of takeoff, the spectacular sunrise and landscape of Dubai enchant's passengers. You will feel as if you are in a dream, drifting gently past the desert. The diverse colours and vistasof the balloon flight will make for beautiful photographs and unforgettable memories. Dubai's breathtaking landscape makes it a top global destination for hot air balloon flights. The terrific flying conditions allow for amazing views of the spectacular, surrealistic landscapes. Enjoying a Hot Air Balloon ride over one of the most magical places on earth is an experience not to be missed.Later we proceed to Ski Dubai located at Mall of Emirates. Ski Dubai is an indoor ski resort with 22,500 square meters of indoor ski area. The park maintains a temperature of -1 degree to 2 degrees Celsius throughout the year. It is a part of the Mall of the Emirates, one of the largest shopping malls in the world. Ski Dubai offers a variety of activities & gives you a chance to ski, snowboard, meet the penguins, zip line or take a chairlift ride."
+        },
+        {
+          "day": "Five",
+          "desc": "After breakfast we check-out from our hotel & transfer to airport to catch flight back home. We return home with bags full of souvenirs and happy memories."
+        }
+      ],
+      "accommodation": {
+        "standard": 3,
+        "name": "Grand Central Diera (or similar)"
+      },
+      "inclusions": [
+        "4 nights hotel accommodation in selected Hotel Category.",
+        "Daily buffet breakfast at hotel restaurant.",
+        "Meet & Assist at the Airport by Akbar Holidays Representative.",
+        "Arrival transfers from Dubai International Airport to the Hotel on Private Basis.",
+        "Hot Air Balloon (Standard Flight) with Transfers.",
+        "Yellow Boat the original tour with Private Transfers.",
+        "Standard Admission to E-Kart with Private Transfers.",
+        "Entrance to Ski Dubai with Private Transfers.",
+        "Entrance to Ski Dubai (Classic) with Private Transfers.",
+        "Tickets to View at Palm (non-prime) hours with Private Transfers.",
+        "Departure transfers from the Hotel to Dubai International Airport on private basis."
+      ],
+      "exclusions": [
+        "Return international airfares",
+        "Cost of Dubai visa",
+        "Travel insurance",
+        "Tourism (Dirham)",
+        "Expenses of personal nature (tips, telephone calls, laundry, liquor, etc.)",
+        "Anything that is not mentioned in inclusions.",
+        "Peak/festival period surcharge to be paid extra. Will be notified at time of booking comfirmation",
+        "Early check-in & late check-out.",
+        "Rates are subject to availability of confirmation.",
+        "ROE calculated at 1USD = 83INR. ROE as per date of confirmation will be considered towards final costing of package."
+      ]
+    },
+    {
+      "code": "6 Nights & 7 Days",
+      "name": "Spectacular Dubai",
+      "link": "/package/dubai/spectacular-dubai",
+      "day_wise": [
+        {
+          "day": "One",
+          "desc": "Marhabaan and welcome to Dubai! On your arrival at Dubai International Airport, you will be received by our representative and transferred to your hotel. Settle into your luxurious room and spend the day at leisure exploring one of the most glamorous cities in the world. In the evening, cruise on the Dubai Marina on a traditional illuminated wooden boat called a dhow. Absorb Dubai Marina’s unrivaled architecture, opulent yachts, and breathtaking waterfront sights at its best! Go on an atmospheric dhow cruise Marina which is a sum up of magical sightseeing, delectable dining, and striking entertainment. Take in the glorious views of the lavish architecture of residences, resorts, and shopping facilities, as you feast on a scrumptious fare of international cuisines served in a sophisticated setting, which though exudes traditional charm. Adding to the dining experience is mind-blowing entertainment performances on-board our dhow bounded by dazzling illumination and their multi-hued manifestation on Dubai Marina’s water."
+        },
+        {
+          "day": "Two",
+          "desc": "Discover Dubai’s historical, cultural, and unequaled modern side all on this comprehensive Dubai city tour! With roundtrip hotel transfers, this allows you to take in the region’s mix of old, iconic, and celebrated landmarks. On the tour, you would explore what’s famous about new and old Dubai. You get to travel with the expert guides to help you get the best experience from this city. Get to enjoy numerous stops for your photo sessions so you can carry back memories of the good time. Later we drop you to Dubai Mall & enjoy shopping at Dubai Mall."
+        },
+        {
+          "day": "Three",
+          "desc": "EBreakfast at the hotel. Today morning we visit “Museum of the Future”. The Museum of the Future is an exhibition space for innovative and futuristic ideologies, services, and products. Located in the Financial District of Dubai, UAE, the Museum of the Future has three main elements: green hill, building, and void. The Museum of the Future welcomes people of all ages to see, touch, and shape our shared future. Later in afternoon we depart for a desert adventure on a 5-hour safari from Dubai. Travel by a comfortable 4x4 to a welcoming camp in the middle of the desert. You will sample some traditional Arabic coffee and dates before taking off on a thrilling dune ride across the sands. End the day with a starlit barbecue dinner back at the camp. As you feast on delicious Arabic dishes, watch a sequined belly dancing show and hypnotic ‘tanoura’ performance, with dancers spinning in time to traditional Emirati music."
+        },
+        {
+          "day": "Four",
+          "desc": "Enjoy early breakfast at your hotel. Today we head to Full Day Abu Dhabi City Tour with Entrance to Grand Mosque & Ferrari World OR Warner Bros World. Head off to an amazing tour of Abu Dhabi before hitting the high speed Ferrari world for some fun!Form your hotel in Dubai, you'll head out to tour Abu Dhabi, first stopping at the SheikhZayed Grand Mosque and then the Abu Dhabi Corniche. You'll swing by Emirates Palace before you head to the gorgeous shopping mecca of Marina Mall for some lunch. It's time for a bit of cultural enlightenment as you head to Abu Dhabi Heritage Village, before it's finally time to head off to Ferrari World, where there are so many high speed thrill rides, all Ferrari-themed, for you to enjoy! It's a busy day of sightseeing and adventure!"
+        },
+        {
+          "day": "Five",
+          "desc": "Enjoy a sumptuous breakfast. Ski Dubai is an indoor ski resort with 22,500 square meters of indoor ski area. The park maintains a temperature of -1 degree to 2 degrees Celsius throughout the year. It is a part of the Mall of the Emirates, one of the largest shopping malls in the world. Ski Dubai offers a variety of activities & gives you a chance to ski, snowboard, meet the penguins, zip line or take a chairlift ride. Afternoon we visit Miracle Garden & Global Village. On this value-added tour, you’ll get to marvel at the world’s largest natural flower garden and soak up the unequaled fervor of DSF. At the heart of city lies Dubai Miracle Garden - one of Dubai’s most wondrous sights. With your combo ticket, you can gain convenient entry to this exquisite lush garden, where you can feast your eyes with more than 45 million vibrantly colored flowers, arranged in a spectrum of breathtaking shapes and structures, sprawling over 75000 square meters. Your combo ticket further allows you to visit Global Village – an open air entertainment park that comes alive with loads of fun, leisure, dining and shopping options."
+        },
+        {
+          "day": "Six",
+          "desc": "Morning free at Leisure. Later in the afternoon we proceed to Dubai Mall for entrance to (124th Floor) Burj Khalifa with Dubai Fountain Show. The Burj Khalifa is the tallest building in the world and a global icon. Truly a feat of engineering, the building represents the conceptual heart and soul of the city of Dubai. At 828m tall, this magnificent structure is located next to The Dubai Mall and has drawn visitors from all over the world since opening in 2010. The unmatched Burj Khalifa view can be taken in from not one but two observations decks – the two-storey At the Top on the 124th and 125th floors, as well as one of the world’s highest observation decks (555m) on the 148th floor (at extra cost). Later we will see the Dubai Fountain. A captivating water, music and light spectacle in Downtown Dubai, The Dubai Fountain is the world’s tallest performing fountain. At over 900 ft in length – equivalent to over two football pitches – The Dubai Fountain is situated on the 30-acre Burj Lake and performs to a selection of different melodies. The fountain has a unique design comprising five circles of varying sizes and two arcs and features powerful water nozzles that shoot water up to impressive heights. Over 6,600 WET Superlights and 25 colour projectors create a visual spectrum of over 1,000 different water expressions, while 50 colour projectors provide a full spectrum of colour with a total output of 1.5 million lumens. The fountain performs to a range of different songs from classical to contemporary and world music. When operational, the fountain has over 22,000 gallons of water in the air at any given moment."
+        },
+        {
+          "day": "Seven",
+          "desc": ""
+        }
+      ],
+      "accommodation": {
+        "standard": 3,
+        "name": "Raviz Centrepoint (or similar)"
+      },
+      "inclusions": [
+        "6 nights hotel accommodation in selected Hotel Category.",
+        "Daily buffet breakfast at hotel restaurant.",
+        "Meet & Assist at the Airport by Akbar Holidays Representative.",
+        "Arrival transfers from Dubai International Airport to the Hotel on Private Basis.",
+        "Dubai Half Day City Tour with an English speaking DTCM licensed guide on Sharing Basis.",
+        "Dubai Marina Dhow Cruise with Buffet Dinner & Return Transfers – On sharing basis.",
+        "Desert Safari with Dune Bashing, Tanura show, Belly Dance Show & BBQ Dinner on sharing basis by 4x4 vehicles.",
+        "Entrance to (124th) Floor Burj Khalifa (Non-Peak) Hours + Dubai Fountain Show with Music and return Transfers.",
+        "Entrance to Ski Dubai (Classic) with Private Transfers.",
+        "Entrance Ticket to Museum of the Future with Private Transfers- Tickets are subject to availability.",
+        "Full Day Abu Dhabi City Tour with Entrance to Grand Mosque & Ferrari World OR Warner Bros World with Sharing Transfers.",
+        "Entrance to Miracle Garden & Global Village with Private Transfers",
+        "Departure transfers from the Hotel to Dubai International Airport on private basis."
+      ],
+      "exclusions": [
+        "Return international airfares",
+        "Cost of Dubai visa",
+        "Travel insurance",
+        "Tourism (Dirham)",
+        "Expenses of personal nature (tips, telephone calls, laundry, liquor, etc.)",
+        "Anything that is not mentioned in inclusions.",
+        "Peak/festival period surcharge to be paid extra. Will be notified at time of booking comfirmation",
+        "Early check-in & late check-out.",
+        "Rates are subject to availability of confirmation.",
+        "ROE calculated at 1USD = 83INR. ROE as per date of confirmation will be considered towards final costing of package."
+      ]
+    }
+  ]
+}
+
