@@ -40,7 +40,8 @@ const ContactScreen = () => {
                                               placeholder="Anything you'd want to tell us"></textarea>
               </div>
               <div>
-                <button className="btn button  d-block w-100" type="submit">
+                <button className="btn btn-secondary  d-block w-100"
+                        type="submit">
                   Send
                 </button>
               </div>
@@ -62,7 +63,8 @@ const ContactScreen = () => {
               </div>
               <div className="px-2">
                 <h6 className="fw-bold mb-0">Phone</h6>
-                <a href={"tel:+919811264672"} className="text-muted mb-0">+91
+                <a href={"tel:+919811264672"}
+                   className="inline-link text-muted mb-0">+91
                   9811264672</a>
               </div>
             </div>
@@ -79,7 +81,7 @@ const ContactScreen = () => {
               <div className="px-2">
                 <h6 className="fw-bold mb-0">Email</h6>
                 <a href={"mailto:support@sofartravel.in"}
-                   className="text-muted mb-0">support@sofartravel.in</a>
+                   className="inline-link text-muted mb-0">support@sofartravel.in</a>
               </div>
             </div>
             <div className="d-flex align-items-center p-3">
