@@ -1,0 +1,47 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-travelwebsite-main-91414-authRole",
+      "UnauthRoleArn": "arn:aws:iam::911161274881:role/amplify-travelwebsite-main-91414-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::911161274881:role/amplify-travelwebsite-main-91414-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-travelwebsite-main-91414-deployment",
+      "UnauthRoleName": "amplify-travelwebsite-main-91414-unauthRole",
+      "StackName": "amplify-travelwebsite-main-91414",
+      "StackId": "arn:aws:cloudformation:us-east-1:911161274881:stack/amplify-travelwebsite-main-91414/9a1b11c0-b8da-11ed-8882-0aa3f9e5a307",
+      "AmplifyAppId": "d1725vjcxzjj4w"
+    }
+  },
+  "api": {
+    "travelwebsite": {
+      "dependsOn": [],
+      "output": {
+        "authConfig": {
+          "additionalAuthenticationProviders": [
+            {
+              "authenticationType": "AWS_IAM"
+            }
+          ],
+          "defaultAuthentication": {
+            "authenticationType": "API_KEY",
+            "apiKeyConfig": {
+              "apiKeyExpirationDays": 30,
+              "description": "api key description"
+            }
+          }
+        },
+        "GraphQLAPIIdOutput": "fx6ebnac4fg5rlfvizyo45pw4y",
+        "GraphQLAPIEndpointOutput": "https://iljudmzvc5bkld7uuvpvynhtvy.appsync-api.us-east-1.amazonaws.com/graphql",
+        "GraphQLAPIKeyOutput": "da2-w6frpg5a3fclpo7lq4yifbtoie"
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "AppSync",
+      "lastPushTimeStamp": "2023-03-02T11:32:13.309Z",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-travelwebsite-main-91414-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+        "logicalId": "apitravelwebsite"
+      },
+      "lastPushDirHash": "p5x0Q7ygswIUwOTBQWWH9IeSGD8="
+    }
+  }
+}

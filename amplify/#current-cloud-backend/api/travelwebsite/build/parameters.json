@@ -1,0 +1,13 @@
+{
+    "AppSyncApiName": "travelwebsite",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": false,
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "S3DeploymentBucket": "amplify-travelwebsite-main-91414-deployment",
+    "S3DeploymentRootKey": "amplify-appsync-files/1b61ded38462c71189b15d4907024465828d9451"
+}

@@ -1,0 +1,49 @@
+type DayWise {
+  day: String
+  desc: String
+}
+
+type Inclusions {
+  France: String
+  Switzerland: String
+  Italy: String
+  VaticanCity: String
+  UnitedKingdom: String
+  Belgium: String
+  Netherlands: String
+  Germany: String
+  Liechtenstein: String
+  Greece: String
+  Amsterdam: String
+  Lucerene: String
+  Zurich: String
+}
+
+type Hotels {
+  hotelName: String
+  starRating: String
+}
+
+type Destination @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  code: String
+  title: String
+  countries: [String]
+  inclusions: [String]
+  inclusionsPerCountry: [Inclusions]
+  accommodation: [String]
+  exclusions: [String]
+  accommodationsPerHotel: [Hotels]
+  link: String
+  dayWise: [DayWise]
+}
+
+type ContactForm @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  name: String
+  email: String
+  phone: String
+  packageCode: String
+  query: String
+}
+ 

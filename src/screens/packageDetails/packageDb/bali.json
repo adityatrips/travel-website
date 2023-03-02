@@ -1,0 +1,132 @@
+{
+  "bali": [
+    {
+      "code": "4 Nights & 5 Days",
+      "name": "Dazzling Bali Family Package",
+      "link": "/package/bali/dazzling-bali-family-package",
+      "day_wise": [
+        {
+          "day": "One",
+          "desc": "Pickup from the airport and transfer to the hotel."
+        },
+        {
+          "day": "Two",
+          "desc": "Pickup from hotel for Ubud & Kintamani Volcano tour. Private tour with entry-fee included."
+        },
+        {
+          "day": "Three",
+          "desc": "Pickup from the hotel and transfer to Aeera Villa. Day at Leisure."
+        },
+        {
+          "day": "Four",
+          "desc": "Nusa Penida East & West combination tour with lunch (Auth/Diamond beach), tree house, Thousand Island view point, Kelingking Beach, Broken Beach, Angel Billabong"
+        },
+        {
+          "day": "Five",
+          "desc": "Pickup from hotel and transfer to the airport for a flight back home."
+        }
+      ]
+    },
+    {
+      "code": "5 Nights & 6 Days",
+      "link": "/package/bali/futuristic-bali-package",
+      "name": "Futuristic Bali",
+      "day_wise": [
+        {
+          "day": "One",
+          "desc": "Arrival and drop off to the hotel."
+        },
+        {
+          "day": "Two",
+          "desc": "Full day tour of watersports (banana boat, jet ski, parasailing), and Uluwatu Temple (Easy)"
+        },
+        {
+          "day": "Three",
+          "desc": "Full day tour of Tanah Lot temple, Alas Kedaton monkey forest, Petitenget temple."
+        },
+        {
+          "day": "Four",
+          "desc": "Transfer to Ubud hotel/villa"
+        },
+        {
+          "day": "Five",
+          "desc": "Kintamani tour with Mount Batur view point, Cantik coffee plantation, Tegalalang rice terraces, Tukad Cepung Falls"
+        },
+        {
+          "day": "Six",
+          "desc": "Drop off to the airport for a flight back home."
+        }
+      ]
+    },
+    {
+      "code": "6 Nights & 7 Days",
+      "name": "Fully Loaded Family Package",
+      "link": "/package/bali/fully-loaded-family-package",
+      "day_wise": [
+        {
+          "day": "One",
+          "desc": "Arrival and drop off to the hotel."
+        },
+        {
+          "day": "Two",
+          "desc": "Full day tour of watersports (banana boat, jet ski, parasailing), and Uluwatu Temple (Easy)"
+        },
+        {
+          "day": "Three",
+          "desc": "Full day tour of Tanah Lot temple, Alas Kedaton monkey forest, Petitenget temple."
+        },
+        {
+          "day": "Four",
+          "desc": "Transfer to Ubud hotel/villa"
+        },
+        {
+          "day": "Five",
+          "desc": "Kintamani tour with Mount Batur view point, Cantik coffee plantation, Tegalalang rice terraces, Tukad Cepung Falls"
+        },
+        {
+          "day": "Six",
+          "desc": "Ubud shopping tour with Ubud art market, Celuk and Mas villages."
+        },
+        {
+          "day": "Seven",
+          "desc": "Drop off to the airport for a flight back home."
+        }
+      ]
+    },
+    {
+      "code": "6 Nights & 7 Days",
+      "name": "Glamorous Couple Package",
+      "link": "/package/bali/glamorous-couple-package",
+      "day_wise": [
+        {
+          "day": "One",
+          "desc": "Arrival and drop to hotel."
+        },
+        {
+          "day": "Two",
+          "desc": "Full day tour of watersports (banana boat, jet ski, parasailing) at Tanjung Benoa near Nusa Dua, and Uluwatu temple."
+        },
+        {
+          "day": "Three",
+          "desc": "Bedugul tour with Wanagiri view point, Handara gate, Beratan temple, Tanah Lot temple (only from North Kuta)."
+        },
+        {
+          "day": "Four",
+          "desc": "1 hour Balinese massage for 1 pax with hotel transfers (minimum 2 pax required) + transfer to Ubud hotel/villa."
+        },
+        {
+          "day": "Five",
+          "desc": "Kintamani tour with Mount Batur view point, Cantik coffee plantation, Tegalalang rice terraces, Tukad Cepung falls."
+        },
+        {
+          "day": "Six",
+          "desc": "Day at leisure."
+        },
+        {
+          "day": "Seven",
+          "desc": "Drop off to the airport for a flight back home."
+        }
+      ]
+    }
+  ]
+}
