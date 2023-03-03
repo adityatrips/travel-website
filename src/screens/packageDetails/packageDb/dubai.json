@@ -30,10 +30,12 @@
           "desc": "After breakfast we check-out from our hotel & transfer to airport to catch flight back home. We return home with bags full of souvenirs and happy memories."
         }
       ],
-      "accommodation": {
-        "standard": 3,
-        "name": "Orchid Vue Hotel | Golden Tulip Al Barsha (or similar)"
-      },
+      "accommodation": [
+        {
+          "standard": 3,
+          "name": "Orchid Vue Hotel | Golden Tulip Al Barsha (or similar)"
+        }
+      ],
       "inclusions": [
         "5 nights hotel accommodation in selected Hotel Category.",
         "Daily buffet breakfast at hotel restaurant.",
@@ -86,10 +88,12 @@
           "desc": "After breakfast we check-out from our hotel & transfer to airport to catch flight back home. We return home with bags full of souvenirs and happy memories."
         }
       ],
-      "accommodation": {
-        "standard": 3,
-        "name": "Grand Central Diera (or similar)"
-      },
+      "accommodation": [
+        {
+          "standard": 3,
+          "name": "Grand Central Diera (or similar)"
+        }
+      ],
       "inclusions": [
         "4 nights hotel accommodation in selected Hotel Category.",
         "Daily buffet breakfast at hotel restaurant.",
@@ -144,16 +148,14 @@
         {
           "day": "Six",
           "desc": "Morning free at Leisure. Later in the afternoon we proceed to Dubai Mall for entrance to (124th Floor) Burj Khalifa with Dubai Fountain Show. The Burj Khalifa is the tallest building in the world and a global icon. Truly a feat of engineering, the building represents the conceptual heart and soul of the city of Dubai. At 828m tall, this magnificent structure is located next to The Dubai Mall and has drawn visitors from all over the world since opening in 2010. The unmatched Burj Khalifa view can be taken in from not one but two observations decks – the two-storey At the Top on the 124th and 125th floors, as well as one of the world’s highest observation decks (555m) on the 148th floor (at extra cost). Later we will see the Dubai Fountain. A captivating water, music and light spectacle in Downtown Dubai, The Dubai Fountain is the world’s tallest performing fountain. At over 900 ft in length – equivalent to over two football pitches – The Dubai Fountain is situated on the 30-acre Burj Lake and performs to a selection of different melodies. The fountain has a unique design comprising five circles of varying sizes and two arcs and features powerful water nozzles that shoot water up to impressive heights. Over 6,600 WET Superlights and 25 colour projectors create a visual spectrum of over 1,000 different water expressions, while 50 colour projectors provide a full spectrum of colour with a total output of 1.5 million lumens. The fountain performs to a range of different songs from classical to contemporary and world music. When operational, the fountain has over 22,000 gallons of water in the air at any given moment."
-        },
-        {
-          "day": "Seven",
-          "desc": ""
         }
       ],
-      "accommodation": {
-        "standard": 3,
-        "name": "Raviz Centrepoint (or similar)"
-      },
+      "accommodation": [
+        {
+          "standard": 3,
+          "name": "Raviz Centrepoint (or similar)"
+        }
+      ],
       "inclusions": [
         "6 nights hotel accommodation in selected Hotel Category.",
         "Daily buffet breakfast at hotel restaurant.",

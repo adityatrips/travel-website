@@ -4,12 +4,12 @@ import { schema } from './schema';
 
 
 
-const { Destination, ContactForm, DayWise, Inclusions, Hotels } = initSchema(schema);
+const { PackageDetailModel, ContactFormModel, InclusionInCountry, AccommodationHotelDataModel, DayWiseDataModel } = initSchema(schema);
 
 export {
-  Destination,
-  ContactForm,
-  DayWise,
-  Inclusions,
-  Hotels
+  PackageDetailModel,
+  ContactFormModel,
+  InclusionInCountry,
+  AccommodationHotelDataModel,
+  DayWiseDataModel
 };

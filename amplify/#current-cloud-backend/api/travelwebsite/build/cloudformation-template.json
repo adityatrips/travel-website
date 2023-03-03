@@ -123,7 +123,7 @@
                     ]
                 },
                 "Description": "api key description",
-                "Expires": 1680348392
+                "Expires": 1680606186
             }
         },
         "GraphQLAPINONEDS95A13CF0": {
@@ -309,7 +309,7 @@
                 ]
             }
         },
-        "Destination": {
+        "PackageDetailModel": {
             "Type": "AWS::CloudFormation::Stack",
             "Properties": {
                 "TemplateURL": {
@@ -332,7 +332,7 @@
                             {
                                 "Ref": "S3DeploymentRootKey"
                             },
-                            "/stacks/Destination.json"
+                            "/stacks/PackageDetailModel.json"
                         ]
                     ]
                 },
@@ -385,7 +385,7 @@
                 "GraphQLAPITransformerSchema3CB2AE18"
             ]
         },
-        "ContactForm": {
+        "ContactFormModel": {
             "Type": "AWS::CloudFormation::Stack",
             "Properties": {
                 "TemplateURL": {
@@ -408,7 +408,7 @@
                             {
                                 "Ref": "S3DeploymentRootKey"
                             },
-                            "/stacks/ContactForm.json"
+                            "/stacks/ContactFormModel.json"
                         ]
                     ]
                 },
@@ -443,16 +443,16 @@
                     "referencetotransformerrootstackS3DeploymentRootKeyA71EA735Ref": {
                         "Ref": "S3DeploymentRootKey"
                     },
-                    "referencetotransformerrootstackDestinationNestedStackDestinationNestedStackResourceCBE54810OutputstransformerrootstackDestinationQuerygetDestinationauth0FunctionQuerygetDestinationauth0FunctionAppSyncFunctionB346C916FunctionId": {
+                    "referencetotransformerrootstackPackageDetailModelNestedStackPackageDetailModelNestedStackResource8442541EOutputstransformerrootstackPackageDetailModelQuerygetPackageDetailModelauth0FunctionQuerygetPackageDetailModelauth0FunctionAppSyncFunct761FB6DD": {
                         "Fn::GetAtt": [
-                            "Destination",
-                            "Outputs.transformerrootstackDestinationQuerygetDestinationauth0FunctionQuerygetDestinationauth0FunctionAppSyncFunctionB346C916FunctionId"
+                            "PackageDetailModel",
+                            "Outputs.transformerrootstackPackageDetailModelQuerygetPackageDetailModelauth0FunctionQuerygetPackageDetailModelauth0FunctionAppSyncFunction0139A520FunctionId"
                         ]
                     },
-                    "referencetotransformerrootstackDestinationNestedStackDestinationNestedStackResourceCBE54810OutputstransformerrootstackDestinationQuerygetDestinationpostAuth0FunctionQuerygetDestinationpostAuth0FunctionAppSyncFunction488A4B92FunctionId": {
+                    "referencetotransformerrootstackPackageDetailModelNestedStackPackageDetailModelNestedStackResource8442541EOutputstransformerrootstackPackageDetailModelQuerygetPackageDetailModelpostAuth0FunctionQuerygetPackageDetailModelpostAuth0FunctionAppS61F82367": {
                         "Fn::GetAtt": [
-                            "Destination",
-                            "Outputs.transformerrootstackDestinationQuerygetDestinationpostAuth0FunctionQuerygetDestinationpostAuth0FunctionAppSyncFunction488A4B92FunctionId"
+                            "PackageDetailModel",
+                            "Outputs.transformerrootstackPackageDetailModelQuerygetPackageDetailModelpostAuth0FunctionQuerygetPackageDetailModelpostAuth0FunctionAppSyncFunctionC1F33B2EFunctionId"
                         ]
                     },
                     "referencetotransformerrootstackauthRoleNameFB872D50Ref": {
@@ -461,34 +461,34 @@
                     "referencetotransformerrootstackunauthRoleName49F3C1FERef": {
                         "Ref": "unauthRoleName"
                     },
-                    "referencetotransformerrootstackDestinationNestedStackDestinationNestedStackResourceCBE54810OutputstransformerrootstackDestinationMutationcreateDestinationinit0FunctionMutationcreateDestinationinit0FunctionAppSyncFunctionFF90C13AFunctionId": {
+                    "referencetotransformerrootstackPackageDetailModelNestedStackPackageDetailModelNestedStackResource8442541EOutputstransformerrootstackPackageDetailModelMutationcreatePackageDetailModelinit0FunctionMutationcreatePackageDetailModelinit0Function79D4E9F6": {
                         "Fn::GetAtt": [
-                            "Destination",
-                            "Outputs.transformerrootstackDestinationMutationcreateDestinationinit0FunctionMutationcreateDestinationinit0FunctionAppSyncFunctionFF90C13AFunctionId"
+                            "PackageDetailModel",
+                            "Outputs.transformerrootstackPackageDetailModelMutationcreatePackageDetailModelinit0FunctionMutationcreatePackageDetailModelinit0FunctionAppSyncFunction1719062CFunctionId"
                         ]
                     },
-                    "referencetotransformerrootstackDestinationNestedStackDestinationNestedStackResourceCBE54810OutputstransformerrootstackDestinationMutationcreateDestinationauth0FunctionMutationcreateDestinationauth0FunctionAppSyncFunctionE6237C1CFunctionId": {
+                    "referencetotransformerrootstackPackageDetailModelNestedStackPackageDetailModelNestedStackResource8442541EOutputstransformerrootstackPackageDetailModelMutationcreatePackageDetailModelauth0FunctionMutationcreatePackageDetailModelauth0Function6BBFA48D": {
                         "Fn::GetAtt": [
-                            "Destination",
-                            "Outputs.transformerrootstackDestinationMutationcreateDestinationauth0FunctionMutationcreateDestinationauth0FunctionAppSyncFunctionE6237C1CFunctionId"
+                            "PackageDetailModel",
+                            "Outputs.transformerrootstackPackageDetailModelMutationcreatePackageDetailModelauth0FunctionMutationcreatePackageDetailModelauth0FunctionAppSyncFunctionF548A275FunctionId"
                         ]
                     },
-                    "referencetotransformerrootstackDestinationNestedStackDestinationNestedStackResourceCBE54810OutputstransformerrootstackDestinationMutationupdateDestinationinit0FunctionMutationupdateDestinationinit0FunctionAppSyncFunctionF02706C3FunctionId": {
+                    "referencetotransformerrootstackPackageDetailModelNestedStackPackageDetailModelNestedStackResource8442541EOutputstransformerrootstackPackageDetailModelMutationupdatePackageDetailModelinit0FunctionMutationupdatePackageDetailModelinit0Function23D76F7C": {
                         "Fn::GetAtt": [
-                            "Destination",
-                            "Outputs.transformerrootstackDestinationMutationupdateDestinationinit0FunctionMutationupdateDestinationinit0FunctionAppSyncFunctionF02706C3FunctionId"
+                            "PackageDetailModel",
+                            "Outputs.transformerrootstackPackageDetailModelMutationupdatePackageDetailModelinit0FunctionMutationupdatePackageDetailModelinit0FunctionAppSyncFunctionE2EC41C4FunctionId"
                         ]
                     },
-                    "referencetotransformerrootstackDestinationNestedStackDestinationNestedStackResourceCBE54810OutputstransformerrootstackDestinationSubscriptiononCreateDestinationauth0FunctionSubscriptiononCreateDestinationauth0FunctionAppSyncFunctionF3AE4357FunctionId": {
+                    "referencetotransformerrootstackPackageDetailModelNestedStackPackageDetailModelNestedStackResource8442541EOutputstransformerrootstackPackageDetailModelSubscriptiononCreatePackageDetailModelauth0FunctionSubscriptiononCreatePackageDetailModela95CEABD4": {
                         "Fn::GetAtt": [
-                            "Destination",
-                            "Outputs.transformerrootstackDestinationSubscriptiononCreateDestinationauth0FunctionSubscriptiononCreateDestinationauth0FunctionAppSyncFunctionF3AE4357FunctionId"
+                            "PackageDetailModel",
+                            "Outputs.transformerrootstackPackageDetailModelSubscriptiononCreatePackageDetailModelauth0FunctionSubscriptiononCreatePackageDetailModelauth0FunctionAppSyncFunctionB93AE921FunctionId"
                         ]
                     },
-                    "referencetotransformerrootstackDestinationNestedStackDestinationNestedStackResourceCBE54810OutputstransformerrootstackDestinationSubscriptionOnCreateDestinationDataResolverFnSubscriptionOnCreateDestinationDataResolverFnAppSyncFunction2B5D2B17FunctionId": {
+                    "referencetotransformerrootstackPackageDetailModelNestedStackPackageDetailModelNestedStackResource8442541EOutputstransformerrootstackPackageDetailModelSubscriptionOnCreatePackageDetailModelDataResolverFnSubscriptionOnCreatePackageDetailModel734F4F76": {
                         "Fn::GetAtt": [
-                            "Destination",
-                            "Outputs.transformerrootstackDestinationSubscriptionOnCreateDestinationDataResolverFnSubscriptionOnCreateDestinationDataResolverFnAppSyncFunction2B5D2B17FunctionId"
+                            "PackageDetailModel",
+                            "Outputs.transformerrootstackPackageDetailModelSubscriptionOnCreatePackageDetailModelDataResolverFnSubscriptionOnCreatePackageDetailModelDataResolverFnAppSyncFunction911E1A9EFunctionId"
                         ]
                     }
                 }
@@ -540,8 +540,8 @@
             "DependsOn": [
                 "GraphQLAPI",
                 "GraphQLAPITransformerSchema3CB2AE18",
-                "Destination",
-                "ContactForm"
+                "PackageDetailModel",
+                "ContactFormModel"
             ]
         }
     },

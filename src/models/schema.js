@@ -1,7 +1,7 @@
 export const schema = {
     "models": {
-        "Destination": {
-            "name": "Destination",
+        "PackageDetailModel": {
+            "name": "PackageDetailModel",
             "fields": {
                 "id": {
                     "name": "id",
@@ -17,8 +17,15 @@ export const schema = {
                     "isRequired": false,
                     "attributes": []
                 },
-                "title": {
-                    "name": "title",
+                "name": {
+                    "name": "name",
+                    "isArray": false,
+                    "type": "String",
+                    "isRequired": false,
+                    "attributes": []
+                },
+                "link": {
+                    "name": "link",
                     "isArray": false,
                     "type": "String",
                     "isRequired": false,
@@ -32,19 +39,21 @@ export const schema = {
                     "attributes": [],
                     "isArrayNullable": true
                 },
-                "inclusions": {
-                    "name": "inclusions",
+                "day_wise": {
+                    "name": "day_wise",
                     "isArray": true,
-                    "type": "String",
+                    "type": {
+                        "nonModel": "DayWiseDataModel"
+                    },
                     "isRequired": false,
                     "attributes": [],
                     "isArrayNullable": true
                 },
-                "inclusionsPerCountry": {
-                    "name": "inclusionsPerCountry",
+                "accommodation_hotel_wise": {
+                    "name": "accommodation_hotel_wise",
                     "isArray": true,
                     "type": {
-                        "nonModel": "Inclusions"
+                        "nonModel": "AccommodationHotelDataModel"
                     },
                     "isRequired": false,
                     "attributes": [],
@@ -66,29 +75,20 @@ export const schema = {
                     "attributes": [],
                     "isArrayNullable": true
                 },
-                "accommodationsPerHotel": {
-                    "name": "accommodationsPerHotel",
+                "inclusions_country_wise": {
+                    "name": "inclusions_country_wise",
                     "isArray": true,
                     "type": {
-                        "nonModel": "Hotels"
+                        "nonModel": "InclusionInCountry"
                     },
                     "isRequired": false,
                     "attributes": [],
                     "isArrayNullable": true
                 },
-                "link": {
-                    "name": "link",
-                    "isArray": false,
-                    "type": "String",
-                    "isRequired": false,
-                    "attributes": []
-                },
-                "dayWise": {
-                    "name": "dayWise",
+                "inclusions_list": {
+                    "name": "inclusions_list",
                     "isArray": true,
-                    "type": {
-                        "nonModel": "DayWise"
-                    },
+                    "type": "String",
                     "isRequired": false,
                     "attributes": [],
                     "isArrayNullable": true
@@ -111,7 +111,7 @@ export const schema = {
                 }
             },
             "syncable": true,
-            "pluralName": "Destinations",
+            "pluralName": "PackageDetailModels",
             "attributes": [
                 {
                     "type": "model",
@@ -135,8 +135,8 @@ export const schema = {
                 }
             ]
         },
-        "ContactForm": {
-            "name": "ContactForm",
+        "ContactFormModel": {
+            "name": "ContactFormModel",
             "fields": {
                 "id": {
                     "name": "id",
@@ -166,8 +166,8 @@ export const schema = {
                     "isRequired": false,
                     "attributes": []
                 },
-                "packageCode": {
-                    "name": "packageCode",
+                "package_code": {
+                    "name": "package_code",
                     "isArray": false,
                     "type": "String",
                     "isRequired": false,
@@ -198,7 +198,7 @@ export const schema = {
                 }
             },
             "syncable": true,
-            "pluralName": "ContactForms",
+            "pluralName": "ContactFormModels",
             "attributes": [
                 {
                     "type": "model",
@@ -225,8 +225,40 @@ export const schema = {
     },
     "enums": {},
     "nonModels": {
-        "DayWise": {
-            "name": "DayWise",
+        "InclusionInCountry": {
+            "name": "InclusionInCountry",
+            "fields": {
+                "Country": {
+                    "name": "Country",
+                    "isArray": true,
+                    "type": "AWSJSON",
+                    "isRequired": false,
+                    "attributes": [],
+                    "isArrayNullable": true
+                }
+            }
+        },
+        "AccommodationHotelDataModel": {
+            "name": "AccommodationHotelDataModel",
+            "fields": {
+                "standard": {
+                    "name": "standard",
+                    "isArray": false,
+                    "type": "String",
+                    "isRequired": false,
+                    "attributes": []
+                },
+                "name": {
+                    "name": "name",
+                    "isArray": false,
+                    "type": "String",
+                    "isRequired": false,
+                    "attributes": []
+                }
+            }
+        },
+        "DayWiseDataModel": {
+            "name": "DayWiseDataModel",
             "fields": {
                 "day": {
                     "name": "day",
@@ -243,123 +275,8 @@ export const schema = {
                     "attributes": []
                 }
             }
-        },
-        "Inclusions": {
-            "name": "Inclusions",
-            "fields": {
-                "France": {
-                    "name": "France",
-                    "isArray": false,
-                    "type": "String",
-                    "isRequired": false,
-                    "attributes": []
-                },
-                "Switzerland": {
-                    "name": "Switzerland",
-                    "isArray": false,
-                    "type": "String",
-                    "isRequired": false,
-                    "attributes": []
-                },
-                "Italy": {
-                    "name": "Italy",
-                    "isArray": false,
-                    "type": "String",
-                    "isRequired": false,
-                    "attributes": []
-                },
-                "VaticanCity": {
-                    "name": "VaticanCity",
-                    "isArray": false,
-                    "type": "String",
-                    "isRequired": false,
-                    "attributes": []
-                },
-                "UnitedKingdom": {
-                    "name": "UnitedKingdom",
-                    "isArray": false,
-                    "type": "String",
-                    "isRequired": false,
-                    "attributes": []
-                },
-                "Belgium": {
-                    "name": "Belgium",
-                    "isArray": false,
-                    "type": "String",
-                    "isRequired": false,
-                    "attributes": []
-                },
-                "Netherlands": {
-                    "name": "Netherlands",
-                    "isArray": false,
-                    "type": "String",
-                    "isRequired": false,
-                    "attributes": []
-                },
-                "Germany": {
-                    "name": "Germany",
-                    "isArray": false,
-                    "type": "String",
-                    "isRequired": false,
-                    "attributes": []
-                },
-                "Liechtenstein": {
-                    "name": "Liechtenstein",
-                    "isArray": false,
-                    "type": "String",
-                    "isRequired": false,
-                    "attributes": []
-                },
-                "Greece": {
-                    "name": "Greece",
-                    "isArray": false,
-                    "type": "String",
-                    "isRequired": false,
-                    "attributes": []
-                },
-                "Amsterdam": {
-                    "name": "Amsterdam",
-                    "isArray": false,
-                    "type": "String",
-                    "isRequired": false,
-                    "attributes": []
-                },
-                "Lucerene": {
-                    "name": "Lucerene",
-                    "isArray": false,
-                    "type": "String",
-                    "isRequired": false,
-                    "attributes": []
-                },
-                "Zurich": {
-                    "name": "Zurich",
-                    "isArray": false,
-                    "type": "String",
-                    "isRequired": false,
-                    "attributes": []
-                }
-            }
-        },
-        "Hotels": {
-            "name": "Hotels",
-            "fields": {
-                "hotelName": {
-                    "name": "hotelName",
-                    "isArray": false,
-                    "type": "String",
-                    "isRequired": false,
-                    "attributes": []
-                },
-                "starRating": {
-                    "name": "starRating",
-                    "isArray": false,
-                    "type": "String",
-                    "isRequired": false,
-                    "attributes": []
-                }
-            }
         }
     },
     "codegenVersion": "3.3.6",
-    "version": "85be6f421916b27036cbee04c9c233a8"
+    "version": "c29f09d0fa625d3d7a8fd588cc59ff8a"
 };

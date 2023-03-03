@@ -5,10 +5,12 @@
       "name": "Exclusive Europe",
       "link": "/package/europe/exclusive-europe",
       "countries": [
+        "Europe",
         "France",
         "Switzerland",
         "Italy",
-        "Vatican City"
+        "VaticanCity",
+        "Spain"
       ],
       "day_wise": [
         {
@@ -106,7 +108,7 @@
           "Guided City tour with a local English speaking guide",
           "Visit to Trevi Fountain"
         ],
-        "Vatican City": [
+        "VaticanCity": [
           "Daily Continental Buffet Breakfast",
           "Daily Indian/ Jain/ Vegetarian/ Non Vegetarian Lunch & Dinner in Select Cities*",
           "Visit the Vatican Museum – see sculptures and masterpieces of Renaissance art",
@@ -134,6 +136,7 @@
       "name": "Fascinating Paris & Swiss",
       "link": "/package/europe/fascinating-paris-and-swiss",
       "countries": [
+        "Europe",
         "France",
         "Switzerland"
       ],
@@ -213,6 +216,18 @@
       "code": "12 Nights & 13 Days",
       "name": "Best of Europe",
       "link": "/package/europe/best-of-europe",
+      "countries": [
+        "France",
+        "Belgium",
+        "Netherlands",
+        "Germany",
+        "Switzerland",
+        "Liechtenstein",
+        "Austria",
+        "Italy",
+        "VaticanCity",
+        "Europe"
+      ],
       "day_wise": [
         {
           "day": "One",
@@ -342,7 +357,7 @@
           "Guided City tour with a local English speaking guide",
           "Visit to Trevi Fountain"
         ],
-        "Vatican City": [
+        "VaticanCity": [
           "Daily Continental Buffet Breakfast",
           "Visit the Vatican Museum – see sculptures and masterpieces of Renaissance art",
           "Visit to the awe-inspiring Sistine Chapel",
@@ -363,6 +378,7 @@
       "name": "Grand Wonders of Europe",
       "link": "/package/europe/grand-wonders-of-europe",
       "countries": [
+        "Europe",
         "United Kingdom",
         "France",
         "Belgium",
@@ -371,7 +387,7 @@
         "Switzerland",
         "Liechtenstein",
         "Italy",
-        "Vatican City"
+        "VaticanCity"
       ],
       "day_wise": [
         {
@@ -446,8 +462,10 @@
         "1-night accommodation in B&B/Park/A Point or similar hotel in Tuscany",
         "1-night accommodation in SHG/Hampton by Hilton/Marriott or similar hotel in Rome"
       ],
-      "inclusions": {
-      },
+      "inclusions": [
+        {
+        }
+      ],
       "exclusions": [
         "The cost of the Airfare, Passport, POE charges, Visa charges, Overseas Travel Insurance, etc.",
         "Any expenses of personal nature such as Porterage, Laundry, and Alcohol, Food or Drink not in the regular menus provided by us, mini bar and telephone calls",
@@ -462,10 +480,11 @@
       "link": "/package/europe/exclusive-europe-1",
       "name": "Exclusive Europe (1)",
       "countries": [
+        "Europe",
         "France",
         "Switzerland",
         "Italy",
-        "Vatican City"
+        "VaticanCity"
       ],
       "day_wise": [
         {
@@ -557,7 +576,7 @@
           "Guided City tour with a local English speaking guide",
           "Visit to Trevi Fountain"
         ],
-        "Vatican City": [
+        "VaticanCity": [
           "Daily Continental Buffet Breakfast",
           "Daily Indian/ Jain/ Vegetarian/ Non Vegetarian Lunch & Dinner in Select Cities*",
           "Visit the Vatican Museum – see sculptures and masterpieces of Renaissance art",
@@ -579,6 +598,7 @@
       "name": "Grand Train Tour",
       "link": "/package/europe/grand-train-tour",
       "countries": [
+        "Europe",
         "Switzerland"
       ],
       "day_wise": [
@@ -649,6 +669,7 @@
       "name": "Greece Holiday Package",
       "link": "/package/europe/greece-holiday-package",
       "countries": [
+        "Europe",
         "Greece"
       ],
       "day_wise": [
@@ -713,7 +734,11 @@
       "name": "Swiss Premium Tour",
       "link": "/package/europe/swiss-premium-tour",
       "countries": [
-        "Switzerland"
+        "Europe",
+        "Lucerene",
+        "Interlaken",
+        "Zermatt",
+        "StMoritz"
       ],
       "day_wise": [
         {
@@ -770,7 +795,7 @@
           "Daily Continental Buffet Breakfast",
           "Excursion to Gornergrat"
         ],
-        "St. Moritz": [
+        "StMoritz": [
           "Daily Continental Buffet Breakfast",
           "Glacier express from Zermatt to St Moritz"
         ]
@@ -792,7 +817,8 @@
         "Amsterdam",
         "Paris",
         "Lucerene",
-        "Zurich"
+        "Zurich",
+        "Europe"
       ],
       "day_wise": [
         {

@@ -1,49 +1,37 @@
-type DayWise {
+type InclusionInCountry {
+  Country: [AWSJSON]
+}
+
+type AccommodationHotelDataModel {
+  standard: String
+  name: String
+}
+
+type DayWiseDataModel {
   day: String
   desc: String
 }
 
-type Inclusions {
-  France: String
-  Switzerland: String
-  Italy: String
-  VaticanCity: String
-  UnitedKingdom: String
-  Belgium: String
-  Netherlands: String
-  Germany: String
-  Liechtenstein: String
-  Greece: String
-  Amsterdam: String
-  Lucerene: String
-  Zurich: String
-}
-
-type Hotels {
-  hotelName: String
-  starRating: String
-}
-
-type Destination @model @auth(rules: [{allow: public}]) {
-  id: ID!
+type PackageDetailModel @model @auth(rules: [{allow: public}]) {
   code: String
-  title: String
+  name: String
+  link: String
   countries: [String]
-  inclusions: [String]
-  inclusionsPerCountry: [Inclusions]
+  day_wise: [DayWiseDataModel]
+  accommodation_hotel_wise: [AccommodationHotelDataModel]
   accommodation: [String]
   exclusions: [String]
-  accommodationsPerHotel: [Hotels]
-  link: String
-  dayWise: [DayWise]
+  inclusions_country_wise: [InclusionInCountry]
+  inclusions_list: [String]
+  id: ID!
 }
 
-type ContactForm @model @auth(rules: [{allow: public}]) {
+type ContactFormModel @model @auth(rules: [{allow: public}]) {
   id: ID!
   name: String
   email: String
   phone: String
-  packageCode: String
+  package_code: String
   query: String
 }
  

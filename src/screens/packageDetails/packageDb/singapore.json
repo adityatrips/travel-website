@@ -26,10 +26,12 @@
           "desc": "Enjoy your last morning in Singapore before checking out and being transferred to the airport, where you will depart for your destination with bags full of souvenirs and happy memories."
         }
       ],
-      "accommodation": {
-        "standard": 3,
-        "name": "Aqueen Heritage Little India | Ibis Novena or similar"
-      },
+      "accommodation": [
+        {
+          "standard": 3,
+          "name": "Aqueen Heritage Little India | Ibis Novena or similar"
+        }
+      ],
       "inclusions": [
         "4 Nights’ accommodation with breakfast in selected hotel category",
         "Return Airport Transfers on Seat In Coach Basis",
@@ -89,10 +91,12 @@
           "desc": "Enjoy your last morning in Malaysia before checking out of your hotel and being transferred to the airport, where you will depart for your destination with bags full of souvenirs and happy memories."
         }
       ],
-      "accommodation": {
-        "standard": 3,
-        "name": "(Singapore) Aqueen Heritage Little India | (Kuala Lumpur) Areena Star or Genting Highland-First World"
-      },
+      "accommodation": [
+        {
+          "standard": 3,
+          "name": "(Singapore) Aqueen Heritage Little India | (Kuala Lumpur) Areena Star or Genting Highland-First World"
+        }
+      ],
       "inclusions": [
         "3 Nights’ accommodation in Singapore in choice of selected hotel category",
         "2 Nights’ accommodation in Kuala Lumpur in choice of selected hotel category",
@@ -152,10 +156,12 @@
           "desc": "Enjoy your last minute shopping in Singapore. Depending on your flight times guest will be transferred to the airport, where you will depart for your onward destination with bags full of souvenirs and happy memories."
         }
       ],
-      "accommodation": {
-        "standard": 3,
-        "name": "Aqueen Heritage Little India or similar"
-      },
+      "accommodation": [
+        {
+          "standard": 3,
+          "name": "Aqueen Heritage Little India or similar"
+        }
+      ],
       "inclusions": [
         "4 Nights’ accommodation with breakfast in selected hotel category",
         "Return Airport Transfers on Seat In Coach Basis",
@@ -205,10 +211,12 @@
           "desc": "Enjoy your last minute shopping in Singapore. Depending on your flight times guest will be transferred to the airport, where you will depart for your onward destination with bags full of souvenirs and happy memories."
         }
       ],
-      "accommodation": {
-        "standard": 3,
-        "name": "(Singapore) Aqueen Heritage Little India | (Kuala Lumpur) Areena Star or Genting Highland-First World"
-      },
+      "accommodation": [
+        {
+          "standard": 3,
+          "name": "(Singapore) Aqueen Heritage Little India | (Kuala Lumpur) Areena Star or Genting Highland-First World"
+        }
+      ],
       "inclusions": [
         "4 Nights’ accommodation with breakfast in selected hotel category",
         "Return Airport Transfers on Seat In Coach Basis",
@@ -271,10 +279,12 @@
           "desc": "Enjoy your last morning in Singapore before checking out and being transferred to the airport, where you will depart for your destination with bags full of souvenirs and happy memories. Please note Cruise arrives in Singapore at around (10:00 AM)."
         }
       ],
-      "accommodation": {
-        "standard": 3,
-        "name": "4 Nights (Singapore): Hotel Ibis Novena or Aqueen Heritage Little India or similar  | 3 Nights (Cruise: Inside State Room"
-      },
+      "accommodation": [
+        {
+          "standard": 3,
+          "name": "4 Nights (Singapore): Hotel Ibis Novena or Aqueen Heritage Little India or similar  | 3 Nights (Cruise: Inside State Room"
+        }
+      ],
       "inclusions": [
         "3 Nights’ accommodation with breakfast in selected hotel category",
         "3 Nights’ accommodation in Genting Dream Cruise (Sunday Sailing) in choice of selected cabin Cruise Port Charges",
@@ -352,10 +362,12 @@
           "desc": "Enjoy your last day in Bali before checking out and being transferred to the airport, where you will depart for your destination with bags full of souvenirs and happy memories."
         }
       ],
-      "accommodation": {
-        "standard": 3,
-        "name": "(Singapore) : Value Hotel Thomson or similar | (Bali) Fave Hotel Kuta or similar "
-      },
+      "accommodation": [
+        {
+          "standard": 3,
+          "name": "(Singapore) : Value Hotel Thomson or similar | (Bali) Fave Hotel Kuta or similar "
+        }
+      ],
       "inclusions": [
         "4 Nights’ accommodation in Singapore with breakfast in selected hotel category",
         "4 Nights’ accommodation in Bali with breakfast in selected hotel category",

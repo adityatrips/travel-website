@@ -4,148 +4,124 @@ import { LazyLoading, LazyLoadingDisabled } from "@aws-amplify/datastore";
 
 
 
-type EagerDayWise = {
+type EagerInclusionInCountry = {
+  readonly Country?: (string | null)[] | null;
+}
+
+type LazyInclusionInCountry = {
+  readonly Country?: (string | null)[] | null;
+}
+
+export declare type InclusionInCountry = LazyLoading extends LazyLoadingDisabled ? EagerInclusionInCountry : LazyInclusionInCountry
+
+export declare const InclusionInCountry: (new (init: ModelInit<InclusionInCountry>) => InclusionInCountry)
+
+type EagerAccommodationHotelDataModel = {
+  readonly standard?: string | null;
+  readonly name?: string | null;
+}
+
+type LazyAccommodationHotelDataModel = {
+  readonly standard?: string | null;
+  readonly name?: string | null;
+}
+
+export declare type AccommodationHotelDataModel = LazyLoading extends LazyLoadingDisabled ? EagerAccommodationHotelDataModel : LazyAccommodationHotelDataModel
+
+export declare const AccommodationHotelDataModel: (new (init: ModelInit<AccommodationHotelDataModel>) => AccommodationHotelDataModel)
+
+type EagerDayWiseDataModel = {
   readonly day?: string | null;
   readonly desc?: string | null;
 }
 
-type LazyDayWise = {
+type LazyDayWiseDataModel = {
   readonly day?: string | null;
   readonly desc?: string | null;
 }
 
-export declare type DayWise = LazyLoading extends LazyLoadingDisabled ? EagerDayWise : LazyDayWise
+export declare type DayWiseDataModel = LazyLoading extends LazyLoadingDisabled ? EagerDayWiseDataModel : LazyDayWiseDataModel
 
-export declare const DayWise: (new (init: ModelInit<DayWise>) => DayWise)
+export declare const DayWiseDataModel: (new (init: ModelInit<DayWiseDataModel>) => DayWiseDataModel)
 
-type EagerInclusions = {
-  readonly France?: string | null;
-  readonly Switzerland?: string | null;
-  readonly Italy?: string | null;
-  readonly VaticanCity?: string | null;
-  readonly UnitedKingdom?: string | null;
-  readonly Belgium?: string | null;
-  readonly Netherlands?: string | null;
-  readonly Germany?: string | null;
-  readonly Liechtenstein?: string | null;
-  readonly Greece?: string | null;
-  readonly Amsterdam?: string | null;
-  readonly Lucerene?: string | null;
-  readonly Zurich?: string | null;
-}
-
-type LazyInclusions = {
-  readonly France?: string | null;
-  readonly Switzerland?: string | null;
-  readonly Italy?: string | null;
-  readonly VaticanCity?: string | null;
-  readonly UnitedKingdom?: string | null;
-  readonly Belgium?: string | null;
-  readonly Netherlands?: string | null;
-  readonly Germany?: string | null;
-  readonly Liechtenstein?: string | null;
-  readonly Greece?: string | null;
-  readonly Amsterdam?: string | null;
-  readonly Lucerene?: string | null;
-  readonly Zurich?: string | null;
-}
-
-export declare type Inclusions = LazyLoading extends LazyLoadingDisabled ? EagerInclusions : LazyInclusions
-
-export declare const Inclusions: (new (init: ModelInit<Inclusions>) => Inclusions)
-
-type EagerHotels = {
-  readonly hotelName?: string | null;
-  readonly starRating?: string | null;
-}
-
-type LazyHotels = {
-  readonly hotelName?: string | null;
-  readonly starRating?: string | null;
-}
-
-export declare type Hotels = LazyLoading extends LazyLoadingDisabled ? EagerHotels : LazyHotels
-
-export declare const Hotels: (new (init: ModelInit<Hotels>) => Hotels)
-
-type EagerDestination = {
+type EagerPackageDetailModel = {
   readonly [__modelMeta__]: {
-    identifier: ManagedIdentifier<Destination, 'id'>;
+    identifier: ManagedIdentifier<PackageDetailModel, 'id'>;
     readOnlyFields: 'createdAt' | 'updatedAt';
   };
   readonly id: string;
   readonly code?: string | null;
-  readonly title?: string | null;
+  readonly name?: string | null;
+  readonly link?: string | null;
   readonly countries?: (string | null)[] | null;
-  readonly inclusions?: (string | null)[] | null;
-  readonly inclusionsPerCountry?: (Inclusions | null)[] | null;
+  readonly day_wise?: (DayWiseDataModel | null)[] | null;
+  readonly accommodation_hotel_wise?: (AccommodationHotelDataModel | null)[] | null;
   readonly accommodation?: (string | null)[] | null;
   readonly exclusions?: (string | null)[] | null;
-  readonly accommodationsPerHotel?: (Hotels | null)[] | null;
-  readonly link?: string | null;
-  readonly dayWise?: (DayWise | null)[] | null;
+  readonly inclusions_country_wise?: (InclusionInCountry | null)[] | null;
+  readonly inclusions_list?: (string | null)[] | null;
   readonly createdAt?: string | null;
   readonly updatedAt?: string | null;
 }
 
-type LazyDestination = {
+type LazyPackageDetailModel = {
   readonly [__modelMeta__]: {
-    identifier: ManagedIdentifier<Destination, 'id'>;
+    identifier: ManagedIdentifier<PackageDetailModel, 'id'>;
     readOnlyFields: 'createdAt' | 'updatedAt';
   };
   readonly id: string;
   readonly code?: string | null;
-  readonly title?: string | null;
+  readonly name?: string | null;
+  readonly link?: string | null;
   readonly countries?: (string | null)[] | null;
-  readonly inclusions?: (string | null)[] | null;
-  readonly inclusionsPerCountry?: (Inclusions | null)[] | null;
+  readonly day_wise?: (DayWiseDataModel | null)[] | null;
+  readonly accommodation_hotel_wise?: (AccommodationHotelDataModel | null)[] | null;
   readonly accommodation?: (string | null)[] | null;
   readonly exclusions?: (string | null)[] | null;
-  readonly accommodationsPerHotel?: (Hotels | null)[] | null;
-  readonly link?: string | null;
-  readonly dayWise?: (DayWise | null)[] | null;
+  readonly inclusions_country_wise?: (InclusionInCountry | null)[] | null;
+  readonly inclusions_list?: (string | null)[] | null;
   readonly createdAt?: string | null;
   readonly updatedAt?: string | null;
 }
 
-export declare type Destination = LazyLoading extends LazyLoadingDisabled ? EagerDestination : LazyDestination
+export declare type PackageDetailModel = LazyLoading extends LazyLoadingDisabled ? EagerPackageDetailModel : LazyPackageDetailModel
 
-export declare const Destination: (new (init: ModelInit<Destination>) => Destination) & {
-  copyOf(source: Destination, mutator: (draft: MutableModel<Destination>) => MutableModel<Destination> | void): Destination;
+export declare const PackageDetailModel: (new (init: ModelInit<PackageDetailModel>) => PackageDetailModel) & {
+  copyOf(source: PackageDetailModel, mutator: (draft: MutableModel<PackageDetailModel>) => MutableModel<PackageDetailModel> | void): PackageDetailModel;
 }
 
-type EagerContactForm = {
+type EagerContactFormModel = {
   readonly [__modelMeta__]: {
-    identifier: ManagedIdentifier<ContactForm, 'id'>;
+    identifier: ManagedIdentifier<ContactFormModel, 'id'>;
     readOnlyFields: 'createdAt' | 'updatedAt';
   };
   readonly id: string;
   readonly name?: string | null;
   readonly email?: string | null;
   readonly phone?: string | null;
-  readonly packageCode?: string | null;
+  readonly package_code?: string | null;
   readonly query?: string | null;
   readonly createdAt?: string | null;
   readonly updatedAt?: string | null;
 }
 
-type LazyContactForm = {
+type LazyContactFormModel = {
   readonly [__modelMeta__]: {
-    identifier: ManagedIdentifier<ContactForm, 'id'>;
+    identifier: ManagedIdentifier<ContactFormModel, 'id'>;
     readOnlyFields: 'createdAt' | 'updatedAt';
   };
   readonly id: string;
   readonly name?: string | null;
   readonly email?: string | null;
   readonly phone?: string | null;
-  readonly packageCode?: string | null;
+  readonly package_code?: string | null;
   readonly query?: string | null;
   readonly createdAt?: string | null;
   readonly updatedAt?: string | null;
 }
 
-export declare type ContactForm = LazyLoading extends LazyLoadingDisabled ? EagerContactForm : LazyContactForm
+export declare type ContactFormModel = LazyLoading extends LazyLoadingDisabled ? EagerContactFormModel : LazyContactFormModel
 
-export declare const ContactForm: (new (init: ModelInit<ContactForm>) => ContactForm) & {
-  copyOf(source: ContactForm, mutator: (draft: MutableModel<ContactForm>) => MutableModel<ContactForm> | void): ContactForm;
+export declare const ContactFormModel: (new (init: ModelInit<ContactFormModel>) => ContactFormModel) & {
+  copyOf(source: ContactFormModel, mutator: (draft: MutableModel<ContactFormModel>) => MutableModel<ContactFormModel> | void): ContactFormModel;
 }

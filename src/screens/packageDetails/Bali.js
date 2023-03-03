@@ -1,46 +1,68 @@
-import React from "react";
-import {UncontrolledCarousel} from "reactstrap";
+import React, {useEffect, useState} from "react";
+import {
+  Button,
+  Card,
+  CardText,
+  CardTitle, Col, Row,
+  UncontrolledCarousel
+} from "reactstrap";
 
 import JSON from "./packageDb/bali.json";
 
 import {DataStore} from "@aws-amplify/datastore";
-import {DayWise, Destination} from "../../models";
+import {DayWiseDataModel, PackageDetailModel} from "../../models";
+import {Link} from "react-router-dom";
+import baliDest from "./BaliDest";
 
 const Bali = () => {
   const {bali} = JSON;
 
-  const upload = async () => {
-    let dayWiseArr = [];
-    
-    for (let item of bali) {
-      Array(bali.day_wise).map(d => {
-        dayWiseArr.push(new DayWise({
-          "day": d.day,
-          "desc": d.desc
-        }));
-      });
-    }
+  const [data, setData] = useState(null);
 
-    for (let item of bali) {
-      await DataStore.save(
-          new Destination({
-            "code": item.code,
-            "title": item.name,
-            "countries": [],
-            "inclusions": [],
-            "dayWise": dayWiseArr,
-            "inclusionsPerCountry": [],
+  useEffect(() => {
+    getData();
+  }, []);
+
+  const getData = async () => {
+    const models = await DataStore.query(PackageDetailModel,
+        (c) => c.countries.contains("Bali"));
+    setData(models);
+  };
+
+  const createDayWise = (day) => {
+    return new DayWiseDataModel({
+      "day": day.day,
+      "desc": day.desc
+    });
+  };
+
+  const upload = async () => {
+    await bali.forEach(pack => {
+      let dayWise = [];
+      for (let day of pack.day_wise) {
+        dayWise.push(createDayWise(day));
+      }
+
+      DataStore.save(
+          new PackageDetailModel({
+            "code": pack.code,
+            "name": pack.name,
+            "link": pack.link,
+            "countries": ["Bali"],
+            "day_wise": dayWise,
+            "accommodation_hotel_wise": [],
             "accommodation": [],
             "exclusions": [],
-            "accommodationsPerHotel": [],
-            "link": item.link
+            "inclusions_country_wise": [],
+            "inclusions_list": []
           })
       );
-    }
+    });
   };
 
   return (
       <div>
+        {/*<button onClick={upload}>Up</button>*/}
         <UncontrolledCarousel
             slide={true}
             fade={true}
@@ -69,7 +91,30 @@ const Bali = () => {
             ]}
         />
         <div className="container">
-          <button onClick={upload}>Up</button>
+          <Row>
+            {data?.map(item => (
+                <Col sm={12} md={6}>
+                  <Card
+                      body
+                      className="my-2 w-100"
+                  >
+                    <CardTitle tag="h5">
+                      ({item.code}) {item.title}
+                    </CardTitle>
+                    <CardText>
+                      With supporting text below as a natural lead-in to
+                      additional
+                      content.
+                    </CardText>
+                    <Link to={item.link}>
+                      <Button block color="primary">
+                        Go!
+                      </Button>
+                    </Link>
+                  </Card>
+                </Col>
+            ))}
+          </Row>
         </div>
       </div>
   );

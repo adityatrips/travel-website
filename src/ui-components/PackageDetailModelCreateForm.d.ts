@@ -5,9 +5,8 @@
  **************************************************************************/
 
 import * as React from "react";
-import {GridProps, TextFieldProps} from "@aws-amplify/ui-react";
-import {EscapeHatchProps} from "@aws-amplify/ui-react/internal";
-
+import { GridProps, TextFieldProps } from "@aws-amplify/ui-react";
+import { EscapeHatchProps } from "@aws-amplify/ui-react/internal";
 export declare type ValidationResponse = {
     hasError: boolean;
     errorMessage?: string;
@@ -16,31 +15,31 @@ export declare type ValidationFunction<T> = (value: T, validationResponse: Valid
 export declare type PackageDetailModelCreateFormInputValues = {
     code?: string;
     name?: string;
+    link?: string;
     countries?: string[];
     accommodation?: string[];
-    inclusions?: string;
-    exclusions?: string;
-    route?: string;
+    exclusions?: string[];
+    inclusions_list?: string[];
 };
 export declare type PackageDetailModelCreateFormValidationValues = {
     code?: ValidationFunction<string>;
     name?: ValidationFunction<string>;
+    link?: ValidationFunction<string>;
     countries?: ValidationFunction<string>;
     accommodation?: ValidationFunction<string>;
-    inclusions?: ValidationFunction<string>;
     exclusions?: ValidationFunction<string>;
-    route?: ValidationFunction<string>;
+    inclusions_list?: ValidationFunction<string>;
 };
 export declare type PrimitiveOverrideProps<T> = Partial<T> & React.DOMAttributes<HTMLDivElement>;
 export declare type PackageDetailModelCreateFormOverridesProps = {
     PackageDetailModelCreateFormGrid?: PrimitiveOverrideProps<GridProps>;
     code?: PrimitiveOverrideProps<TextFieldProps>;
     name?: PrimitiveOverrideProps<TextFieldProps>;
+    link?: PrimitiveOverrideProps<TextFieldProps>;
     countries?: PrimitiveOverrideProps<TextFieldProps>;
     accommodation?: PrimitiveOverrideProps<TextFieldProps>;
-    inclusions?: PrimitiveOverrideProps<TextFieldProps>;
     exclusions?: PrimitiveOverrideProps<TextFieldProps>;
-    route?: PrimitiveOverrideProps<TextFieldProps>;
+    inclusions_list?: PrimitiveOverrideProps<TextFieldProps>;
 } & EscapeHatchProps;
 export declare type PackageDetailModelCreateFormProps = React.PropsWithChildren<{
     overrides?: PackageDetailModelCreateFormOverridesProps | undefined | null;

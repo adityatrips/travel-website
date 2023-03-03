@@ -1,15 +1,15 @@
 {
   "providers": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-travelwebsite-main-91414-authRole",
-      "UnauthRoleArn": "arn:aws:iam::911161274881:role/amplify-travelwebsite-main-91414-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::911161274881:role/amplify-travelwebsite-main-91414-authRole",
-      "Region": "us-east-1",
-      "DeploymentBucketName": "amplify-travelwebsite-main-91414-deployment",
-      "UnauthRoleName": "amplify-travelwebsite-main-91414-unauthRole",
-      "StackName": "amplify-travelwebsite-main-91414",
-      "StackId": "arn:aws:cloudformation:us-east-1:911161274881:stack/amplify-travelwebsite-main-91414/9a1b11c0-b8da-11ed-8882-0aa3f9e5a307",
-      "AmplifyAppId": "d1725vjcxzjj4w"
+      "AuthRoleName": "amplify-amplify7258004c78cc4-staging-143447-authRole",
+      "UnauthRoleArn": "arn:aws:iam::893367472688:role/amplify-amplify7258004c78cc4-staging-143447-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::893367472688:role/amplify-amplify7258004c78cc4-staging-143447-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-amplify7258004c78cc4-staging-143447-deployment",
+      "UnauthRoleName": "amplify-amplify7258004c78cc4-staging-143447-unauthRole",
+      "StackName": "amplify-amplify7258004c78cc4-staging-143447",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:893367472688:stack/amplify-amplify7258004c78cc4-staging-143447/6396bd40-b450-11ed-b3e5-06cd4904df49",
+      "AmplifyAppId": "d21k2rpijmxrzq"
     }
   },
   "api": {
@@ -30,18 +30,79 @@
             }
           }
         },
-        "GraphQLAPIIdOutput": "fx6ebnac4fg5rlfvizyo45pw4y",
-        "GraphQLAPIEndpointOutput": "https://iljudmzvc5bkld7uuvpvynhtvy.appsync-api.us-east-1.amazonaws.com/graphql",
-        "GraphQLAPIKeyOutput": "da2-w6frpg5a3fclpo7lq4yifbtoie"
+        "GraphQLAPIIdOutput": "mi4jmta2pzhqtknrxq47bn4dcm",
+        "GraphQLAPIEndpointOutput": "https://hyfydbdtlfgzzkctpxjyiu37je.appsync-api.ap-northeast-1.amazonaws.com/graphql",
+        "GraphQLAPIKeyOutput": "da2-2xlqi4oyz5clfee3kbihu3gzle"
       },
       "providerPlugin": "awscloudformation",
       "service": "AppSync",
-      "lastPushTimeStamp": "2023-03-02T11:32:13.309Z",
+      "lastPushTimeStamp": "2023-03-05T11:34:32.701Z",
       "providerMetadata": {
-        "s3TemplateURL": "https://s3.amazonaws.com/amplify-travelwebsite-main-91414-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplify7258004c78cc4-staging-143447-deployment/amplify-cfn-templates/api/cloudformation-template.json",
         "logicalId": "apitravelwebsite"
       },
-      "lastPushDirHash": "p5x0Q7ygswIUwOTBQWWH9IeSGD8="
+      "lastPushDirHash": "cIIKh5y1zfnnXl2PSn0luZ/7wYI="
+    }
+  },
+  "auth": {
+    "travelwebsite": {
+      "customAuth": false,
+      "dependsOn": [],
+      "frontendAuthConfig": {
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": [
+            "REQUIRES_LOWERCASE",
+            "REQUIRES_NUMBERS",
+            "REQUIRES_SYMBOLS",
+            "REQUIRES_UPPERCASE"
+          ]
+        },
+        "signupAttributes": [],
+        "socialProviders": [],
+        "usernameAttributes": [
+          "EMAIL"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "Cognito",
+      "output": {
+        "UserPoolId": "ap-northeast-1_PSfqCAJUQ",
+        "AppClientIDWeb": "6r0h098lkbq2hd91b6sr3kbv87",
+        "AppClientID": "5bsgml5g83q9ql3dfogvm5p0mv",
+        "IdentityPoolId": "ap-northeast-1:03126f9d-46df-437d-839e-1ce6915b577f",
+        "UserPoolArn": "arn:aws:cognito-idp:ap-northeast-1:893367472688:userpool/ap-northeast-1_PSfqCAJUQ",
+        "IdentityPoolName": "testAuthIdentityPool__staging",
+        "UserPoolName": "travelwebsite"
+      },
+      "lastPushTimeStamp": "2023-03-05T11:34:32.705Z",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplify7258004c78cc4-staging-143447-deployment/amplify-cfn-templates/auth/travelwebsite-cloudformation-template.json",
+        "logicalId": "authtravelwebsite"
+      }
+    }
+  },
+  "storage": {
+    "s3travelwebsitestorageb53ce315": {
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "S3",
+      "output": {
+        "BucketName": "travel-website-storage-b53ce315143447-staging",
+        "Region": "ap-northeast-1"
+      },
+      "lastPushTimeStamp": "2023-03-05T11:34:35.208Z",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplify7258004c78cc4-staging-143447-deployment/amplify-cfn-templates/storage/cloudformation-template.json",
+        "logicalId": "storages3travelwebsitestorageb53ce315"
+      }
     }
   }
 }

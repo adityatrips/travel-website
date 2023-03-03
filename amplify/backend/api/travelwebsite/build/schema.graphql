@@ -1,42 +1,30 @@
 
-type DayWise @aws_iam @aws_api_key {
+type InclusionInCountry @aws_iam @aws_api_key {
+  Country: [AWSJSON]
+}
+
+type AccommodationHotelDataModel @aws_iam @aws_api_key {
+  standard: String
+  name: String
+}
+
+type DayWiseDataModel @aws_iam @aws_api_key {
   day: String
   desc: String
 }
 
-type Inclusions @aws_iam @aws_api_key {
-  France: String
-  Switzerland: String
-  Italy: String
-  VaticanCity: String
-  UnitedKingdom: String
-  Belgium: String
-  Netherlands: String
-  Germany: String
-  Liechtenstein: String
-  Greece: String
-  Amsterdam: String
-  Lucerene: String
-  Zurich: String
-}
-
-type Hotels @aws_iam @aws_api_key {
-  hotelName: String
-  starRating: String
-}
-
-type Destination @aws_iam @aws_api_key {
-  id: ID!
+type PackageDetailModel @aws_iam @aws_api_key {
   code: String
-  title: String
+  name: String
+  link: String
   countries: [String]
-  inclusions: [String]
-  inclusionsPerCountry: [Inclusions]
+  day_wise: [DayWiseDataModel]
+  accommodation_hotel_wise: [AccommodationHotelDataModel]
   accommodation: [String]
   exclusions: [String]
-  accommodationsPerHotel: [Hotels]
-  link: String
-  dayWise: [DayWise]
+  inclusions_country_wise: [InclusionInCountry]
+  inclusions_list: [String]
+  id: ID!
   createdAt: AWSDateTime!
   updatedAt: AWSDateTime!
   _version: Int!
@@ -44,12 +32,12 @@ type Destination @aws_iam @aws_api_key {
   _lastChangedAt: AWSTimestamp!
 }
 
-type ContactForm @aws_iam @aws_api_key {
+type ContactFormModel @aws_iam @aws_api_key {
   id: ID!
   name: String
   email: String
   phone: String
-  packageCode: String
+  package_code: String
   query: String
   createdAt: AWSDateTime!
   updatedAt: AWSDateTime!
@@ -208,202 +196,190 @@ enum ModelSortDirection {
   DESC
 }
 
-input InclusionsInput {
-  France: String
-  Switzerland: String
-  Italy: String
-  VaticanCity: String
-  UnitedKingdom: String
-  Belgium: String
-  Netherlands: String
-  Germany: String
-  Liechtenstein: String
-  Greece: String
-  Amsterdam: String
-  Lucerene: String
-  Zurich: String
-}
-
-input HotelsInput {
-  hotelName: String
-  starRating: String
-}
-
-input DayWiseInput {
+input DayWiseDataModelInput {
   day: String
   desc: String
 }
 
-type ModelDestinationConnection @aws_api_key @aws_iam {
-  items: [Destination]!
+input AccommodationHotelDataModelInput {
+  standard: String
+  name: String
+}
+
+input InclusionInCountryInput {
+  Country: [AWSJSON]
+}
+
+type ModelPackageDetailModelConnection @aws_api_key @aws_iam {
+  items: [PackageDetailModel]!
   nextToken: String
   startedAt: AWSTimestamp
 }
 
-input ModelDestinationFilterInput {
-  id: ModelIDInput
+input ModelPackageDetailModelFilterInput {
   code: ModelStringInput
-  title: ModelStringInput
+  name: ModelStringInput
+  link: ModelStringInput
   countries: ModelStringInput
-  inclusions: ModelStringInput
   accommodation: ModelStringInput
   exclusions: ModelStringInput
-  link: ModelStringInput
-  and: [ModelDestinationFilterInput]
-  or: [ModelDestinationFilterInput]
-  not: ModelDestinationFilterInput
+  inclusions_list: ModelStringInput
+  id: ModelIDInput
+  and: [ModelPackageDetailModelFilterInput]
+  or: [ModelPackageDetailModelFilterInput]
+  not: ModelPackageDetailModelFilterInput
 }
 
 type Query {
-  getDestination(id: ID!): Destination @aws_api_key @aws_iam
-  listDestinations(filter: ModelDestinationFilterInput, limit: Int, nextToken: String): ModelDestinationConnection @aws_api_key @aws_iam
-  syncDestinations(filter: ModelDestinationFilterInput, limit: Int, nextToken: String, lastSync: AWSTimestamp): ModelDestinationConnection @aws_api_key @aws_iam
-  getContactForm(id: ID!): ContactForm @aws_api_key @aws_iam
-  listContactForms(filter: ModelContactFormFilterInput, limit: Int, nextToken: String): ModelContactFormConnection @aws_api_key @aws_iam
-  syncContactForms(filter: ModelContactFormFilterInput, limit: Int, nextToken: String, lastSync: AWSTimestamp): ModelContactFormConnection @aws_api_key @aws_iam
+  getPackageDetailModel(id: ID!): PackageDetailModel @aws_api_key @aws_iam
+  listPackageDetailModels(filter: ModelPackageDetailModelFilterInput, limit: Int, nextToken: String): ModelPackageDetailModelConnection @aws_api_key @aws_iam
+  syncPackageDetailModels(filter: ModelPackageDetailModelFilterInput, limit: Int, nextToken: String, lastSync: AWSTimestamp): ModelPackageDetailModelConnection @aws_api_key @aws_iam
+  getContactFormModel(id: ID!): ContactFormModel @aws_api_key @aws_iam
+  listContactFormModels(filter: ModelContactFormModelFilterInput, limit: Int, nextToken: String): ModelContactFormModelConnection @aws_api_key @aws_iam
+  syncContactFormModels(filter: ModelContactFormModelFilterInput, limit: Int, nextToken: String, lastSync: AWSTimestamp): ModelContactFormModelConnection @aws_api_key @aws_iam
 }
 
-input ModelDestinationConditionInput {
+input ModelPackageDetailModelConditionInput {
   code: ModelStringInput
-  title: ModelStringInput
+  name: ModelStringInput
+  link: ModelStringInput
   countries: ModelStringInput
-  inclusions: ModelStringInput
   accommodation: ModelStringInput
   exclusions: ModelStringInput
-  link: ModelStringInput
-  and: [ModelDestinationConditionInput]
-  or: [ModelDestinationConditionInput]
-  not: ModelDestinationConditionInput
+  inclusions_list: ModelStringInput
+  and: [ModelPackageDetailModelConditionInput]
+  or: [ModelPackageDetailModelConditionInput]
+  not: ModelPackageDetailModelConditionInput
 }
 
-input CreateDestinationInput {
+input CreatePackageDetailModelInput {
+  code: String
+  name: String
+  link: String
+  countries: [String]
+  day_wise: [DayWiseDataModelInput]
+  accommodation_hotel_wise: [AccommodationHotelDataModelInput]
+  accommodation: [String]
+  exclusions: [String]
+  inclusions_country_wise: [InclusionInCountryInput]
+  inclusions_list: [String]
   id: ID
-  code: String
-  title: String
-  countries: [String]
-  inclusions: [String]
-  inclusionsPerCountry: [InclusionsInput]
-  accommodation: [String]
-  exclusions: [String]
-  accommodationsPerHotel: [HotelsInput]
-  link: String
-  dayWise: [DayWiseInput]
   _version: Int
 }
 
-input UpdateDestinationInput {
+input UpdatePackageDetailModelInput {
+  code: String
+  name: String
+  link: String
+  countries: [String]
+  day_wise: [DayWiseDataModelInput]
+  accommodation_hotel_wise: [AccommodationHotelDataModelInput]
+  accommodation: [String]
+  exclusions: [String]
+  inclusions_country_wise: [InclusionInCountryInput]
+  inclusions_list: [String]
   id: ID!
-  code: String
-  title: String
-  countries: [String]
-  inclusions: [String]
-  inclusionsPerCountry: [InclusionsInput]
-  accommodation: [String]
-  exclusions: [String]
-  accommodationsPerHotel: [HotelsInput]
-  link: String
-  dayWise: [DayWiseInput]
   _version: Int
 }
 
-input DeleteDestinationInput {
+input DeletePackageDetailModelInput {
   id: ID!
   _version: Int
 }
 
 type Mutation {
-  createDestination(input: CreateDestinationInput!, condition: ModelDestinationConditionInput): Destination @aws_api_key @aws_iam
-  updateDestination(input: UpdateDestinationInput!, condition: ModelDestinationConditionInput): Destination @aws_api_key @aws_iam
-  deleteDestination(input: DeleteDestinationInput!, condition: ModelDestinationConditionInput): Destination @aws_api_key @aws_iam
-  createContactForm(input: CreateContactFormInput!, condition: ModelContactFormConditionInput): ContactForm @aws_api_key @aws_iam
-  updateContactForm(input: UpdateContactFormInput!, condition: ModelContactFormConditionInput): ContactForm @aws_api_key @aws_iam
-  deleteContactForm(input: DeleteContactFormInput!, condition: ModelContactFormConditionInput): ContactForm @aws_api_key @aws_iam
+  createPackageDetailModel(input: CreatePackageDetailModelInput!, condition: ModelPackageDetailModelConditionInput): PackageDetailModel @aws_api_key @aws_iam
+  updatePackageDetailModel(input: UpdatePackageDetailModelInput!, condition: ModelPackageDetailModelConditionInput): PackageDetailModel @aws_api_key @aws_iam
+  deletePackageDetailModel(input: DeletePackageDetailModelInput!, condition: ModelPackageDetailModelConditionInput): PackageDetailModel @aws_api_key @aws_iam
+  createContactFormModel(input: CreateContactFormModelInput!, condition: ModelContactFormModelConditionInput): ContactFormModel @aws_api_key @aws_iam
+  updateContactFormModel(input: UpdateContactFormModelInput!, condition: ModelContactFormModelConditionInput): ContactFormModel @aws_api_key @aws_iam
+  deleteContactFormModel(input: DeleteContactFormModelInput!, condition: ModelContactFormModelConditionInput): ContactFormModel @aws_api_key @aws_iam
 }
 
-input ModelSubscriptionDestinationFilterInput {
-  id: ModelSubscriptionIDInput
+input ModelSubscriptionPackageDetailModelFilterInput {
   code: ModelSubscriptionStringInput
-  title: ModelSubscriptionStringInput
+  name: ModelSubscriptionStringInput
+  link: ModelSubscriptionStringInput
   countries: ModelSubscriptionStringInput
-  inclusions: ModelSubscriptionStringInput
   accommodation: ModelSubscriptionStringInput
   exclusions: ModelSubscriptionStringInput
-  link: ModelSubscriptionStringInput
-  and: [ModelSubscriptionDestinationFilterInput]
-  or: [ModelSubscriptionDestinationFilterInput]
+  inclusions_list: ModelSubscriptionStringInput
+  id: ModelSubscriptionIDInput
+  and: [ModelSubscriptionPackageDetailModelFilterInput]
+  or: [ModelSubscriptionPackageDetailModelFilterInput]
 }
 
 type Subscription {
-  onCreateDestination(filter: ModelSubscriptionDestinationFilterInput): Destination @aws_subscribe(mutations: ["createDestination"]) @aws_api_key @aws_iam
-  onUpdateDestination(filter: ModelSubscriptionDestinationFilterInput): Destination @aws_subscribe(mutations: ["updateDestination"]) @aws_api_key @aws_iam
-  onDeleteDestination(filter: ModelSubscriptionDestinationFilterInput): Destination @aws_subscribe(mutations: ["deleteDestination"]) @aws_api_key @aws_iam
-  onCreateContactForm(filter: ModelSubscriptionContactFormFilterInput): ContactForm @aws_subscribe(mutations: ["createContactForm"]) @aws_api_key @aws_iam
-  onUpdateContactForm(filter: ModelSubscriptionContactFormFilterInput): ContactForm @aws_subscribe(mutations: ["updateContactForm"]) @aws_api_key @aws_iam
-  onDeleteContactForm(filter: ModelSubscriptionContactFormFilterInput): ContactForm @aws_subscribe(mutations: ["deleteContactForm"]) @aws_api_key @aws_iam
+  onCreatePackageDetailModel(filter: ModelSubscriptionPackageDetailModelFilterInput): PackageDetailModel @aws_subscribe(mutations: ["createPackageDetailModel"]) @aws_api_key @aws_iam
+  onUpdatePackageDetailModel(filter: ModelSubscriptionPackageDetailModelFilterInput): PackageDetailModel @aws_subscribe(mutations: ["updatePackageDetailModel"]) @aws_api_key @aws_iam
+  onDeletePackageDetailModel(filter: ModelSubscriptionPackageDetailModelFilterInput): PackageDetailModel @aws_subscribe(mutations: ["deletePackageDetailModel"]) @aws_api_key @aws_iam
+  onCreateContactFormModel(filter: ModelSubscriptionContactFormModelFilterInput): ContactFormModel @aws_subscribe(mutations: ["createContactFormModel"]) @aws_api_key @aws_iam
+  onUpdateContactFormModel(filter: ModelSubscriptionContactFormModelFilterInput): ContactFormModel @aws_subscribe(mutations: ["updateContactFormModel"]) @aws_api_key @aws_iam
+  onDeleteContactFormModel(filter: ModelSubscriptionContactFormModelFilterInput): ContactFormModel @aws_subscribe(mutations: ["deleteContactFormModel"]) @aws_api_key @aws_iam
 }
 
-type ModelContactFormConnection @aws_api_key @aws_iam {
-  items: [ContactForm]!
+type ModelContactFormModelConnection @aws_api_key @aws_iam {
+  items: [ContactFormModel]!
   nextToken: String
   startedAt: AWSTimestamp
 }
 
-input ModelContactFormFilterInput {
+input ModelContactFormModelFilterInput {
   id: ModelIDInput
   name: ModelStringInput
   email: ModelStringInput
   phone: ModelStringInput
-  packageCode: ModelStringInput
+  package_code: ModelStringInput
   query: ModelStringInput
-  and: [ModelContactFormFilterInput]
-  or: [ModelContactFormFilterInput]
-  not: ModelContactFormFilterInput
+  and: [ModelContactFormModelFilterInput]
+  or: [ModelContactFormModelFilterInput]
+  not: ModelContactFormModelFilterInput
 }
 
-input ModelContactFormConditionInput {
+input ModelContactFormModelConditionInput {
   name: ModelStringInput
   email: ModelStringInput
   phone: ModelStringInput
-  packageCode: ModelStringInput
+  package_code: ModelStringInput
   query: ModelStringInput
-  and: [ModelContactFormConditionInput]
-  or: [ModelContactFormConditionInput]
-  not: ModelContactFormConditionInput
+  and: [ModelContactFormModelConditionInput]
+  or: [ModelContactFormModelConditionInput]
+  not: ModelContactFormModelConditionInput
 }
 
-input CreateContactFormInput {
+input CreateContactFormModelInput {
   id: ID
   name: String
   email: String
   phone: String
-  packageCode: String
+  package_code: String
   query: String
   _version: Int
 }
 
-input UpdateContactFormInput {
+input UpdateContactFormModelInput {
   id: ID!
   name: String
   email: String
   phone: String
-  packageCode: String
+  package_code: String
   query: String
   _version: Int
 }
 
-input DeleteContactFormInput {
+input DeleteContactFormModelInput {
   id: ID!
   _version: Int
 }
 
-input ModelSubscriptionContactFormFilterInput {
+input ModelSubscriptionContactFormModelFilterInput {
   id: ModelSubscriptionIDInput
   name: ModelSubscriptionStringInput
   email: ModelSubscriptionStringInput
   phone: ModelSubscriptionStringInput
-  packageCode: ModelSubscriptionStringInput
+  package_code: ModelSubscriptionStringInput
   query: ModelSubscriptionStringInput
-  and: [ModelSubscriptionContactFormFilterInput]
-  or: [ModelSubscriptionContactFormFilterInput]
+  and: [ModelSubscriptionContactFormModelFilterInput]
+  or: [ModelSubscriptionContactFormModelFilterInput]
 }
 

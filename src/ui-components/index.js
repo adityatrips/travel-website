@@ -5,7 +5,7 @@
  **************************************************************************/
 
 export { default as studioTheme } from "./studioTheme";
-export { default as DestinationCreateForm } from "./DestinationCreateForm";
-export { default as DestinationUpdateForm } from "./DestinationUpdateForm";
-export { default as ContactFormCreateForm } from "./ContactFormCreateForm";
-export { default as ContactFormUpdateForm } from "./ContactFormUpdateForm";
+export { default as PackageDetailModelCreateForm } from "./PackageDetailModelCreateForm";
+export { default as PackageDetailModelUpdateForm } from "./PackageDetailModelUpdateForm";
+export { default as ContactFormModelCreateForm } from "./ContactFormModelCreateForm";
+export { default as ContactFormModelUpdateForm } from "./ContactFormModelUpdateForm";

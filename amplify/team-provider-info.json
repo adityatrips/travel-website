@@ -1,17 +1,4 @@
 {
-  "main": {
-    "awscloudformation": {
-      "AuthRoleName": "amplify-travelwebsite-main-91414-authRole",
-      "UnauthRoleArn": "arn:aws:iam::911161274881:role/amplify-travelwebsite-main-91414-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::911161274881:role/amplify-travelwebsite-main-91414-authRole",
-      "Region": "us-east-1",
-      "DeploymentBucketName": "amplify-travelwebsite-main-91414-deployment",
-      "UnauthRoleName": "amplify-travelwebsite-main-91414-unauthRole",
-      "StackName": "amplify-travelwebsite-main-91414",
-      "StackId": "arn:aws:cloudformation:us-east-1:911161274881:stack/amplify-travelwebsite-main-91414/9a1b11c0-b8da-11ed-8882-0aa3f9e5a307",
-      "AmplifyAppId": "d1725vjcxzjj4w"
-    }
-  },
   "staging": {
     "awscloudformation": {
       "AuthRoleName": "amplify-amplify7258004c78cc4-staging-143447-authRole",
@@ -23,6 +10,14 @@
       "StackName": "amplify-amplify7258004c78cc4-staging-143447",
       "StackId": "arn:aws:cloudformation:ap-northeast-1:893367472688:stack/amplify-amplify7258004c78cc4-staging-143447/6396bd40-b450-11ed-b3e5-06cd4904df49",
       "AmplifyAppId": "d21k2rpijmxrzq"
+    },
+    "categories": {
+      "auth": {
+        "travelwebsite": {}
+      },
+      "storage": {
+        "s3travelwebsitestorageb53ce315": {}
+      }
     }
   }
 }

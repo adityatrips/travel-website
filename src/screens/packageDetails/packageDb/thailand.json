@@ -34,10 +34,12 @@
           "desc": "Enjoy your last morning in Phuket before checking out and being transferred to the airport, where you will depart for your destination with bags full of souvenirs and happy memories."
         }
       ],
-      "accommodation": {
-        "standard": 4,
-        "name": " (Krabi) Deevana Plaza Krabi or similar | (Phuket) Deevana Patong Resort & Spa or similar"
-      },
+      "accommodation": [
+        {
+          "standard": 4,
+          "name": " (Krabi) Deevana Plaza Krabi or similar | (Phuket) Deevana Patong Resort & Spa or similar"
+        }
+      ],
       "inclusions": [
         "3 Nights’ accommodation in Krabi in above mentioned or similar Hotel Category",
         "3 Nights’ accommodation in Phuket in above mentioned or similar Hotel Category",
@@ -99,10 +101,12 @@
           "desc": "Enjoy your last morning in Bangkok before checking out and being transferred to the airport, where you will depart for your destination with bags full of souvenirs and happy memories."
         }
       ],
-      "accommodation": {
-        "standard": 3,
-        "name": "(Phuket) Deevana Patong Resort & Spa or similar | (Krabi) Deevana Plaza Krabi or similar | (Pattaya) The Seasons / Golden Beach Pattaya orsimilar | (Bangkok) Ecotel Bangkok or similar"
-      },
+      "accommodation": [
+        {
+          "standard": 3,
+          "name": "(Phuket) Deevana Patong Resort & Spa or similar | (Krabi) Deevana Plaza Krabi or similar | (Pattaya) The Seasons / Golden Beach Pattaya orsimilar | (Bangkok) Ecotel Bangkok or similar"
+        }
+      ],
       "inclusions": [
         "2 Nights’ accommodation in Krabi in above mentioned or similar category hotel",
         "2 Nights’ accommodation in Phuket in above mentioned or similar category hotel",
@@ -159,10 +163,12 @@
           "desc": "Enjoy your last morning in Phuket before checking out and being transferred to the airport, where you will depart for your destination with bags full of souvenirs and happy memories."
         }
       ],
-      "accommodation": {
-        "standard": 4,
-        "name": " Centra by Centara Phu Pano or simila | (Phi Phi)  Phi Phi Holiday Resort or similar | (Phuket) Novotel Phuket Resort or similar"
-      },
+      "accommodation": [
+        {
+          "standard": 4,
+          "name": " Centra by Centara Phu Pano or simila | (Phi Phi)  Phi Phi Holiday Resort or similar | (Phuket) Novotel Phuket Resort or similar"
+        }
+      ],
       "inclusions": [
         "2 Nights’ accommodation in Krabi in above mentioned or similar category hotel",
         "1 Night accommodation in Phi Phi Island in above mentioned or similar category hotel",
