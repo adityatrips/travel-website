@@ -4,280 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="293b798a-b464-468b-8508-91768b55d08e" name="Changes" comment="Changeed Bali">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Query.syncContactFormModels.auth.1.req.vtl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Query.syncPackageDetailModels.auth.1.req.vtl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Subscription.onDeleteContactFormModel.auth.1.req.vtl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Subscription.onDeletePackageDetailModel.auth.1.req.vtl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Subscription.onUpdateContactFormModel.auth.1.req.vtl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Subscription.onUpdatePackageDetailModel.auth.1.req.vtl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/auth/travelwebsite/build/parameters.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/auth/travelwebsite/build/travelwebsite-cloudformation-template.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/auth/travelwebsite/cli-inputs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/awscloudformation/build/auth/travelwebsite/build/travelwebsite-cloudformation-template.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/awscloudformation/build/storage/s3travelwebsitestorageb53ce315/build/cloudformation-template.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/storage/s3travelwebsitestorageb53ce315/build/cloudformation-template.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/storage/s3travelwebsitestorageb53ce315/build/parameters.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/storage/s3travelwebsitestorageb53ce315/cli-inputs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/tags.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Mutation.deleteContactFormModel.auth.1.res.vtl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Mutation.deletePackageDetailModel.auth.1.res.vtl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Query.getContactFormModel.auth.1.req.vtl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Query.getPackageDetailModel.auth.1.req.vtl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Query.listContactFormModels.auth.1.req.vtl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Query.listPackageDetailModels.auth.1.req.vtl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Query.syncContactFormModels.auth.1.req.vtl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Query.syncPackageDetailModels.auth.1.req.vtl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Subscription.onCreateContactFormModel.auth.1.req.vtl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Subscription.onCreatePackageDetailModel.auth.1.req.vtl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Subscription.onDeleteContactFormModel.auth.1.req.vtl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Subscription.onDeletePackageDetailModel.auth.1.req.vtl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Subscription.onUpdateContactFormModel.auth.1.req.vtl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Subscription.onUpdatePackageDetailModel.auth.1.req.vtl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/amplify/backend/auth/travelwebsite/build/parameters.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/amplify/backend/auth/travelwebsite/build/travelwebsite-cloudformation-template.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/amplify/backend/auth/travelwebsite/cli-inputs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/amplify/backend/awscloudformation/build/auth/travelwebsite/build/travelwebsite-cloudformation-template.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/amplify/backend/awscloudformation/build/storage/s3travelwebsitestorageb53ce315/build/cloudformation-template.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/amplify/backend/storage/s3travelwebsitestorageb53ce315/build/cloudformation-template.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/amplify/backend/storage/s3travelwebsitestorageb53ce315/build/parameters.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/amplify/backend/storage/s3travelwebsitestorageb53ce315/cli-inputs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/amplify/backend/tags.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/packageDetails/DubaiDest.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/packageDetails/EuropeDest.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/packageDetails/IndiaDest.js" afterDir="false" />
+    <list default="true" id="293b798a-b464-468b-8508-91768b55d08e" name="Changes" comment="addded aws-exports.js">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/amplify-meta.json" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/amplify-meta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/cloudformation-template.json" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/cloudformation-template.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/parameters.json" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/parameters.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Mutation.createContactForm.auth.1.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Mutation.createContactFormModel.auth.1.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Mutation.createContactForm.init.1.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Mutation.createContactFormModel.init.1.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Mutation.createContactForm.postAuth.1.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Mutation.createContactFormModel.postAuth.1.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Mutation.createContactForm.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Mutation.createContactFormModel.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Mutation.createContactForm.res.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Mutation.createContactFormModel.res.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Mutation.createDestination.auth.1.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Mutation.createContactFormModel.auth.1.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Mutation.createDestination.init.1.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Mutation.createPackageDetailModel.init.1.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Mutation.createDestination.postAuth.1.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Mutation.createPackageDetailModel.postAuth.1.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Mutation.createDestination.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Mutation.createPackageDetailModel.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Mutation.createDestination.res.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Mutation.createPackageDetailModel.res.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Mutation.deleteContactForm.auth.1.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Mutation.deleteContactFormModel.auth.1.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Mutation.deleteContactForm.auth.1.res.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Mutation.deletePackageDetailModel.auth.1.res.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Mutation.deleteContactForm.postAuth.1.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Mutation.deleteContactFormModel.postAuth.1.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Mutation.deleteContactForm.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Mutation.deleteContactFormModel.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Mutation.deleteContactForm.res.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Mutation.deleteContactFormModel.res.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Mutation.deleteDestination.auth.1.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Mutation.deletePackageDetailModel.auth.1.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Mutation.deleteDestination.auth.1.res.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Subscription.onCreatePackageDetailModel.auth.1.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Mutation.deleteDestination.postAuth.1.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Mutation.deletePackageDetailModel.postAuth.1.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Mutation.deleteDestination.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Mutation.deletePackageDetailModel.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Mutation.deleteDestination.res.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Mutation.deletePackageDetailModel.res.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Mutation.updateContactForm.auth.1.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Mutation.updateContactFormModel.auth.1.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Mutation.updateContactForm.auth.1.res.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Mutation.updatePackageDetailModel.auth.1.res.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Mutation.updateContactForm.init.1.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Mutation.updateContactFormModel.init.1.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Mutation.updateContactForm.postAuth.1.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Mutation.updateContactFormModel.postAuth.1.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Mutation.updateContactForm.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Mutation.updateContactFormModel.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Mutation.updateContactForm.res.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Mutation.updateContactFormModel.res.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Mutation.updateDestination.auth.1.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Mutation.updatePackageDetailModel.auth.1.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Mutation.updateDestination.auth.1.res.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Mutation.updatePackageDetailModel.auth.1.res.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Mutation.updateDestination.init.1.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Mutation.updatePackageDetailModel.init.1.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Mutation.updateDestination.postAuth.1.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Mutation.updatePackageDetailModel.postAuth.1.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Mutation.updateDestination.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Mutation.updatePackageDetailModel.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Mutation.updateDestination.res.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Mutation.updatePackageDetailModel.res.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Query.getContactForm.auth.1.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Query.getContactFormModel.auth.1.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Query.getContactForm.postAuth.1.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Query.getContactFormModel.postAuth.1.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Query.getContactForm.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Query.getContactFormModel.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Query.getContactForm.res.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Query.getContactFormModel.res.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Query.getDestination.auth.1.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Query.listContactFormModels.auth.1.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Query.getDestination.postAuth.1.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Query.getPackageDetailModel.postAuth.1.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Query.getDestination.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Query.getPackageDetailModel.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Query.getDestination.res.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Query.getPackageDetailModel.res.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Query.listContactForms.auth.1.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Query.getPackageDetailModel.auth.1.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Query.listContactForms.postAuth.1.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Query.listContactFormModels.postAuth.1.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Query.listContactForms.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Query.listContactFormModels.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Query.listContactForms.res.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Query.listContactFormModels.res.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Query.listDestinations.auth.1.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Query.listPackageDetailModels.auth.1.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Query.listDestinations.postAuth.1.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Query.listPackageDetailModels.postAuth.1.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Query.listDestinations.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Query.listPackageDetailModels.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Query.listDestinations.res.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Query.listPackageDetailModels.res.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Query.syncContactForms.auth.1.req.vtl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Query.syncContactForms.postAuth.1.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Query.syncContactFormModels.postAuth.1.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Query.syncContactForms.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Query.syncContactFormModels.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Query.syncContactForms.res.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Query.syncContactFormModels.res.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Query.syncDestinations.auth.1.req.vtl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Query.syncDestinations.postAuth.1.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Query.syncPackageDetailModels.postAuth.1.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Query.syncDestinations.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Query.syncPackageDetailModels.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Query.syncDestinations.res.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Query.syncPackageDetailModels.res.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Subscription.onCreateContactForm.auth.1.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Mutation.deleteContactFormModel.auth.1.res.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Subscription.onCreateContactForm.postAuth.1.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Subscription.onCreateContactFormModel.postAuth.1.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Subscription.onCreateContactForm.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Subscription.onCreateContactFormModel.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Subscription.onCreateContactForm.res.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Subscription.onCreateContactFormModel.res.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Subscription.onCreateDestination.auth.1.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Subscription.onCreateContactFormModel.auth.1.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Subscription.onCreateDestination.postAuth.1.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Subscription.onCreatePackageDetailModel.postAuth.1.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Subscription.onCreateDestination.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Subscription.onCreatePackageDetailModel.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Subscription.onCreateDestination.res.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Subscription.onCreatePackageDetailModel.res.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Subscription.onDeleteContactForm.auth.1.req.vtl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Subscription.onDeleteContactForm.postAuth.1.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Subscription.onDeleteContactFormModel.postAuth.1.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Subscription.onDeleteContactForm.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Subscription.onDeleteContactFormModel.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Subscription.onDeleteContactForm.res.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Subscription.onDeleteContactFormModel.res.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Subscription.onDeleteDestination.auth.1.req.vtl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Subscription.onDeleteDestination.postAuth.1.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Subscription.onDeletePackageDetailModel.postAuth.1.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Subscription.onDeleteDestination.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Subscription.onDeletePackageDetailModel.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Subscription.onDeleteDestination.res.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Subscription.onDeletePackageDetailModel.res.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Subscription.onUpdateContactForm.auth.1.req.vtl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Subscription.onUpdateContactForm.postAuth.1.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Subscription.onUpdateContactFormModel.postAuth.1.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Subscription.onUpdateContactForm.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Subscription.onUpdateContactFormModel.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Subscription.onUpdateContactForm.res.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Subscription.onUpdateContactFormModel.res.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Subscription.onUpdateDestination.auth.1.req.vtl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Subscription.onUpdateDestination.postAuth.1.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Subscription.onUpdatePackageDetailModel.postAuth.1.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Subscription.onUpdateDestination.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Subscription.onUpdatePackageDetailModel.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Subscription.onUpdateDestination.res.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Subscription.onUpdatePackageDetailModel.res.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/schema.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/schema.graphql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/stacks/ContactForm.json" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/stacks/ContactFormModel.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/stacks/Destination.json" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/stacks/PackageDetailModel.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/schema.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/schema.graphql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/awscloudformation/build/api/travelwebsite/build/cloudformation-template.json" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/awscloudformation/build/api/travelwebsite/build/cloudformation-template.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/awscloudformation/build/awscloudformation/build/root-cloudformation-stack.json" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/awscloudformation/build/awscloudformation/build/root-cloudformation-stack.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/awscloudformation/build/root-cloudformation-stack.json" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/awscloudformation/build/root-cloudformation-stack.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/backend-config.json" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/backend-config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/.config/local-aws-info.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/.config/local-env-info.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/.config/project-config.json" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/.config/project-config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/amplify-meta.json" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/amplify-meta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/cloudformation-template.json" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/cloudformation-template.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/parameters.json" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/parameters.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Mutation.createContactForm.auth.1.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Mutation.createPackageDetailModel.auth.1.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Mutation.createContactForm.init.1.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Mutation.createContactFormModel.init.1.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Mutation.createContactForm.postAuth.1.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Mutation.createContactFormModel.postAuth.1.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Mutation.createContactForm.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Mutation.createContactFormModel.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Mutation.createContactForm.res.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Mutation.createContactFormModel.res.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Mutation.createDestination.auth.1.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Mutation.createPackageDetailModel.auth.1.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Mutation.createDestination.init.1.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Mutation.createPackageDetailModel.init.1.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Mutation.createDestination.postAuth.1.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Mutation.createPackageDetailModel.postAuth.1.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Mutation.createDestination.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Mutation.createPackageDetailModel.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Mutation.createDestination.res.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Mutation.createPackageDetailModel.res.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Mutation.deleteContactForm.auth.1.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Mutation.deleteContactFormModel.auth.1.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Mutation.deleteContactForm.auth.1.res.vtl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Mutation.deleteContactForm.postAuth.1.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Mutation.deleteContactFormModel.postAuth.1.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Mutation.deleteContactForm.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Mutation.deleteContactFormModel.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Mutation.deleteContactForm.res.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Mutation.deleteContactFormModel.res.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Mutation.deleteDestination.auth.1.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Mutation.deletePackageDetailModel.auth.1.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Mutation.deleteDestination.auth.1.res.vtl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Mutation.deleteDestination.postAuth.1.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Mutation.deletePackageDetailModel.postAuth.1.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Mutation.deleteDestination.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Mutation.deletePackageDetailModel.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Mutation.deleteDestination.res.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Mutation.deletePackageDetailModel.res.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Mutation.updateContactForm.auth.1.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Mutation.updateContactFormModel.auth.1.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Mutation.updateContactForm.auth.1.res.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/resolvers/Mutation.updateContactFormModel.auth.1.res.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Mutation.updateContactForm.init.1.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Mutation.updateContactFormModel.init.1.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Mutation.updateContactForm.postAuth.1.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Mutation.updateContactFormModel.postAuth.1.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Mutation.updateContactForm.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Mutation.updateContactFormModel.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Mutation.updateContactForm.res.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Mutation.updateContactFormModel.res.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Mutation.updateDestination.auth.1.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Mutation.updatePackageDetailModel.auth.1.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Mutation.updateDestination.auth.1.res.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Mutation.updateContactFormModel.auth.1.res.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Mutation.updateDestination.init.1.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Mutation.updatePackageDetailModel.init.1.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Mutation.updateDestination.postAuth.1.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Mutation.updatePackageDetailModel.postAuth.1.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Mutation.updateDestination.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Mutation.updatePackageDetailModel.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Mutation.updateDestination.res.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Mutation.updatePackageDetailModel.res.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Query.getContactForm.auth.1.req.vtl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Query.getContactForm.postAuth.1.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Query.getContactFormModel.postAuth.1.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Query.getContactForm.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Query.getContactFormModel.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Query.getContactForm.res.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Query.getContactFormModel.res.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Query.getDestination.auth.1.req.vtl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Query.getDestination.postAuth.1.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Query.getPackageDetailModel.postAuth.1.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Query.getDestination.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Query.getPackageDetailModel.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Query.getDestination.res.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Query.getPackageDetailModel.res.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Query.listContactForms.auth.1.req.vtl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Query.listContactForms.postAuth.1.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Query.listContactFormModels.postAuth.1.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Query.listContactForms.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Query.listContactFormModels.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Query.listContactForms.res.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Query.listContactFormModels.res.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Query.listDestinations.auth.1.req.vtl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Query.listDestinations.postAuth.1.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Query.listPackageDetailModels.postAuth.1.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Query.listDestinations.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Query.listPackageDetailModels.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Query.listDestinations.res.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Query.listPackageDetailModels.res.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Query.syncContactForms.auth.1.req.vtl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Query.syncContactForms.postAuth.1.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Query.syncContactFormModels.postAuth.1.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Query.syncContactForms.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Query.syncContactFormModels.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Query.syncContactForms.res.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Query.syncContactFormModels.res.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Query.syncDestinations.auth.1.req.vtl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Query.syncDestinations.postAuth.1.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Query.syncPackageDetailModels.postAuth.1.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Query.syncDestinations.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Query.syncPackageDetailModels.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Query.syncDestinations.res.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Query.syncPackageDetailModels.res.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Subscription.onCreateContactForm.auth.1.req.vtl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Subscription.onCreateContactForm.postAuth.1.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Subscription.onCreateContactFormModel.postAuth.1.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Subscription.onCreateContactForm.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Subscription.onCreateContactFormModel.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Subscription.onCreateContactForm.res.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Subscription.onCreateContactFormModel.res.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Subscription.onCreateDestination.auth.1.req.vtl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Subscription.onCreateDestination.postAuth.1.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Subscription.onCreatePackageDetailModel.postAuth.1.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Subscription.onCreateDestination.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Subscription.onCreatePackageDetailModel.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Subscription.onCreateDestination.res.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Subscription.onCreatePackageDetailModel.res.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Subscription.onDeleteContactForm.auth.1.req.vtl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Subscription.onDeleteContactForm.postAuth.1.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Subscription.onDeleteContactFormModel.postAuth.1.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Subscription.onDeleteContactForm.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Subscription.onDeleteContactFormModel.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Subscription.onDeleteContactForm.res.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Subscription.onDeleteContactFormModel.res.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Subscription.onDeleteDestination.auth.1.req.vtl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Subscription.onDeleteDestination.postAuth.1.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Subscription.onDeletePackageDetailModel.postAuth.1.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Subscription.onDeleteDestination.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Subscription.onDeletePackageDetailModel.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Subscription.onDeleteDestination.res.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Subscription.onDeletePackageDetailModel.res.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Subscription.onUpdateContactForm.auth.1.req.vtl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Subscription.onUpdateContactForm.postAuth.1.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Subscription.onUpdateContactFormModel.postAuth.1.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Subscription.onUpdateContactForm.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Subscription.onUpdateContactFormModel.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Subscription.onUpdateContactForm.res.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Subscription.onUpdateContactFormModel.res.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Subscription.onUpdateDestination.auth.1.req.vtl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Subscription.onUpdateDestination.postAuth.1.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Subscription.onUpdatePackageDetailModel.postAuth.1.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Subscription.onUpdateDestination.req.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Subscription.onUpdatePackageDetailModel.req.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Subscription.onUpdateDestination.res.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/resolvers/Subscription.onUpdatePackageDetailModel.res.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/schema.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/schema.graphql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/stacks/ContactForm.json" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/stacks/ContactFormModel.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/stacks/Destination.json" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/stacks/PackageDetailModel.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/schema.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/schema.graphql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/awscloudformation/build/api/travelwebsite/build/cloudformation-template.json" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/awscloudformation/build/api/travelwebsite/build/cloudformation-template.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/awscloudformation/build/awscloudformation/build/root-cloudformation-stack.json" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/awscloudformation/build/awscloudformation/build/root-cloudformation-stack.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/awscloudformation/build/root-cloudformation-stack.json" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/awscloudformation/build/root-cloudformation-stack.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/backend-config.json" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/backend-config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/types/amplify-dependent-resources-ref.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/types/amplify-dependent-resources-ref.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/team-provider-info.json" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/team-provider-info.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aws-exports.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/schema.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/schema.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/packageDetails/Bali.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/packageDetails/Bali.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/packageDetails/BaliDest.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/packageDetails/BaliDest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/packageDetails/Dubai.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/packageDetails/Dubai.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/screens/packageDetails/Europe.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/packageDetails/Europe.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/screens/packageDetails/India.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/packageDetails/India.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/screens/packageDetails/Kerala.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/packageDetails/Kerala.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/screens/packageDetails/Singapore.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/packageDetails/Singapore.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/screens/packageDetails/Thailand.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/packageDetails/Thailand.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/packageDetails/packageDb/dubai.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/packageDetails/packageDb/dubai.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/packageDetails/packageDb/europe.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/packageDetails/packageDb/europe.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/packageDetails/packageDb/singapore.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/packageDetails/packageDb/singapore.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/packageDetails/packageDb/thailand.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/packageDetails/packageDb/thailand.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/Navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/index.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui-components/ContactFormCreateForm.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui-components/ContactFormCreateForm.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui-components/ContactFormModelCreateForm.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui-components/ContactFormModelCreateForm.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui-components/ContactFormModelCreateForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui-components/ContactFormModelCreateForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui-components/ContactFormModelUpdateForm.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui-components/ContactFormModelUpdateForm.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui-components/ContactFormModelUpdateForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui-components/ContactFormModelUpdateForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui-components/ContactFormUpdateForm.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui-components/ContactFormUpdateForm.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui-components/DestinationCreateForm.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui-components/DestinationCreateForm.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui-components/DestinationUpdateForm.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui-components/DestinationUpdateForm.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui-components/PackageDetailModelCreateForm.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui-components/PackageDetailModelCreateForm.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui-components/PackageDetailModelCreateForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui-components/PackageDetailModelCreateForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui-components/PackageDetailModelUpdateForm.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui-components/PackageDetailModelUpdateForm.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui-components/PackageDetailModelUpdateForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui-components/PackageDetailModelUpdateForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui-components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui-components/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -302,6 +35,7 @@
       </branch-storage>
     </excluded-from-favorite>
     <branch-grouping />
+    <option name="WARN_ABOUT_CRLF" value="false" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -335,6 +69,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="Push.Settings">
+    <force-push-targets>
+      <force-push-target remote-path="origin" branch="main" />
+    </force-push-targets>
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/screens/packageDetails" />
@@ -374,7 +113,8 @@
       <workItem from="1677817915582" duration="1854000" />
       <workItem from="1677826378851" duration="533000" />
       <workItem from="1677827266455" duration="4708000" />
-      <workItem from="1678011631268" duration="5920000" />
+      <workItem from="1678011631268" duration="6371000" />
+      <workItem from="1678018055470" duration="60000" />
     </task>
     <task id="LOCAL-00001" summary="Changeed Bali">
       <created>1677817948423</created>
@@ -383,7 +123,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677817948423</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Changed Website">
+      <created>1678017589717</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678017589717</updated>
+    </task>
+    <task id="LOCAL-00003" summary="addded aws-exports.js">
+      <created>1678017854225</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678017854225</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -409,6 +163,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Changeed Bali" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changeed Bali" />
+    <MESSAGE value="Changed Website" />
+    <MESSAGE value="addded aws-exports.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="addded aws-exports.js" />
   </component>
 </project>

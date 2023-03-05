@@ -80,7 +80,6 @@ const Thailand = () => {
 
   return (
       <div>
-        <button onClick={upload}>UP</button>
         <UncontrolledCarousel
             slide={true}
             fade={true}
