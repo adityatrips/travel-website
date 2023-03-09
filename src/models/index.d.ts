@@ -5,11 +5,13 @@ import { LazyLoading, LazyLoadingDisabled } from "@aws-amplify/datastore";
 
 
 type EagerInclusionInCountry = {
-  readonly Country?: (string | null)[] | null;
+  readonly name?: string | null;
+  readonly included?: (string | null)[] | null;
 }
 
 type LazyInclusionInCountry = {
-  readonly Country?: (string | null)[] | null;
+  readonly name?: string | null;
+  readonly included?: (string | null)[] | null;
 }
 
 export declare type InclusionInCountry = LazyLoading extends LazyLoadingDisabled ? EagerInclusionInCountry : LazyInclusionInCountry

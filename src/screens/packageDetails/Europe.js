@@ -29,7 +29,7 @@ const Europe = () => {
 
   const getData = async () => {
     const models = await DataStore.query(PackageDetailModel,
-        (c) => c.countries.contains("Europe"));
+        (c) => c.countries.contains("europe"));
     setData(models);
   };
 
@@ -42,7 +42,8 @@ const Europe = () => {
 
   const createInclusions = (k, v) => {
     return new InclusionInCountry({
-      "Country": {"name": k, "included": v}
+      "name": k,
+      "included": v
     });
   };
 
@@ -50,40 +51,44 @@ const Europe = () => {
     await europe.forEach(pack => {
       let dayWise = [];
       let inclusionsCountry = [];
+      let countries = [];
+
+      for (let c of pack.countries) {
+        countries.push(c);
+      }
+
       for (let day of pack.day_wise) {
         dayWise.push(createDayWise(day));
       }
 
       for (let country in pack.inclusions) {
-        inclusionsCountry.push(createInclusions(country,
-            pack.inclusions[country]));
+        inclusionsCountry.push(
+            createInclusions(
+                country,
+                pack.inclusions[country])
+        );
       }
 
-      console.log("----");
-      console.log(pack.countries);
-      console.log(inclusionsCountry);
-      console.log(dayWise);
-      console.log("----");
-
-      // DataStore.save(
-      //     new PackageDetailModel({
-      //       "code": pack.code,
-      //       "name": pack.name,
-      //       "link": pack.link,
-      //       "countries": pack.countries,
-      //       "day_wise": dayWise,
-      //       "accommodation_hotel_wise": [],
-      //       "accommodation": pack.accommodation,
-      //       "exclusions": pack.exclusions,
-      //       "inclusions_country_wise": inclusionsCountry,
-      //       "inclusions_list": []
-      //     })
-      // );
+      DataStore.save(
+          new PackageDetailModel({
+            "code": pack.code,
+            "name": pack.name,
+            "link": pack.link,
+            "countries": countries,
+            "day_wise": dayWise,
+            "accommodation_hotel_wise": [],
+            "accommodation": pack.accommodation,
+            "exclusions": pack.exclusions,
+            "inclusions_country_wise": inclusionsCountry,
+            "inclusions_list": []
+          })
+      );
     });
   };
 
   return (
       <div>
+        <button onClick={upload}>Up</button>
         <UncontrolledCarousel
             slide={true}
             fade={true}

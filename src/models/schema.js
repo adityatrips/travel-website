@@ -228,10 +228,17 @@ export const schema = {
         "InclusionInCountry": {
             "name": "InclusionInCountry",
             "fields": {
-                "Country": {
-                    "name": "Country",
+                "name": {
+                    "name": "name",
+                    "isArray": false,
+                    "type": "String",
+                    "isRequired": false,
+                    "attributes": []
+                },
+                "included": {
+                    "name": "included",
                     "isArray": true,
-                    "type": "AWSJSON",
+                    "type": "String",
                     "isRequired": false,
                     "attributes": [],
                     "isArrayNullable": true
@@ -278,5 +285,5 @@ export const schema = {
         }
     },
     "codegenVersion": "3.3.6",
-    "version": "c29f09d0fa625d3d7a8fd588cc59ff8a"
+    "version": "b6058cb5b544db8871a8c612902796f8"
 };

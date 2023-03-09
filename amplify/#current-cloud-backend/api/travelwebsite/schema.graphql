@@ -1,5 +1,6 @@
 type InclusionInCountry {
-  Country: [AWSJSON]
+  name: String
+  included: [String]
 }
 
 type AccommodationHotelDataModel {

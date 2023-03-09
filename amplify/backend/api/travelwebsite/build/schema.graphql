@@ -1,6 +1,7 @@
 
 type InclusionInCountry @aws_iam @aws_api_key {
-  Country: [AWSJSON]
+  name: String
+  included: [String]
 }
 
 type AccommodationHotelDataModel @aws_iam @aws_api_key {
@@ -207,7 +208,8 @@ input AccommodationHotelDataModelInput {
 }
 
 input InclusionInCountryInput {
-  Country: [AWSJSON]
+  name: String
+  included: [String]
 }
 
 type ModelPackageDetailModelConnection @aws_api_key @aws_iam {
