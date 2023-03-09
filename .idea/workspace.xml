@@ -4,34 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="293b798a-b464-468b-8508-91768b55d08e" name="Changes" comment="changed">
-      <change afterPath="$PROJECT_DIR$/.firebase/hosting.cHVibGlj.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.firebaserc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.github/workflows/firebase-hosting-merge.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.github/workflows/firebase-hosting-pull-request.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/firebase.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/amplify-meta.json" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/amplify-meta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/cloudformation-template.json" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/cloudformation-template.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/parameters.json" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/parameters.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/schema.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/build/schema.graphql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/schema.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/api/travelwebsite/schema.graphql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/awscloudformation/build/api/travelwebsite/build/cloudformation-template.json" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/awscloudformation/build/api/travelwebsite/build/cloudformation-template.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/awscloudformation/build/awscloudformation/build/root-cloudformation-stack.json" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/awscloudformation/build/awscloudformation/build/root-cloudformation-stack.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/#current-cloud-backend/awscloudformation/build/root-cloudformation-stack.json" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/#current-cloud-backend/awscloudformation/build/root-cloudformation-stack.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/amplify-meta.json" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/amplify-meta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/cloudformation-template.json" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/cloudformation-template.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/parameters.json" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/parameters.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/schema.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/build/schema.graphql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/schema.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/travelwebsite/schema.graphql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/awscloudformation/build/api/travelwebsite/build/cloudformation-template.json" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/awscloudformation/build/api/travelwebsite/build/cloudformation-template.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/awscloudformation/build/awscloudformation/build/root-cloudformation-stack.json" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/awscloudformation/build/awscloudformation/build/root-cloudformation-stack.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/awscloudformation/build/root-cloudformation-stack.json" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/awscloudformation/build/root-cloudformation-stack.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/schema.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/schema.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/packageDetails/Europe.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/packageDetails/Europe.js" afterDir="false" />
-    </list>
+    <list default="true" id="293b798a-b464-468b-8508-91768b55d08e" name="Changes" comment="changed" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -136,7 +109,7 @@
       <workItem from="1678011631268" duration="6371000" />
       <workItem from="1678018055470" duration="123000" />
       <workItem from="1678037233291" duration="2123000" />
-      <workItem from="1678374970242" duration="736000" />
+      <workItem from="1678374970242" duration="934000" />
     </task>
     <task id="LOCAL-00001" summary="Changeed Bali">
       <created>1677817948423</created>
@@ -166,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678018131059</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="changed">
+      <created>1678375876026</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678375876026</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
