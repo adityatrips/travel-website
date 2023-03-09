@@ -2,25 +2,21 @@ import React, {useEffect, useState} from "react";
 import {
   Button,
   Card,
-  CardImg,
-  CardImgOverlay,
   CardText,
   CardTitle, Col, Row,
   UncontrolledCarousel
 } from "reactstrap";
 
-import JSON from "./packageDb/india.json";
+// import JSON from "./packageDb/india.json";
 
 import {DataStore} from "@aws-amplify/datastore";
 import {
-  AccommodationHotelDataModel,
-  DayWiseDataModel,
   PackageDetailModel
 } from "../../models";
 import {Link} from "react-router-dom";
 
 const India = () => {
-  const {india} = JSON;
+  // const {india} = JSON;
 
   const [data, setData] = useState(null);
 
@@ -34,45 +30,45 @@ const India = () => {
     setData(models);
   };
 
-  const createDayWise = (day) => {
-    return new DayWiseDataModel({
-      "day": day.day,
-      "desc": day.desc
-    });
-  };
+  // const createDayWise = (day) => {
+  //   return new DayWiseDataModel({
+  //     "day": day.day,
+  //     "desc": day.desc
+  //   });
+  // };
 
-  const createAccommodation = (accommodation) => {
-    return new AccommodationHotelDataModel({
-      "standard": String(accommodation.standard),
-      "name": accommodation.name
-    });
-  };
-
-
-  const upload = async () => {
-    await india.map(pack => {
-      let dayWise = [];
-
-      for (let day of pack.day_wise) {
-        dayWise.push(createDayWise(day));
-      }
-
-      DataStore.save(
-          new PackageDetailModel({
-            "code": pack.code,
-            "name": pack.name,
-            "link": pack.link,
-            "countries": ["India"],
-            "day_wise": dayWise,
-            "accommodation_hotel_wise": [],
-            "accommodation": [],
-            "exclusions": [],
-            "inclusions_country_wise": [],
-            "inclusions_list": []
-          })
-      );
-    });
-  };
+  // const createAccommodation = (accommodation) => {
+  //   return new AccommodationHotelDataModel({
+  //     "standard": String(accommodation.standard),
+  //     "name": accommodation.name
+  //   });
+  // };
+  //
+  //
+  // const upload = async () => {
+  //   await india.map(pack => {
+  //     let dayWise = [];
+  //
+  //     for (let day of pack.day_wise) {
+  //       dayWise.push(createDayWise(day));
+  //     }
+  //
+  //     DataStore.save(
+  //         new PackageDetailModel({
+  //           "code": pack.code,
+  //           "name": pack.name,
+  //           "link": pack.link,
+  //           "countries": ["India"],
+  //           "day_wise": dayWise,
+  //           "accommodation_hotel_wise": [],
+  //           "accommodation": [],
+  //           "exclusions": [],
+  //           "inclusions_country_wise": [],
+  //           "inclusions_list": []
+  //         })
+  //     );
+  //   });
+  // };
 
   return (
       <div>

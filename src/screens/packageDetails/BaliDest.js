@@ -2,7 +2,7 @@ import React, {useEffect, useState} from "react";
 import {useParams} from "react-router-dom";
 import {PackageDetailModel} from "../../models";
 import {DataStore} from "@aws-amplify/datastore";
-import Bali from "./Bali";
+// import Bali from "./Bali";
 import {
   AccordionBody,
   AccordionHeader,

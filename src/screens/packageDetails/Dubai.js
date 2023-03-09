@@ -2,25 +2,21 @@ import React, {useEffect, useState} from "react";
 import {
   Button,
   Card,
-  CardImg,
-  CardImgOverlay,
   CardText,
   CardTitle, Col, Row,
   UncontrolledCarousel
 } from "reactstrap";
 
-import JSON from "./packageDb/dubai.json";
+// import JSON from "./packageDb/dubai.json";
 
 import {DataStore} from "@aws-amplify/datastore";
 import {
-  AccommodationHotelDataModel,
-  DayWiseDataModel,
   PackageDetailModel
 } from "../../models";
 import {Link} from "react-router-dom";
 
 const Dubai = () => {
-  const {dubai} = JSON;
+  // const {dubai} = JSON;
 
   const [data, setData] = useState(null);
 
@@ -34,50 +30,50 @@ const Dubai = () => {
     setData(models);
   };
 
-  const createDayWise = (day) => {
-    return new DayWiseDataModel({
-      "day": day.day,
-      "desc": day.desc
-    });
-  };
+  // const createDayWise = (day) => {
+  //   return new DayWiseDataModel({
+  //     "day": day.day,
+  //     "desc": day.desc
+  //   });
+  // };
 
-  const createAccommodation = (accommodation) => {
-    return new AccommodationHotelDataModel({
-      "standard": String(accommodation.standard),
-      "name": accommodation.name
-    });
-  };
+  // const createAccommodation = (accommodation) => {
+  //   return new AccommodationHotelDataModel({
+  //     "standard": String(accommodation.standard),
+  //     "name": accommodation.name
+  //   });
+  // };
 
 
-  const upload = async () => {
-    await dubai.map(pack => {
-      let dayWise = [];
-      let accommodations = [];
-
-      for (let day of pack.day_wise) {
-        dayWise.push(createDayWise(day));
-      }
-
-      for (let acc of pack.accommodation) {
-        accommodations.push(createAccommodation(acc));
-      }
-
-      return DataStore.save(
-          new PackageDetailModel({
-            "code": pack.code,
-            "name": pack.name,
-            "link": pack.link,
-            "countries": ["Dubai"],
-            "day_wise": dayWise,
-            "accommodation_hotel_wise": accommodations,
-            "accommodation": [],
-            "exclusions": pack.exclusions,
-            "inclusions_country_wise": [],
-            "inclusions_list": pack.inclusions
-          })
-      );
-    });
-  };
+  // const upload = async () => {
+  //   await dubai.map(pack => {
+  //     let dayWise = [];
+  //     let accommodations = [];
+  //
+  //     for (let day of pack.day_wise) {
+  //       dayWise.push(createDayWise(day));
+  //     }
+  //
+  //     for (let acc of pack.accommodation) {
+  //       accommodations.push(createAccommodation(acc));
+  //     }
+  //
+  //     return DataStore.save(
+  //         new PackageDetailModel({
+  //           "code": pack.code,
+  //           "name": pack.name,
+  //           "link": pack.link,
+  //           "countries": ["Dubai"],
+  //           "day_wise": dayWise,
+  //           "accommodation_hotel_wise": accommodations,
+  //           "accommodation": [],
+  //           "exclusions": pack.exclusions,
+  //           "inclusions_country_wise": [],
+  //           "inclusions_list": pack.inclusions
+  //         })
+  //     );
+  //   });
+  // };
 
   return (
       <div>

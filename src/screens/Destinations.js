@@ -1,12 +1,10 @@
-import React, {useState} from "react";
-import {Carousel} from "react-responsive-carousel";
+import React from "react";
 import {
   Button,
   Card,
   CardImg,
   CardImgOverlay, CardText, CardTitle, Col,
-  Row,
-  UncontrolledCarousel
+  Row
 } from "reactstrap";
 import {Link} from "react-router-dom";
 

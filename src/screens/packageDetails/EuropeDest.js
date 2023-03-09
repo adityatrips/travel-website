@@ -7,19 +7,17 @@ import {
   UncontrolledCarousel
 } from "reactstrap";
 
-import JSON from "./packageDb/europe.json";
+// import JSON from "./packageDb/europe.json";
 
 import {DataStore} from "@aws-amplify/datastore";
 import {
-  DayWiseDataModel,
-  InclusionInCountry,
   PackageDetailModel
 } from "../../models";
 import {Link} from "react-router-dom";
-import EuropeDest from "./EuropeDest";
+// import EuropeDest from "./EuropeDest";
 
-const Europe = () => {
-  const {europe} = JSON;
+const EuropeDest = () => {
+  // const {europe} = JSON;
 
   const [data, setData] = useState(null);
 
@@ -33,48 +31,48 @@ const Europe = () => {
     setData(models);
   };
 
-  const createDayWise = (day) => {
-    return new DayWiseDataModel({
-      "day": day.day,
-      "desc": day.desc
-    });
-  };
+  // const createDayWise = (day) => {
+  //   return new DayWiseDataModel({
+  //     "day": day.day,
+  //     "desc": day.desc
+  //   });
+  // };
+  //
+  // const createInclusions = (k, v) => {
+  //   return new InclusionInCountry({
+  //     "Country": {"name": k, "included": v}
+  //   });
+  // };
 
-  const createInclusions = (k, v) => {
-    return new InclusionInCountry({
-      "Country": {"name": k, "included": v}
-    });
-  };
-
-  const upload = async () => {
-    await europe.forEach(pack => {
-      let dayWise = [];
-      let inclusionsCountry = [];
-      for (let day of pack.day_wise) {
-        dayWise.push(createDayWise(day));
-      }
-
-      for (let country in pack.inclusions) {
-        inclusionsCountry.push(createInclusions(country,
-            pack.inclusions[country]));
-      }
-
-      DataStore.save(
-          new PackageDetailModel({
-            "code": pack.code,
-            "name": pack.name,
-            "link": pack.link,
-            "countries": pack.countries,
-            "day_wise": dayWise,
-            "accommodation_hotel_wise": [],
-            "accommodation": pack.accommodation,
-            "exclusions": pack.exclusions,
-            "inclusions_country_wise": inclusionsCountry,
-            "inclusions_list": []
-          })
-      );
-    });
-  };
+  // const upload = async () => {
+  //   await europe.forEach(pack => {
+  //     let dayWise = [];
+  //     let inclusionsCountry = [];
+  //     for (let day of pack.day_wise) {
+  //       dayWise.push(createDayWise(day));
+  //     }
+  //
+  //     for (let country in pack.inclusions) {
+  //       inclusionsCountry.push(createInclusions(country,
+  //           pack.inclusions[country]));
+  //     }
+  //
+  //     DataStore.save(
+  //         new PackageDetailModel({
+  //           "code": pack.code,
+  //           "name": pack.name,
+  //           "link": pack.link,
+  //           "countries": pack.countries,
+  //           "day_wise": dayWise,
+  //           "accommodation_hotel_wise": [],
+  //           "accommodation": pack.accommodation,
+  //           "exclusions": pack.exclusions,
+  //           "inclusions_country_wise": inclusionsCountry,
+  //           "inclusions_list": []
+  //         })
+  //     );
+  //   });
+  // };
 
   return (
       <div>
@@ -135,4 +133,4 @@ const Europe = () => {
   );
 };
 
-export default Europe;
+export default EuropeDest;

@@ -7,15 +7,14 @@ import {
   UncontrolledCarousel
 } from "reactstrap";
 
-import JSON from "./packageDb/bali.json";
+// import JSON from "./packageDb/bali.json";
 
 import {DataStore} from "@aws-amplify/datastore";
-import {DayWiseDataModel, PackageDetailModel} from "../../models";
+import {PackageDetailModel} from "../../models";
 import {Link} from "react-router-dom";
-import baliDest from "./BaliDest";
 
 const Bali = () => {
-  const {bali} = JSON;
+  // const {bali} = JSON;
 
   const [data, setData] = useState(null);
 
@@ -29,36 +28,36 @@ const Bali = () => {
     setData(models);
   };
 
-  const createDayWise = (day) => {
-    return new DayWiseDataModel({
-      "day": day.day,
-      "desc": day.desc
-    });
-  };
+  // const createDayWise = (day) => {
+  //   return new DayWiseDataModel({
+  //     "day": day.day,
+  //     "desc": day.desc
+  //   });
+  // };
 
-  const upload = async () => {
-    await bali.forEach(pack => {
-      let dayWise = [];
-      for (let day of pack.day_wise) {
-        dayWise.push(createDayWise(day));
-      }
-
-      DataStore.save(
-          new PackageDetailModel({
-            "code": pack.code,
-            "name": pack.name,
-            "link": pack.link,
-            "countries": ["Bali"],
-            "day_wise": dayWise,
-            "accommodation_hotel_wise": [],
-            "accommodation": [],
-            "exclusions": [],
-            "inclusions_country_wise": [],
-            "inclusions_list": []
-          })
-      );
-    });
-  };
+  // const upload = async () => {
+  //   await bali.forEach(pack => {
+  //     let dayWise = [];
+  //     for (let day of pack.day_wise) {
+  //       dayWise.push(createDayWise(day));
+  //     }
+  //
+  //     DataStore.save(
+  //         new PackageDetailModel({
+  //           "code": pack.code,
+  //           "name": pack.name,
+  //           "link": pack.link,
+  //           "countries": ["Bali"],
+  //           "day_wise": dayWise,
+  //           "accommodation_hotel_wise": [],
+  //           "accommodation": [],
+  //           "exclusions": [],
+  //           "inclusions_country_wise": [],
+  //           "inclusions_list": []
+  //         })
+  //     );
+  //   });
+  // };
 
   return (
       <div>
