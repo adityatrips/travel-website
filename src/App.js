@@ -14,6 +14,7 @@ import Singapore from "./screens/packageDetails/Singapore";
 import Thailand from "./screens/packageDetails/Thailand";
 import BaliDest from "./screens/packageDetails/BaliDest";
 import DubaiDest from "./screens/packageDetails/DubaiDest";
+import EuropeDest from "./screens/packageDetails/EuropeDest";
 
 function App() {
   return (
@@ -27,8 +28,9 @@ function App() {
           <Route path={"/destinations/bali"} element={<Bali/>}/>
           <Route path={"/package/bali/:dest"} element={<BaliDest/>}/>
           <Route path={"/destinations/dubai"} element={<Dubai/>}/>
-          <Route path={"/destinations/dubai/:dest"} element={<DubaiDest/>}/>
+          <Route path={"/package/dubai/:dest"} element={<DubaiDest/>}/>
           <Route path={"/destinations/europe"} element={<Europe/>}/>
+          <Route path={"/package/europe/:dest"} element={<EuropeDest/>}/>
           <Route path={"/destinations/india"} element={<India/>}/>
           <Route path={"/destinations/kerala"} element={<Kerala/>}/>
           <Route path={"/destinations/singapore"} element={<Singapore/>}/>

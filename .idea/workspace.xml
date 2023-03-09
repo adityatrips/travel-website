@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="293b798a-b464-468b-8508-91768b55d08e" name="Changes" comment="changed" />
+    <list default="true" id="293b798a-b464-468b-8508-91768b55d08e" name="Changes" comment="changed">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.firebase/hosting.cHVibGlj.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.firebase/hosting.cHVibGlj.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/packageDetails/Bali.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/packageDetails/Bali.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/packageDetails/BaliDest.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/packageDetails/BaliDest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/packageDetails/DubaiDest.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/packageDetails/DubaiDest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/index.scss" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -121,6 +131,7 @@
       <workItem from="1678037233291" duration="2123000" />
       <workItem from="1678374970242" duration="934000" />
       <workItem from="1678376001249" duration="1938000" />
+      <workItem from="1678378092282" duration="1821000" />
     </task>
     <task id="LOCAL-00001" summary="Changeed Bali">
       <created>1677817948423</created>
@@ -227,7 +238,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678377914029</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="changed">
+      <created>1678378157055</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1678378157055</updated>
+    </task>
+    <task id="LOCAL-00017" summary="changed">
+      <created>1678378295075</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1678378295075</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

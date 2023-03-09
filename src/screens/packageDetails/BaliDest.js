@@ -6,8 +6,10 @@ import {DataStore} from "@aws-amplify/datastore";
 import {
   AccordionBody,
   AccordionHeader,
-  AccordionItem, Button,
-  UncontrolledAccordion, UncontrolledCarousel
+  AccordionItem,
+  Button,
+  UncontrolledAccordion,
+  UncontrolledCarousel
 } from "reactstrap";
 
 const BaliDest = () => {
@@ -17,6 +19,7 @@ const BaliDest = () => {
   const [data, setData] = useState(null);
 
   useEffect(() => {
+    // eslint-disable-next-line
     getData();
   }, []);
 
@@ -33,8 +36,6 @@ const BaliDest = () => {
     setData(BaliPack);
     setLoading(false);
   };
-
-  console.log(data);
 
   const items = [
     {
@@ -69,17 +70,22 @@ const BaliDest = () => {
           />
 
           <div className={"container"}>
-            <UncontrolledAccordion
-                className={"mb-2"} defaultOpen={"One"}>
-              <AccordionItem key={data[0].day_wise}>
-                <AccordionHeader targetId={data[0].day}>
-                  Day {data[0].day}
-                </AccordionHeader>
-                <AccordionBody accordionId={data[0].day}>
-                  {data[0].desc}
-                </AccordionBody>
-              </AccordionItem>
-            </UncontrolledAccordion>
+            {data.map(d => {
+              console.log(d);
+              return <UncontrolledAccordion
+                  className={"mb-2"} defaultOpen={"One"}>
+                {d.day_wise.map(dw => (
+                    <AccordionItem key={dw.day}>
+                      <AccordionHeader targetId={dw.day}>
+                        Day {dw.day}
+                      </AccordionHeader>
+                      <AccordionBody accordionId={dw.day}>
+                        {dw.desc}
+                      </AccordionBody>
+                    </AccordionItem>
+                ))}
+              </UncontrolledAccordion>;
+            })}
 
             <Button className={"mb-2"} color={"primary w-100"}>
               Get a quote!

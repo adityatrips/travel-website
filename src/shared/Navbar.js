@@ -1,16 +1,16 @@
 import React, {useState} from "react";
+import {NavLink} from "react-router-dom";
 import {
   Collapse,
-  Navbar as NavbarRS,
-  NavbarToggler,
-  NavbarBrand,
-  Nav,
-  NavItem,
-  NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
+  DropdownItem,
   DropdownMenu,
-  DropdownItem
+  DropdownToggle,
+  Nav,
+  Navbar as NavbarRS,
+  NavbarBrand,
+  NavbarToggler,
+  NavItem,
+  UncontrolledDropdown
 } from "reactstrap";
 
 const Navbar = () => {
@@ -35,7 +35,7 @@ const Navbar = () => {
           <Collapse isOpen={isOpen} navbar>
             <Nav className="align-items-center justify-content-end" navbar>
               <NavItem>
-                <NavLink href="/">Home</NavLink>
+                <NavLink to="/">Home</NavLink>
               </NavItem>
               <NavItem>
                 <UncontrolledDropdown nav inNavbar>
@@ -43,34 +43,34 @@ const Navbar = () => {
                     Destinations
                   </DropdownToggle>
                   <DropdownMenu right>
-                    <NavLink href={"/destinations/bali"}>
+                    <NavLink to={"/destinations/bali"}>
                       <DropdownItem>Bali</DropdownItem>
                     </NavLink>
-                    <NavLink href={"/destinations/dubai"}>
+                    <NavLink to={"/destinations/dubai"}>
                       <DropdownItem>Dubai</DropdownItem>
                     </NavLink>
-                    <NavLink href={"/destinations/singapore"}>
-                      <DropdownItem>Singapore</DropdownItem>
+                    <NavLink to={"/destinations/singapore"}>
+                      <DropdownItem disabled>Singapore (WIP)</DropdownItem>
                     </NavLink>
-                    <NavLink href={"/destinations/europe"}>
-                      <DropdownItem>Europe</DropdownItem>
+                    <NavLink to={"/destinations/europe"}>
+                      <DropdownItem disabled>Europe (WIP)</DropdownItem>
                     </NavLink>
-                    <NavLink href={"/destinations/thailand"}>
-                      <DropdownItem>Thailand</DropdownItem>
+                    <NavLink to={"/destinations/thailand"}>
+                      <DropdownItem disabled>Thailand (WIP)</DropdownItem>
                     </NavLink>
                     <DropdownItem divider></DropdownItem>
-                    <NavLink href={"/destinations/kerala"}>
-                      <DropdownItem>Kerala</DropdownItem>
+                    <NavLink to={"/destinations/kerala"}>
+                      <DropdownItem disabled>Kerala (WIP)</DropdownItem>
                     </NavLink>
 
-                    <NavLink href={"/destinations/india"}>
-                      <DropdownItem>India</DropdownItem>
+                    <NavLink to={"/destinations/india"}>
+                      <DropdownItem disabled>India (WIP)</DropdownItem>
                     </NavLink>
                   </DropdownMenu>
                 </UncontrolledDropdown>
               </NavItem>
               <NavItem>
-                <NavLink href={"contact"}>
+                <NavLink to={"contact"}>
                   Contact Us
                 </NavLink>
               </NavItem>

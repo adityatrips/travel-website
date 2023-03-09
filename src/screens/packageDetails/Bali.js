@@ -3,12 +3,13 @@ import {
   Button,
   Card,
   CardText,
-  CardTitle, Col, Row,
+  CardTitle,
+  Col,
+  Row,
   UncontrolledCarousel
 } from "reactstrap";
 
 // import JSON from "./packageDb/bali.json";
-
 import {DataStore} from "@aws-amplify/datastore";
 import {PackageDetailModel} from "../../models";
 import {Link} from "react-router-dom";
